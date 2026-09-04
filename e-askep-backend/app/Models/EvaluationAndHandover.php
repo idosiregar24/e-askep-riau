@@ -10,6 +10,8 @@ class EvaluationAndHandover extends Model
 {
     use HasFactory;
 
+    protected $table = 'evaluations_and_handovers';
+
     protected $fillable = [
         'care_session_id',
         'format_type',
