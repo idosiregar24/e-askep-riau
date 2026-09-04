@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class MasterSlki extends Model
+{
+    use HasFactory;
+
+    protected $table = 'master_slki';
+
+    protected $fillable = [
+        'code',
+        'title',
+        'indicators',
+    ];
+
+    protected $casts = [
+        'indicators' => 'array',
+    ];
+}

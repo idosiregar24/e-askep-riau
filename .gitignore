@@ -1,0 +1,32 @@
+# Root .gitignore
+.DS_Store
+Thumbs.db
+*.log
+
+# Backend specific
+/e-askep-backend/vendor/
+/e-askep-backend/node_modules/
+/e-askep-backend/public/hot
+/e-askep-backend/public/storage
+/e-askep-backend/storage/*.key
+/e-askep-backend/.env
+/e-askep-backend/.env.backup
+/e-askep-backend/.env.production
+
+# Mobile specific
+/e-askep-mobile/.dart_tool/
+/e-askep-mobile/.packages
+/e-askep-mobile/.pub/
+/e-askep-mobile/.pub-cache/
+/e-askep-mobile/build/
+/e-askep-mobile/.flutter-plugins
+/e-askep-mobile/.flutter-plugins-dependencies
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
