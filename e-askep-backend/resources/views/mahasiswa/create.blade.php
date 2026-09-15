@@ -131,7 +131,7 @@
                 <a href="{{ route('mahasiswa.dashboard') }}" class="px-4 py-2.5 rounded-xl text-slate-600 hover:bg-slate-100 text-sm font-semibold transition-all">
                     Batal
                 </a>
-                <button type="submit" class="px-6 py-2.5 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white font-bold text-sm shadow-md shadow-[#008D88]/20 transition-all cursor-pointer">
+                <button type="submit" class="px-6 py-2.5 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white font-bold text-sm shadow-xs transition-colors cursor-pointer">
                     Simpan Kasus & Lanjut Pengkajian
                 </button>
             </div>

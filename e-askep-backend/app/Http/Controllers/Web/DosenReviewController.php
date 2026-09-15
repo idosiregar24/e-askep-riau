@@ -35,7 +35,9 @@ class DosenReviewController extends Controller
             abort(403, 'Anda tidak memiliki wewenang untuk menelaah berkas kasus mahasiswa ini.');
         }
 
-        return view('dosen.review', compact('session'));
+        return \Inertia\Inertia::render('Dosen/Review', [
+            'session' => $session,
+        ]);
     }
 
     public function batchVerifySpo(Request $request, string $uuid)

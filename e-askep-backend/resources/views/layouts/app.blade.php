@@ -6,6 +6,10 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ $title ?? 'e-Askep' }} — Poltekkes Kemenkes Riau</title>
     
+    <!-- Official Kemenkes Icon & Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('asset/images/kemenkes-logo.png') }}">
+    <link rel="shortcut icon" href="{{ asset('asset/images/icon.svg') }}">
+    
     <!-- Google Fonts Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,9 +75,12 @@
                     <button @click="sidebarOpen = true" class="md:hidden p-2 rounded-lg text-slate-500 hover:bg-slate-100">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                     </button>
-                    <div>
-                        <div class="text-xs font-semibold uppercase tracking-wider text-emerald-700">Poltekkes Kemenkes Riau</div>
-                        <h1 class="text-lg font-bold text-slate-900 leading-tight">{{ $headerTitle ?? 'Sistem e-Askep' }}</h1>
+                    <div class="flex items-center gap-2.5">
+                        <img src="{{ asset('asset/images/kemenkes-logo.png') }}" alt="Kemenkes Poltekkes Riau" class="h-8 w-auto hidden sm:block object-contain">
+                        <div class="sm:border-l sm:border-slate-200 sm:pl-2.5">
+                            <div class="text-[10px] font-bold uppercase tracking-wider text-emerald-800">Poltekkes Kemenkes Riau</div>
+                            <h1 class="text-base font-bold text-slate-900 leading-tight">{{ $headerTitle ?? 'Sistem e-Askep' }}</h1>
+                        </div>
                     </div>
                 </div>
 

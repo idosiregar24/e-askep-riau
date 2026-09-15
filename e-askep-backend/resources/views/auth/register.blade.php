@@ -7,9 +7,7 @@
         
         <!-- Header & Logo -->
         <div class="text-center mb-6">
-            <div class="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-[#008D88] text-white font-black text-2xl mb-3 shadow-lg shadow-[#008D88]/25">
-                +
-            </div>
+            <img src="{{ asset('asset/images/kemenkes-logo.png') }}" alt="Kemenkes Poltekkes Riau" class="h-12 w-auto mx-auto mb-4 object-contain">
             <h2 class="text-2xl font-extrabold text-slate-900 tracking-tight">Daftar Akun e-Askep</h2>
             <p class="text-xs font-semibold text-emerald-700 tracking-wide uppercase mt-1">Politeknik Kesehatan Kemenkes Riau</p>
             <p class="text-xs text-slate-500 mt-1">Sistem Asuhan Keperawatan & Meja Telaah Klinis</p>
@@ -107,7 +105,7 @@
 
             <button 
                 type="submit" 
-                class="w-full py-3 px-4 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white font-semibold text-sm shadow-md shadow-[#008D88]/25 transition-all flex items-center justify-center gap-2 cursor-pointer mt-3"
+                class="w-full py-3 px-4 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white font-semibold text-sm shadow-xs transition-colors flex items-center justify-center gap-2 cursor-pointer mt-3"
             >
                 Daftar Akun Baru
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>

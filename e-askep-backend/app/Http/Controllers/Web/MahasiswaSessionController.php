@@ -47,14 +47,14 @@ class MahasiswaSessionController extends Controller
 
         $courses = Course::all();
 
-        return view('mahasiswa.dashboard', compact(
-            'sessions',
-            'totalDraft',
-            'totalSubmitted',
-            'totalNeedRevision',
-            'totalApproved',
-            'courses'
-        ));
+        return \Inertia\Inertia::render('Mahasiswa/Dashboard', [
+            'sessions'          => $sessions,
+            'totalDraft'        => $totalDraft,
+            'totalSubmitted'    => $totalSubmitted,
+            'totalNeedRevision' => $totalNeedRevision,
+            'totalApproved'     => $totalApproved,
+            'courses'           => $courses,
+        ]);
     }
 
     public function create()
@@ -71,7 +71,12 @@ class MahasiswaSessionController extends Controller
         $defaultDosenId = $assignedGroup?->mentor_dosen_id ?? ($dosens->first()?->id ?? null);
         $defaultCourseId = $assignedGroup?->course_id ?? ($courses->first()?->id ?? null);
 
-        return view('mahasiswa.create', compact('courses', 'dosens', 'defaultDosenId', 'defaultCourseId'));
+        return \Inertia\Inertia::render('Mahasiswa/Create', [
+            'courses'         => $courses,
+            'dosens'          => $dosens,
+            'defaultDosenId'  => $defaultDosenId,
+            'defaultCourseId' => $defaultCourseId,
+        ]);
     }
 
     public function store(Request $request)
@@ -162,7 +167,12 @@ class MahasiswaSessionController extends Controller
         $masterSlki = MasterSlki::all();
         $masterSiki = MasterSiki::all();
 
-        return view('mahasiswa.show', compact('session', 'masterSdki', 'masterSlki', 'masterSiki'));
+        return \Inertia\Inertia::render('Mahasiswa/Show', [
+            'session'    => $session,
+            'masterSdki' => $masterSdki,
+            'masterSlki' => $masterSlki,
+            'masterSiki' => $masterSiki,
+        ]);
     }
 
     public function updateAssessment(Request $request, string $uuid)
@@ -170,20 +180,17 @@ class MahasiswaSessionController extends Controller
         $session = CareSession::where('uuid', $uuid)->firstOrFail();
         $this->ensureEditable($session);
 
-        $validated = $request->validate([
-            'keluhan_utama'   => ['required', 'string'],
-            'riwayat_penyakit' => ['nullable', 'string'],
-            'airway'          => ['nullable', 'string'],
-            'breathing'       => ['nullable', 'string'],
-            'circulation'     => ['nullable', 'string'],
-            'disability'      => ['nullable', 'string'],
-            'exposure'        => ['nullable', 'string'],
-            'catatan_tambahan'=> ['nullable', 'string'],
-        ]);
+        $payload = $request->input('payload');
+        if (!is_array($payload)) {
+            $payload = $request->except(['_token', 'stage_type']);
+        }
 
         $assessment = CareSessionAssessment::firstOrNew(['care_session_id' => $session->id]);
         $existing = $assessment->assessment_payload ?? [];
-        $assessment->assessment_payload = array_merge($existing, $validated);
+        $assessment->assessment_payload = array_merge($existing, $payload);
+        if ($request->filled('stage_type')) {
+            $assessment->stage_type = $request->stage_type;
+        }
         $assessment->save();
 
         return back()->with('success', 'Pengkajian klinis berhasil diperbarui.');
@@ -195,23 +202,28 @@ class MahasiswaSessionController extends Controller
         $this->ensureEditable($session);
 
         $validated = $request->validate([
-            'master_sdki_id' => ['required', 'exists:master_sdki,id'],
-            'master_slki_id' => ['required', 'exists:master_slki,id'],
-            'master_siki_id' => ['required', 'exists:master_siki,id'],
-            'subjective_data'=> ['nullable', 'string'],
-            'objective_data' => ['nullable', 'string'],
-            'priority_order' => ['required', 'integer', 'min:1'],
+            'master_sdki_id'         => ['required', 'exists:master_sdki,id'],
+            'master_slki_id'         => ['required', 'exists:master_slki,id'],
+            'master_siki_id'         => ['required', 'exists:master_siki,id'],
+            'subjective_data'        => ['nullable', 'string'],
+            'objective_data'         => ['nullable', 'string'],
+            'etiology'               => ['nullable', 'string'],
+            'custom_outcome_targets' => ['nullable', 'string'],
+            'custom_interventions'   => ['nullable', 'string'],
+            'priority_order'         => ['nullable', 'integer', 'min:1'],
         ]);
 
         NursingCarePlan::create([
-            'care_session_id' => $session->id,
-            'sdki_id'         => $validated['master_sdki_id'],
-            'slki_id'         => $validated['master_slki_id'],
-            'siki_id'         => $validated['master_siki_id'],
-            'subjective_data' => $validated['subjective_data'],
-            'objective_data'  => $validated['objective_data'],
-            'etiology'        => 'Faktor risiko klinis / proses patofisiologis penyakit.',
-            'priority_order'  => $validated['priority_order'],
+            'care_session_id'        => $session->id,
+            'sdki_id'                => $validated['master_sdki_id'],
+            'slki_id'                => $validated['master_slki_id'],
+            'siki_id'                => $validated['master_siki_id'],
+            'subjective_data'        => $validated['subjective_data'] ?? '',
+            'objective_data'         => $validated['objective_data'] ?? '',
+            'etiology'               => $validated['etiology'] ?? 'Faktor risiko / proses patofisiologis penyakit.',
+            'custom_outcome_targets' => $validated['custom_outcome_targets'] ?? null,
+            'custom_interventions'   => $validated['custom_interventions'] ?? null,
+            'priority_order'         => $validated['priority_order'] ?? 1,
         ]);
 
         return back()->with('success', 'Rencana Asuhan 3S PPNI berhasil ditambahkan.');
@@ -250,22 +262,26 @@ class MahasiswaSessionController extends Controller
 
         $validated = $request->validate([
             'blood_pressure'    => ['required', 'string'],
-            'heart_rate'        => ['required', 'integer'],
-            'respiratory_rate'  => ['required', 'integer'],
-            'temperature'       => ['required', 'numeric'],
-            'oxygen_saturation' => ['nullable', 'integer'],
+            'heart_rate'        => ['required'],
+            'respiratory_rate'  => ['required'],
+            'temperature'       => ['required'],
+            'oxygen_saturation' => ['nullable'],
+            'spo2'              => ['nullable'],
             'gcs_score'         => ['nullable', 'string'],
+            'evaluation_notes'  => ['nullable', 'string'],
+            'recorded_at'       => ['nullable'],
         ]);
 
         VitalSignMonitoring::create([
             'care_session_id'   => $session->id,
-            'recorded_at'       => now(),
+            'recorded_at'       => $validated['recorded_at'] ?? now()->format('H:i'),
             'blood_pressure'    => $validated['blood_pressure'],
-            'heart_rate'        => $validated['heart_rate'],
-            'respiratory_rate'  => $validated['respiratory_rate'],
-            'temperature'       => $validated['temperature'],
-            'oxygen_saturation' => $validated['oxygen_saturation'],
-            'gcs_score'         => $validated['gcs_score'],
+            'heart_rate'        => (string) $validated['heart_rate'],
+            'respiratory_rate'  => (string) $validated['respiratory_rate'],
+            'temperature'       => (string) $validated['temperature'],
+            'spo2'              => (string) ($validated['spo2'] ?? $validated['oxygen_saturation'] ?? '98'),
+            'gcs_score'         => $validated['gcs_score'] ?? '15',
+            'evaluation_notes'  => $validated['evaluation_notes'] ?? null,
         ]);
 
         return back()->with('success', 'Pemantauan tanda-tanda vital berhasil disimpan.');
@@ -276,28 +292,34 @@ class MahasiswaSessionController extends Controller
         $session = CareSession::where('uuid', $uuid)->firstOrFail();
         $this->ensureEditable($session);
 
-        $validated = $request->validate([
-            'format_type' => ['required', 'in:SBAR,SOAP'],
-            'situation'   => ['nullable', 'string'],
-            'background'  => ['nullable', 'string'],
-            'assessment'  => ['nullable', 'string'],
-            'recommendation' => ['nullable', 'string'],
-        ]);
+        $formatType = strtoupper($request->input('format_type', 'SBAR'));
+        $payload = $request->input('payload');
 
-        $payload = [
-            'situation'      => $validated['situation'] ?? '',
-            'background'     => $validated['background'] ?? '',
-            'assessment'     => $validated['assessment'] ?? '',
-            'recommendation' => $validated['recommendation'] ?? '',
-        ];
+        if (!is_array($payload)) {
+            if ($formatType === 'SOAP') {
+                $payload = [
+                    'subjektif' => $request->input('subjektif', ''),
+                    'objektif'  => $request->input('objektif', ''),
+                    'analisis'  => $request->input('analisis', ''),
+                    'planning'  => $request->input('planning', ''),
+                ];
+            } else {
+                $payload = [
+                    'situation'      => $request->input('situation', ''),
+                    'background'     => $request->input('background', ''),
+                    'assessment'     => $request->input('assessment', ''),
+                    'recommendation' => $request->input('recommendation', ''),
+                ];
+            }
+        }
 
         EvaluationAndHandover::create([
             'care_session_id' => $session->id,
-            'format_type'     => $validated['format_type'],
+            'format_type'     => $formatType,
             'payload'         => $payload,
         ]);
 
-        return back()->with('success', "Catatan {$validated['format_type']} berhasil disimpan.");
+        return back()->with('success', "Catatan {$formatType} berhasil disimpan.");
     }
 
     public function submit(string $uuid)

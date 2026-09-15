@@ -50,14 +50,12 @@
         
         <!-- Official Kop Surat Poltekkes Kemenkes Riau -->
         <div class="border-b-4 border-double border-black pb-4 mb-6 text-center">
-            <div class="flex items-center justify-center gap-4 mb-2">
-                <div class="w-16 h-16 rounded-full border-2 border-emerald-800 flex items-center justify-center font-bold text-2xl text-emerald-800 font-sans">
-                    +
-                </div>
-                <div>
+            <div class="flex items-center justify-center gap-5 mb-2">
+                <img src="{{ asset('asset/images/kemenkes-logo.png') }}" alt="Logo Kementerian Kesehatan RI" class="h-16 w-auto object-contain">
+                <div class="text-left border-l-2 border-slate-300 pl-4">
                     <h3 class="text-xs uppercase font-bold tracking-widest text-slate-700 font-sans leading-tight">Kementerian Kesehatan Republik Indonesia</h3>
-                    <h2 class="text-base uppercase font-black tracking-tight text-slate-900 font-sans leading-tight">Direktorat Jenderal Tenaga Kesehatan</h2>
-                    <h1 class="text-xl uppercase font-black tracking-normal text-emerald-900 font-sans leading-tight">Politeknik Kesehatan Kemenkes Riau</h1>
+                    <h2 class="text-sm uppercase font-black tracking-tight text-slate-900 font-sans leading-tight">Direktorat Jenderal Tenaga Kesehatan</h2>
+                    <h1 class="text-lg uppercase font-black tracking-normal text-emerald-900 font-sans leading-tight">Politeknik Kesehatan Kemenkes Riau</h1>
                     <p class="text-xs font-bold text-slate-800 font-sans leading-tight mt-0.5">JURUSAN KEPERAWATAN — PUSAT PENDIDIKAN KLINIS TERPADU</p>
                     <p class="text-[10px] text-slate-600 font-sans">Jl. Melur No. 103, Sukajadi, Pekanbaru, Riau 28122 &bull; Laman: www.poltekkesriau.ac.id</p>
                 </div>
@@ -197,7 +195,7 @@
                         <div class="flex items-center justify-between text-[11px] py-0.5 border-b border-slate-100">
                             <span>{{ $log->procedure?->name }}</span>
                             <span class="font-bold {{ $log->is_verified ? 'text-emerald-700' : ($log->is_performed ? 'text-blue-600' : 'text-slate-400') }}">
-                                {{ $log->is_verified ? '[✓ Sah E-Paraf]' : ($log->is_performed ? '[Dikerjakan]' : '[Belum]') }}
+                                {{ $log->is_verified ? '[Sah E-Paraf]' : ($log->is_performed ? '[Dikerjakan]' : '[Belum]') }}
                             </span>
                         </div>
                     @empty

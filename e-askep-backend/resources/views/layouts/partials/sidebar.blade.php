@@ -5,13 +5,11 @@
 >
     <!-- Brand Header -->
     <div class="p-6 border-b border-slate-200/80 flex items-center justify-between">
-        <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-[#008D88] flex items-center justify-center text-white font-black text-xl shadow-md shadow-[#008D88]/20">
-                +
-            </div>
-            <div>
-                <span class="text-base font-bold tracking-tight text-slate-900 block leading-tight">e-Askep Riau</span>
-                <span class="text-[11px] font-medium text-slate-500 block">Jurusan Keperawatan</span>
+        <div class="flex items-center gap-2.5">
+            <img src="{{ asset('asset/images/kemenkes-logo.png') }}" alt="Kemenkes Poltekkes Riau" class="h-8 w-auto object-contain">
+            <div class="border-l border-slate-200 pl-2.5">
+                <span class="text-sm font-bold tracking-tight text-slate-900 block leading-tight">e-Askep Riau</span>
+                <span class="text-[10px] font-medium text-slate-500 block">Jurusan Keperawatan</span>
             </div>
         </div>
         <button @click="sidebarOpen = false" class="md:hidden text-slate-400 hover:text-slate-600">

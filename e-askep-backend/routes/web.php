@@ -9,9 +9,11 @@ use App\Http\Controllers\Web\PrintController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
+use Inertia\Inertia;
+
 // Landing Welcome Page (Halaman Informasi Utama)
 Route::get('/', function () {
-    return view('welcome');
+    return Inertia::render('Welcome');
 })->name('welcome');
 
 // Authentication Web Routes
@@ -54,10 +56,44 @@ Route::middleware(['auth'])->group(function () {
     // Administrator
     Route::prefix('admin')->name('admin.')->group(function () {
         Route::get('/dashboard', [AdminDashboardController::class, 'index'])->name('dashboard');
+
+        // Users Management
+        Route::get('/users', [AdminDashboardController::class, 'users'])->name('users');
+        Route::post('/users', [AdminDashboardController::class, 'storeUser'])->name('users.store');
+        Route::put('/users/{id}', [AdminDashboardController::class, 'updateUser'])->name('users.update');
+        Route::delete('/users/{id}', [AdminDashboardController::class, 'destroyUser'])->name('users.destroy');
+
+        // Courses Management
         Route::get('/courses', [AdminDashboardController::class, 'courses'])->name('courses');
+        Route::post('/courses', [AdminDashboardController::class, 'storeCourse'])->name('courses.store');
+        Route::put('/courses/{id}', [AdminDashboardController::class, 'updateCourse'])->name('courses.update');
+        Route::delete('/courses/{id}', [AdminDashboardController::class, 'destroyCourse'])->name('courses.destroy');
+
+        // Groups Management
         Route::get('/groups', [AdminDashboardController::class, 'groups'])->name('groups');
         Route::post('/groups', [AdminDashboardController::class, 'storeGroup'])->name('groups.store');
+        Route::put('/groups/{id}', [AdminDashboardController::class, 'updateGroup'])->name('groups.update');
+        Route::delete('/groups/{id}', [AdminDashboardController::class, 'destroyGroup'])->name('groups.destroy');
+
+        // Master 3S PPNI Management
         Route::get('/master-3s', [AdminDashboardController::class, 'master3s'])->name('master3s');
+        Route::post('/master-sdki', [AdminDashboardController::class, 'storeSdki'])->name('sdki.store');
+        Route::put('/master-sdki/{id}', [AdminDashboardController::class, 'updateSdki'])->name('sdki.update');
+        Route::delete('/master-sdki/{id}', [AdminDashboardController::class, 'destroySdki'])->name('sdki.destroy');
+
+        Route::post('/master-slki', [AdminDashboardController::class, 'storeSlki'])->name('slki.store');
+        Route::put('/master-slki/{id}', [AdminDashboardController::class, 'updateSlki'])->name('slki.update');
+        Route::delete('/master-slki/{id}', [AdminDashboardController::class, 'destroySlki'])->name('slki.destroy');
+
+        Route::post('/master-siki', [AdminDashboardController::class, 'storeSiki'])->name('siki.store');
+        Route::put('/master-siki/{id}', [AdminDashboardController::class, 'updateSiki'])->name('siki.update');
+        Route::delete('/master-siki/{id}', [AdminDashboardController::class, 'destroySiki'])->name('siki.destroy');
+
+        // Master SPO Procedures Management
+        Route::get('/spo', [AdminDashboardController::class, 'spo'])->name('spo');
+        Route::post('/spo', [AdminDashboardController::class, 'storeSpo'])->name('spo.store');
+        Route::put('/spo/{id}', [AdminDashboardController::class, 'updateSpo'])->name('spo.update');
+        Route::delete('/spo/{id}', [AdminDashboardController::class, 'destroySpo'])->name('spo.destroy');
     });
 
 });

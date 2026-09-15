@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  // Brand & Accent Poltekkes Kemenkes Riau
+  // Brand & Accent Poltekkes Kemenkes Riau (Clinical Matte Standard - Non-Neon)
   static const Color primary = Color(0xFF008D88);       // Hijau Toska Kemenkes
   static const Color primaryHover = Color(0xFF00736F);
   static const Color primaryTint = Color(0xFFE6F5F4);    // Light active pill
-  static const Color secondary = Color(0xFFEAB308);     // Kuning Emas Poltekkes
-  static const Color secondaryDeep = Color(0xFFCA8A04);
-  static const Color secondaryPill = Color(0xFFFEF9C3);
+  static const Color secondary = Color(0xFFD97706);     // Amber-600 hangat (non-neon)
+  static const Color secondaryDeep = Color(0xFFB45309); // Amber-700
+  static const Color secondaryPill = Color(0xFFFEF3C7); // Amber-100 lembut
 
   // Surface & Canvas (Clinical Clean Minimalism)
   static const Color baseCanvas = Color(0xFFF1F5F9);    // Slate-100

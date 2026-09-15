@@ -45,17 +45,23 @@ class WelcomeScreen extends StatelessWidget {
               const SizedBox(height: 20),
               // Logo Kemenkes / Institusi
               Container(
-                width: 80,
-                height: 80,
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                 decoration: BoxDecoration(
-                  color: AppColors.primaryTint,
-                  borderRadius: BorderRadius.circular(24),
-                  border: Border.all(color: AppColors.primary.withAlpha(50)),
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20),
+                  border: Border.all(color: AppColors.borderLight),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.black.withAlpha(8),
+                      blurRadius: 10,
+                      offset: const Offset(0, 2),
+                    ),
+                  ],
                 ),
-                child: const Icon(
-                  Icons.medical_services_rounded,
-                  size: 44,
-                  color: AppColors.primary,
+                child: Image.asset(
+                  'assets/images/kemenkes-logo.png',
+                  height: 48,
+                  fit: BoxFit.contain,
                 ),
               ),
               const SizedBox(height: 20),

@@ -11,7 +11,7 @@
         </div>
         <div>
             <a href="{{ route('mahasiswa.create') }}" 
-               class="px-4 py-2.5 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white font-bold text-sm shadow-md shadow-[#008D88]/20 flex items-center gap-2 transition-all">
+               class="px-4 py-2.5 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white font-bold text-sm shadow-xs flex items-center gap-2 transition-colors">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg>
                 Input Kasus Baru
             </a>

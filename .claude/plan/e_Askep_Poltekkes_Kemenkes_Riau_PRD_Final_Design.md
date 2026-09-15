@@ -53,6 +53,12 @@
   * **Cards & Containers:** Kartu bersudut *rounded-xl*, outline garis halus 1px (`border border-slate-200/80`), dan bayangan mikro (`shadow-xs` / `shadow-sm`).
   * **Filter & Action Chips:** Tombol filter bulan/stase berbentuk kapsul pipih (*soft rounded-full pill*) dengan status aktif warna gelap/toska.
 
+* **ATURAN MUTLAK: ANTI-NEON & CLINICAL MATTE HOSPITAL STANDARD:**
+  * **DILARANG Efek Neon / Glow:** Dilarang keras menggunakan efek bayangan berwarna (*colored drop shadows* seperti `shadow-[#008D88]/...`), teks gradien mencolok (*clip-text gradients*), bola kabur bercahaya (*blurred glowing orbs*), atau animasi berkedip berlebih.
+  * **Warna Solid & Matte:** Gunakan warna solid matte toska Kemenkes (`#008D88`), aksen amber hangat non-fluorescent (`#D97706`), dan permukaan putih bersih (`#FFFFFF`) dengan kanvas slate netral (`#F1F5F9`).
+  * **Bayangan Alami Netral:** Semua bayangan harus bernuansa netral (`shadow-xs` / `shadow-sm` dengan opacity hitam sangat halus `rgba(0,0,0,0.05)`), bukan pantulan cahaya neon.
+  * **Kenyamanan Baca Tenaga Kesehatan:** Tampilan harus mengutamakan ergonomi visual rekam medis rumah sakit standar Kementerian Kesehatan RI, tidak melelahkan mata perawat dan dosen di bangsal.
+
 ### 0.3 Setup & Environment Architecture (Laragon Workspace)
 
 Sistem dirancang di dalam direktori root Laragon sebagai berikut:

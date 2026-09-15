@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>e-Askep — Poltekkes Kemenkes Riau</title>
 
+    <!-- Official Kemenkes Icon & Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('asset/images/kemenkes-logo.png') }}">
+    <link rel="shortcut icon" href="{{ asset('asset/images/icon.svg') }}">
+
     <!-- Google Fonts: Inter & Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,13 +36,11 @@
             
             <!-- Brand Logo & Department -->
             <a href="{{ url('/') }}" class="flex items-center gap-3 group">
-                <div class="w-11 h-11 rounded-xl bg-[#008D88] flex items-center justify-center text-white font-black text-2xl shadow-md shadow-[#008D88]/20 group-hover:scale-105 transition-transform">
-                    +
-                </div>
-                <div>
+                <img src="{{ asset('asset/images/kemenkes-logo.png') }}" alt="Kemenkes Poltekkes Riau" class="h-10 w-auto object-contain">
+                <div class="border-l border-slate-200 pl-3">
                     <div class="flex items-center gap-2">
-                        <span class="text-lg font-black text-slate-900 tracking-tight leading-tight">e-Askep Riau</span>
-                        <span class="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-bold bg-[#E6F5F4] text-[#008D88] border border-[#008D88]/20">
+                        <span class="text-lg font-bold text-slate-900 tracking-tight leading-tight">e-Askep Riau</span>
+                        <span class="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold bg-[#E6F5F4] text-[#008D88] border border-[#008D88]/30">
                             Resmi
                         </span>
                     </div>
@@ -64,7 +66,7 @@
                     </div>
 
                     <a href="{{ Auth::user()->isDosen() ? route('dosen.dashboard') : (Auth::user()->isAdmin() ? route('admin.dashboard') : route('mahasiswa.dashboard')) }}" 
-                       class="px-4 py-2 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white text-xs font-bold shadow-md shadow-[#008D88]/20 transition-all flex items-center gap-1.5">
+                       class="px-4 py-2 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white text-xs font-bold shadow-xs transition-colors flex items-center gap-1.5">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
                         <span>Buka Dashboard</span>
                     </a>
@@ -78,13 +80,13 @@
                 @else
                     <!-- Guest User: Prominent Login & Register Buttons -->
                     <a href="{{ route('login') }}" 
-                       class="px-4 py-2 rounded-xl border border-slate-300 hover:border-[#008D88] hover:text-[#008D88] bg-white text-slate-700 text-xs font-bold shadow-xs transition-all flex items-center gap-1.5">
+                       class="px-4 py-2 rounded-xl border border-slate-300 hover:border-[#008D88] hover:text-[#008D88] bg-white text-slate-700 text-xs font-bold shadow-xs transition-colors flex items-center gap-1.5">
                         <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path></svg>
                         <span>Masuk (Login)</span>
                     </a>
 
                     <a href="{{ route('register') }}" 
-                       class="px-4 py-2 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white text-xs font-bold shadow-md shadow-[#008D88]/25 transition-all flex items-center gap-1.5">
+                       class="px-4 py-2 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white text-xs font-bold shadow-xs transition-colors flex items-center gap-1.5">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path></svg>
                         <span>Daftar (Register)</span>
                     </a>
@@ -99,15 +101,7 @@
 
         <!-- Hero Section: Penjelasan Jelas Apa Itu Website e-Askep -->
         <div class="bg-white rounded-3xl border border-slate-200/90 shadow-sm p-6 sm:p-10 lg:p-12 relative overflow-hidden">
-            <div class="absolute -right-20 -top-20 w-80 h-80 bg-[#E6F5F4] rounded-full filter blur-3xl opacity-75 pointer-events-none"></div>
-            <div class="absolute right-10 bottom-0 w-60 h-60 bg-amber-50 rounded-full filter blur-2xl opacity-60 pointer-events-none"></div>
-
             <div class="max-w-3xl relative z-10">
-                <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#E6F5F4] text-[#008D88] text-xs font-bold tracking-wide mb-5 border border-[#008D88]/20">
-                    <span class="w-2 h-2 rounded-full bg-[#008D88] animate-pulse"></span>
-                    Portal Praktik Keperawatan Klinis Terintegrasi
-                </div>
-
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
                     Sistem Digitalisasi Asuhan Keperawatan & Logbook Praktikum Terpadu
                 </h1>
@@ -123,19 +117,19 @@
                 <!-- Hero Action Buttons -->
                 <div class="mt-8 flex flex-wrap items-center gap-3.5">
                     <a href="{{ route('login') }}" 
-                       class="px-6 py-3.5 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white text-sm font-bold shadow-lg shadow-[#008D88]/25 transition-all flex items-center gap-2 cursor-pointer">
+                       class="px-6 py-3.5 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white text-sm font-bold shadow-xs transition-colors flex items-center gap-2 cursor-pointer">
                         <span>Masuk ke Meja Kerja</span>
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                     </a>
 
                     <a href="{{ route('register') }}" 
-                       class="px-6 py-3.5 rounded-xl bg-white border border-slate-300 hover:border-[#008D88] hover:text-[#008D88] text-slate-800 text-sm font-bold shadow-xs transition-all flex items-center gap-2">
+                       class="px-6 py-3.5 rounded-xl bg-white border border-slate-300 hover:border-[#008D88] hover:text-[#008D88] text-slate-800 text-sm font-bold shadow-xs transition-colors flex items-center gap-2">
                         <svg class="w-4 h-4 text-[#008D88]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"></path></svg>
                         <span>Daftar Akun Baru</span>
                     </a>
 
                     <a href="/api/v1/health" target="_blank" 
-                       class="px-4 py-3.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-semibold transition-all">
+                       class="px-4 py-3.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 text-xs font-semibold transition-colors">
                         Cek Status Sistem API
                     </a>
                 </div>

@@ -24,7 +24,7 @@
             @if(in_array($session->status, ['draft', 'need_revision']))
                 <form action="{{ route('mahasiswa.submit', $session->uuid) }}" method="POST" onsubmit="return confirm('Apakah Anda yakin ingin mengajukan berkas asuhan ini ke Dosen Pembimbing untuk ditelaah?')">
                     @csrf
-                    <button type="submit" class="px-4 py-1.5 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white text-xs font-bold shadow-md shadow-[#008D88]/20 flex items-center gap-2 cursor-pointer transition-all">
+                    <button type="submit" class="px-4 py-1.5 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white text-xs font-bold shadow-xs flex items-center gap-2 cursor-pointer transition-colors">
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                         Ajukan Telaah ke Dosen
                     </button>
@@ -418,11 +418,13 @@
                                     @csrf
                                     <button type="submit" class="mt-0.5 w-5 h-5 rounded border flex items-center justify-center cursor-pointer transition-all
                                         {{ $log->is_performed ? 'bg-[#008D88] border-[#008D88] text-white' : 'border-slate-300 bg-white text-transparent hover:border-[#008D88]' }}">
-                                        ✓
+                                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4.5 12.75l6 6 9-13.5"></path></svg>
                                     </button>
                                 </form>
                             @else
-                                <span class="w-5 h-5 rounded border flex items-center justify-center {{ $log->is_performed ? 'bg-emerald-600 text-white' : 'bg-slate-100 text-transparent' }}">✓</span>
+                                <span class="w-5 h-5 rounded border flex items-center justify-center {{ $log->is_performed ? 'bg-emerald-600 text-white' : 'bg-slate-100 text-transparent' }}">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4.5 12.75l6 6 9-13.5"></path></svg>
+                                </span>
                             @endif
 
                             <div>
@@ -434,7 +436,8 @@
                         <div>
                             @if($log->is_verified)
                                 <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
-                                    ✓ Disahkan E-Paraf
+                                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4.5 12.75l6 6 9-13.5"></path></svg>
+                                    Disahkan E-Paraf
                                 </span>
                             @elseif($log->is_performed)
                                 <span class="px-2.5 py-1 rounded-full bg-blue-50 text-blue-700 text-[10px] font-bold">

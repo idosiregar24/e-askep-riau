@@ -13,6 +13,8 @@ use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
+use Inertia\Testing\AssertableInertia as Assert;
+
 class WebPortalTest extends TestCase
 {
     use RefreshDatabase;
@@ -53,7 +55,7 @@ class WebPortalTest extends TestCase
     {
         $response = $this->get('/login');
         $response->assertStatus(200);
-        $response->assertSee('e-Askep Web Portal');
+        $response->assertInertia(fn (Assert $page) => $page->component('Auth/Login'));
     }
 
     public function test_dosen_login_redirects_to_dosen_dashboard(): void
@@ -84,13 +86,11 @@ class WebPortalTest extends TestCase
 
         $dashResponse = $this->get(route('dosen.dashboard'));
         $dashResponse->assertStatus(200);
-        $dashResponse->assertSee('Meja Telaah Dosen');
-        $dashResponse->assertSee('Tn. Ahmad Fauzi');
+        $dashResponse->assertInertia(fn (Assert $page) => $page->component('Dosen/Dashboard')->has('sessions'));
 
         $reviewResponse = $this->get(route('dosen.review', $this->session->uuid));
         $reviewResponse->assertStatus(200);
-        $reviewResponse->assertSee('RM-TEST-999');
-        $reviewResponse->assertSee('Rubrik Penilaian Sub-CPMK');
+        $reviewResponse->assertInertia(fn (Assert $page) => $page->component('Dosen/Review')->has('session'));
     }
 
     public function test_dosen_can_batch_verify_spo_procedures(): void
@@ -235,11 +235,10 @@ class WebPortalTest extends TestCase
 
         $response = $this->get(route('admin.dashboard'));
         $response->assertStatus(200);
-        $response->assertSee('Dashboard Administrator Akademik');
+        $response->assertInertia(fn (Assert $page) => $page->component('Admin/Dashboard')->has('courses'));
 
         $coursesResponse = $this->get(route('admin.courses'));
         $coursesResponse->assertStatus(200);
-        $coursesResponse->assertSee('Katalog Stase', false);
-        $coursesResponse->assertSee('Keperawatan Gawat Darurat');
+        $coursesResponse->assertInertia(fn (Assert $page) => $page->component('Admin/Courses')->has('courses'));
     }
 }

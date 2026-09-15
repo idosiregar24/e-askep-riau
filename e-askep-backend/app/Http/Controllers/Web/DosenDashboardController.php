@@ -64,13 +64,13 @@ class DosenDashboardController extends Controller
 
         $courses = Course::all();
 
-        return view('dosen.dashboard', compact(
-            'sessions',
-            'totalSubmitted',
-            'totalNeedRevision',
-            'totalApproved',
-            'totalStudents',
-            'courses'
-        ));
+        return \Inertia\Inertia::render('Dosen/Dashboard', [
+            'sessions'          => $sessions,
+            'totalSubmitted'    => $totalSubmitted,
+            'totalNeedRevision' => $totalNeedRevision,
+            'totalApproved'     => $totalApproved,
+            'totalStudents'     => $totalStudents,
+            'courses'           => $courses,
+        ]);
     }
 }

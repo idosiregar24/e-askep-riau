@@ -23,8 +23,8 @@
         </div>
     </div>
 
-    <!-- Patient Header Card -->
-    <div class="card-clinical p-6 bg-gradient-to-r from-white via-slate-50/50 to-white">
+    <!-- Header Kasus Banner -->
+    <div class="card-clinical p-6 bg-white">
         <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
             <div class="space-y-3">
                 <div class="flex flex-wrap items-center gap-2.5">
@@ -284,7 +284,8 @@
                                             <span class="font-bold text-slate-800 text-sm">{{ $log->procedure?->name }}</span>
                                             @if($log->is_verified)
                                                 <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 font-bold text-[10px] border border-emerald-200">
-                                                    ✓ Terverifikasi E-Paraf
+                                                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4.5 12.75l6 6 9-13.5"></path></svg>
+                                                    Terverifikasi E-Paraf
                                                 </span>
                                             @elseif($log->is_performed)
                                                 <span class="px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 font-bold text-[10px]">
@@ -433,7 +434,7 @@
                                 class="w-full px-3 py-1.5 rounded-lg border border-slate-200 text-xs focus:ring-2 focus:ring-[#008D88] focus:outline-none"></textarea>
                         </div>
 
-                        <button type="submit" class="w-full py-2.5 px-4 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white font-bold text-xs shadow-md shadow-[#008D88]/20 transition-all flex items-center justify-center gap-2 cursor-pointer mt-3">
+                        <button type="submit" class="w-full py-2.5 px-4 rounded-xl bg-[#008D88] hover:bg-[#00736F] text-white font-bold text-xs shadow-xs transition-colors flex items-center justify-center gap-2 cursor-pointer mt-3">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             Sahkan & Bubuhkan E-Paraf
                         </button>

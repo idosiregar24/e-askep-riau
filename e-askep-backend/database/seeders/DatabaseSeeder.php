@@ -17,7 +17,12 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // 1. SEED PENGGUNA DEFAULT
-        $admin = User::firstOrCreate(
+        // Catatan: menggunakan updateOrCreate (bukan firstOrCreate) secara sengaja agar
+        // kredensial default ini selalu "self-healing" ke nilai yang benar setiap kali
+        // seeder dijalankan ulang, meskipun password di database sempat tertimpa/rusak
+        // secara manual (mis. ketiga akun default sempat memiliki hash password yang
+        // identik akibat UPDATE manual di luar seeder).
+        $admin = User::updateOrCreate(
             ['email' => 'admin@poltekkes-riau.ac.id'],
             [
                 'name'         => 'Administrator Prodi Keperawatan',
@@ -29,7 +34,7 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
-        $dosen = User::firstOrCreate(
+        $dosen = User::updateOrCreate(
             ['email' => 'dosen@poltekkes-riau.ac.id'],
             [
                 'name'         => 'Ns. Hj. Suryani, M.Kep., Sp.Kep.MB',
@@ -41,7 +46,7 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
-        $mhs = User::firstOrCreate(
+        $mhs = User::updateOrCreate(
             ['email' => 'mahasiswa@poltekkes-riau.ac.id'],
             [
                 'name'         => 'Ahmad Fadhil Pratama',
