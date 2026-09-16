@@ -116,14 +116,11 @@ class MahasiswaSessionController extends Controller
             $assessmentType = 'kmb';
         }
 
+        // Pengkajian dibuat kosong; seluruh data klinis diisi sendiri oleh mahasiswa.
         CareSessionAssessment::create([
             'care_session_id'    => $session->id,
             'stage_type'         => $assessmentType,
-            'assessment_payload' => [
-                'keluhan_utama'   => 'Pasien mengeluhkan keluhan saat masuk ke ruangan.',
-                'riwayat_penyakit' => 'Riwayat penyakit saat ini dan terdahulu.',
-                'tanda_vital_awal' => ['td' => '120/80', 'nadi' => '80', 'rr' => '20', 'suhu' => '36.8', 'spo2' => '98'],
-            ],
+            'assessment_payload' => [],
         ]);
 
         // Pre-populate SPO procedure logs from master
@@ -163,9 +160,12 @@ class MahasiswaSessionController extends Controller
             abort(403, 'Akses ditolak.');
         }
 
-        $masterSdki = MasterSdki::all();
-        $masterSlki = MasterSlki::all();
-        $masterSiki = MasterSiki::all();
+        // Hanya kolom yang dipakai daftar pilihan 3S; payload JSON klinis yang besar
+        // (tanda/gejala, faktor risiko, etiologi) tidak perlu ikut dikirim ke halaman.
+        $masterSdki = MasterSdki::select('id', 'code', 'title', 'category', 'sub_category')
+            ->orderBy('code')->get();
+        $masterSlki = MasterSlki::select('id', 'code', 'title')->orderBy('code')->get();
+        $masterSiki = MasterSiki::select('id', 'code', 'title')->orderBy('code')->get();
 
         return \Inertia\Inertia::render('Mahasiswa/Show', [
             'session'    => $session,
@@ -220,7 +220,7 @@ class MahasiswaSessionController extends Controller
             'siki_id'                => $validated['master_siki_id'],
             'subjective_data'        => $validated['subjective_data'] ?? '',
             'objective_data'         => $validated['objective_data'] ?? '',
-            'etiology'               => $validated['etiology'] ?? 'Faktor risiko / proses patofisiologis penyakit.',
+            'etiology'               => $validated['etiology'] ?? '',
             'custom_outcome_targets' => $validated['custom_outcome_targets'] ?? null,
             'custom_interventions'   => $validated['custom_interventions'] ?? null,
             'priority_order'         => $validated['priority_order'] ?? 1,
@@ -279,8 +279,8 @@ class MahasiswaSessionController extends Controller
             'heart_rate'        => (string) $validated['heart_rate'],
             'respiratory_rate'  => (string) $validated['respiratory_rate'],
             'temperature'       => (string) $validated['temperature'],
-            'spo2'              => (string) ($validated['spo2'] ?? $validated['oxygen_saturation'] ?? '98'),
-            'gcs_score'         => $validated['gcs_score'] ?? '15',
+            'spo2'              => (string) ($validated['spo2'] ?? $validated['oxygen_saturation'] ?? ''),
+            'gcs_score'         => $validated['gcs_score'] ?? '',
             'evaluation_notes'  => $validated['evaluation_notes'] ?? null,
         ]);
 

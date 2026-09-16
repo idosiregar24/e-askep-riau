@@ -16,12 +16,18 @@ class MasterSdki extends Model
         'title',
         'category',
         'sub_category',
+        'definition',
         'major_signs',
         'minor_signs',
+        'risk_factors',
+        'causes',
+        'source_url',
     ];
 
     protected $casts = [
-        'major_signs' => 'array',
-        'minor_signs' => 'array',
+        'major_signs'  => 'array',
+        'minor_signs'  => 'array',
+        'risk_factors' => 'array',
+        'causes'       => 'array',
     ];
 }

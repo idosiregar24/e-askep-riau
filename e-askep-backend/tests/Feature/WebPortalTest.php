@@ -9,7 +9,9 @@ use App\Models\MasterSdki;
 use App\Models\MasterSiki;
 use App\Models\MasterSlki;
 use App\Models\MasterSpoProcedure;
+use App\Models\SessionReview;
 use App\Models\User;
+use App\Support\PenilaianInstrument;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
@@ -131,16 +133,17 @@ class WebPortalTest extends TestCase
         ]);
     }
 
-    public function test_dosen_can_approve_and_grade_session(): void
+    public function test_dosen_can_approve_and_grade_session_via_instrument(): void
     {
         $this->actingAs($this->dosen);
 
+        // Stase KGD: 15 aspek, skor penuh 4 pada setiap aspek.
+        $scores = array_fill_keys(range(1, 15), 4);
+
         $response = $this->post(route('dosen.approve-grade', $this->session->uuid), [
-            'score_pengkajian' => 90.0,
-            'score_diagnosa'   => 88.0,
-            'score_prosedur'   => 92.0,
-            'score_evaluasi'   => 85.0,
-            'general_notes'    => 'Kinerja asuhan klinis sangat memuaskan.',
+            'instrument_scores' => $scores,
+            'instrument_notes'  => [1 => 'Identitas pasien lengkap dan terverifikasi.'],
+            'general_notes'     => 'Kinerja asuhan klinis sangat memuaskan.',
         ]);
 
         $response->assertRedirect(route('dosen.dashboard'));
@@ -148,10 +151,151 @@ class WebPortalTest extends TestCase
             'id'     => $this->session->id,
             'status' => 'approved_graded',
         ]);
-        $this->assertDatabaseHas('session_reviews', [
-            'care_session_id' => $this->session->id,
-            'final_score'     => 89.10, // 90*0.25 + 88*0.25 + 92*0.30 + 85*0.20 = 22.5 + 22.0 + 27.6 + 17.0 = 89.1
+
+        // Skor penuh pada seluruh aspek: tiap kelompok rubrik bernilai 100,
+        // sehingga nilai akhir berbobot juga 100.
+        $review = SessionReview::where('care_session_id', $this->session->id)->firstOrFail();
+        $this->assertEquals(100.00, (float) $review->final_score);
+        $this->assertSame(60, $review->rubric_scores['instrument']['total_score']);
+        $this->assertSame(60, $review->rubric_scores['instrument']['max_score']);
+        $this->assertSame('Kompeten', $review->rubric_scores['instrument']['kategori']);
+        $this->assertSame('kgd', $review->rubric_scores['instrument']['stage_type']);
+    }
+
+    public function test_instrument_scores_drive_the_sub_cpmk_rubric(): void
+    {
+        $this->actingAs($this->dosen);
+
+        $definition = PenilaianInstrument::for('kgd');
+
+        // Aspek pengkajian diberi skor 2, seluruh aspek lain skor 4.
+        $scores = [];
+        foreach ($definition['items'] as $item) {
+            $scores[$item['no']] = $item['group'] === 'pengkajian' ? 2 : 4;
+        }
+
+        $this->post(route('dosen.approve-grade', $this->session->uuid), [
+            'instrument_scores' => $scores,
+        ])->assertRedirect(route('dosen.dashboard'));
+
+        $review = SessionReview::where('care_session_id', $this->session->id)->firstOrFail();
+
+        $this->assertEquals(50.0, $review->rubric_scores['pengkajian']);
+        $this->assertEquals(100.0, $review->rubric_scores['diagnosa']);
+        $this->assertEquals(100.0, $review->rubric_scores['prosedur']);
+        $this->assertEquals(100.0, $review->rubric_scores['evaluasi']);
+
+        // 50*0.25 + 100*0.25 + 100*0.30 + 100*0.20 = 87.5
+        $this->assertEquals(87.50, (float) $review->final_score);
+    }
+
+    public function test_approve_and_grade_rejects_incomplete_instrument(): void
+    {
+        $this->actingAs($this->dosen);
+
+        // KGD memerlukan 15 aspek; hanya 3 yang dikirim.
+        $response = $this->post(route('dosen.approve-grade', $this->session->uuid), [
+            'instrument_scores' => [1 => 4, 2 => 3, 3 => 4],
         ]);
+
+        $response->assertSessionHasErrors('instrument_scores');
+        $this->assertDatabaseHas('care_sessions', [
+            'id'     => $this->session->id,
+            'status' => 'submitted',
+        ]);
+    }
+
+    public function test_review_page_provides_the_matching_clinical_instrument(): void
+    {
+        $this->actingAs($this->dosen);
+
+        $this->get(route('dosen.review', $this->session->uuid))
+            ->assertStatus(200)
+            ->assertInertia(fn (Assert $page) => $page
+                ->component('Dosen/Review')
+                ->where('instrument.stage_type', 'kgd')
+                ->where('instrument.max_score', 60)
+                ->where('instrument.passing_score', 75)
+                ->has('instrument.items', 15)
+                ->where('instrument.identity.Nama Mahasiswa', $this->mahasiswa->name)
+            );
+    }
+
+    public function test_dosen_can_export_instrument_as_pdf(): void
+    {
+        $this->actingAs($this->dosen);
+
+        $response = $this->get(route('dosen.instrumen.pdf', $this->session->uuid) . '?' . http_build_query([
+            'scores' => array_fill_keys(range(1, 15), 3),
+        ]));
+
+        $response->assertStatus(200);
+        $response->assertHeader('content-type', 'application/pdf');
+        $this->assertStringStartsWith('%PDF', $response->getContent());
+    }
+
+    public function test_dosen_can_export_instrument_as_word(): void
+    {
+        $this->actingAs($this->dosen);
+
+        $response = $this->get(route('dosen.instrumen.word', $this->session->uuid) . '?' . http_build_query([
+            'scores' => array_fill_keys(range(1, 15), 3),
+        ]));
+
+        $response->assertStatus(200);
+        $response->assertHeader(
+            'content-type',
+            'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+        );
+
+        // Berkas harus berupa paket OOXML yang sah dan memuat aspek instrumen.
+        $binary = $response->getContent();
+        $this->assertSame("PK\x03\x04", substr($binary, 0, 4));
+
+        $path = tempnam(sys_get_temp_dir(), 'docx_test_');
+        file_put_contents($path, $binary);
+
+        $zip = new \ZipArchive();
+        $this->assertTrue($zip->open($path) === true);
+        $document = $zip->getFromName('word/document.xml');
+        $zip->close();
+        @unlink($path);
+
+        $this->assertNotFalse($document);
+        $this->assertStringContainsString('INSTRUMEN PENILAIAN PENGKAJIAN PROSES KEPERAWATAN GAWAT DARURAT', $document);
+        $this->assertStringContainsString('Survei primer (Airway) dikaji dan didokumentasikan sesuai prosedur', $document);
+        $this->assertStringContainsString('Total Skor (maksimal 60)', $document);
+    }
+
+    public function test_student_cannot_export_instrument_before_it_is_graded(): void
+    {
+        $this->actingAs($this->mahasiswa);
+
+        $this->get(route('mahasiswa.instrumen.pdf', $this->session->uuid))->assertStatus(403);
+
+        $this->session->update(['status' => 'approved_graded', 'approved_at' => now()]);
+
+        $this->get(route('mahasiswa.instrumen.pdf', $this->session->uuid))->assertStatus(200);
+    }
+
+    public function test_new_care_session_starts_with_an_empty_assessment(): void
+    {
+        $this->actingAs($this->mahasiswa);
+
+        $this->post(route('mahasiswa.store'), [
+            'course_id'         => $this->course->id,
+            'mentor_dosen_id'   => $this->dosen->id,
+            'patient_name'      => 'Ny. Sartika',
+            'medical_record_no' => 'RM-EMPTY-001',
+            'age'               => 52,
+            'gender'            => 'P',
+            'triage_category'   => 'kuning',
+        ]);
+
+        $session = CareSession::where('medical_record_no', 'RM-EMPTY-001')->firstOrFail();
+
+        // Tidak ada data dummy yang tersisa pada formulir pengkajian mahasiswa.
+        $this->assertSame([], $session->assessment->assessment_payload);
     }
 
     public function test_mahasiswa_can_create_new_care_session(): void

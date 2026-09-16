@@ -1,0 +1,4678 @@
+[
+    {
+        "code": "D.0001",
+        "title": "Bersihan Jalan Napas Tidak Efektif",
+        "category": "Fisiologis",
+        "sub_category": "Respirasi",
+        "definition": "Bersihan jalan napas tidak efektif adalah ketidakmampuan membersihkan sekret atau obstruksi jalan nafas untuk mempertahankan jalan nafas tetap paten.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Batuk tidak efektif",
+                "Tidak mampu batuk",
+                "Sputum berlebih",
+                "Mengi, wheezing, dan/atau ronchi kering",
+                "Mekonium di jalan napas (pada neonatus)"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Spasme jalan napas",
+            "Hipersekresi jalan napas",
+            "Disfungsi neuromuskuler",
+            "Benda asing dalam jalan napas",
+            "Adanya jalan napas buatan",
+            "Sekresi yang tertahan",
+            "Hyperplasia dinding jalan napas",
+            "Proses infeksi",
+            "Respon alergi",
+            "Efek agen farmakologis (mis. Anestesi)",
+            "Merokok aktif",
+            "Merokok pasif",
+            "Terpajan polutan"
+        ],
+        "source_url": "https://perawat.org/bersihan-jalan-napas-tidak-efektif"
+    },
+    {
+        "code": "D.0002",
+        "title": "Gangguan Penyapihan Ventilator",
+        "category": "Fisiologis",
+        "sub_category": "Respirasi",
+        "definition": "Gangguan penyapihan ventilator adalah ketidakmampuan beradaptasi dengan pengurangan bantuan ventilator mekanik yang dapat menghambat dan memperlama proses penyapihan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Frekuensi napas meningkat",
+                "Penggunaan otot bantu napas",
+                "Napas megap-megap",
+                "Upaya napas dan bantuan ventilator tidak sinkron",
+                "Napas dangkal",
+                "Agitasi",
+                "Nilai gas darah arteri tidak normal"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Hipersekresi jalan napas",
+            "Ketidakcukupan energi",
+            "Hambatan upaya nafas ( misalnya nyeri saat bernapas, kelemahan otot pernapasan, efek sedasi)"
+        ],
+        "source_url": "https://perawat.org/gangguan-penyapihan-ventilator/"
+    },
+    {
+        "code": "D.0003",
+        "title": "Gangguan Pertukaran Gas",
+        "category": "Fisiologis",
+        "sub_category": "Respirasi",
+        "definition": "Gangguan pertukaran gas adalah kelebihan atau kekurangan oksigenasi dan/atau eliminasi karbondioksida pada membran alveolus-kapiler.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "PCO2 meningkat/menurun",
+                "PO2 menurun",
+                "pH arteri meningkat/menurun",
+                "Takikardia",
+                "Adanya bunyi napas tambahan (mis. wheezing, rales)"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Ketidakseimbangan ventilasi-perfusi",
+            "Perubahan membran alveolus-kapiler"
+        ],
+        "source_url": "https://perawat.org/gangguan-pertukaran-gas/"
+    },
+    {
+        "code": "D.0004",
+        "title": "Gangguan Ventilasi Spontan",
+        "category": "Fisiologis",
+        "sub_category": "Respirasi",
+        "definition": "Gangguan ventilasi spontan adalah penurunan cadangan energi yang mengakibatkan pasien tidak mampu bernapas secara adekuat.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Penggunaan otot bantu napas meningkat",
+                "Volume tidak menurun",
+                "PCO2 meningkat",
+                "PO2 menurun",
+                "SaO2 menurun"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Gangguan metabolisme",
+            "Kelelahan otot pernapasan"
+        ],
+        "source_url": "https://perawat.org/gangguan-ventilasi-spontan/"
+    },
+    {
+        "code": "D.0005",
+        "title": "Pola Napas Tidak Efektif",
+        "category": "Fisiologis",
+        "sub_category": "Respirasi",
+        "definition": "Pola napas tidak efektif adalah adalah inspirasi dan/atau ekspirasi yang tidak memberikan ventilasi adekuat.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Penggunaan otot bantu pernapasan",
+                "Fase ekspirasi memanjang",
+                "Pola napas abnormal (mis. takipnea, bradipnea, hiperventilasi, kussmaul, cheyne-stokes)",
+                "Adanya bunyi napas tambahan (mis. wheezing, rales)"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Depresi pusat pernapasan",
+            "Hambatan upaya napas (mis. nyeri saat bernapas, kelemahan otot pernapasan)",
+            "Deformitas dinding dada",
+            "Deformitas tulang dada",
+            "Gangguan neuromuskular",
+            "Gangguan neurologis (mis. elektroensefalogram [EEG] positif, cidera kepala, gangguan kejang)",
+            "Imaturitas neurologis",
+            "Penurunan energi",
+            "Obesitas",
+            "Posisi tubuh yang menghambat ekspansi paru",
+            "Sindrom hipoventilasi",
+            "Kerusakan inervasi diafragma (kerusakan saraf C5 keatas)",
+            "Cidera pada medula spinalis",
+            "Efek agen farmakologis",
+            "Kecemasan"
+        ],
+        "source_url": "https://perawat.org/pola-napas-tidak-efektif/"
+    },
+    {
+        "code": "D.0006",
+        "title": "Risiko Aspirasi",
+        "category": "Fisiologis",
+        "sub_category": "Respirasi",
+        "definition": "Risiko aspirasi adalah adalah risiko mengalami masuknya sekresi gastrointestinal, sekresi orofaring, benda cair atau padat ke dalam saluran trakeobronkhial akibat disfungsi mekanisme protektif saluran napas",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Penurunan tingkat kesadaran",
+            "Penurunan refleks muntah dan/atau batuk",
+            "Gangguan menelan",
+            "Disfagia",
+            "Kerusakan mobilitas fisik",
+            "Peningkatan residu lambung",
+            "Peningkatan tekanan intragastrik",
+            "Penurunan motilitas gastrointestinal",
+            "Sfingter esofagus bawah inkompeten",
+            "Perlambatan pengosongan lambung",
+            "Terpasang selang nasogastrik",
+            "Terpasang trakeostomi atau ETT",
+            "Trauma/pembedahan leher, mulut, dan/atau wajah",
+            "Efek agen farmakologis",
+            "Ketidakmatangan koordinasi menghisap, menelan, dan bernapas"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-aspirasi/"
+    },
+    {
+        "code": "D.0007",
+        "title": "Gangguan Sirkulasi Spontan",
+        "category": "Fisiologis",
+        "sub_category": "Sirkulasi",
+        "definition": "Gangguan sirkulasi spontan adalah ketidakmampuan untuk mempertahankan sirkulasi yang adekuat untuk menunjang kehidupan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Frekuensi nadi < 50 kali/menit atau > 150 kali/menit",
+                "Tekanan darah sistolik < 60 mmHg atau > 200 mmHg",
+                "Frekuensi napas < 6 kali/menit atau > 30 kali/menit",
+                "Kesadaran menurun atau tidak sadar"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Abnormalitas kelistrikan jantung",
+            "Abnormalitas struktur jantung",
+            "Penurunan fungsi ventrikel"
+        ],
+        "source_url": "https://perawat.org/gangguan-sirkulasi-spontan/"
+    },
+    {
+        "code": "D.0008",
+        "title": "Penurunan Curah Jantung",
+        "category": "Fisiologis",
+        "sub_category": "Sirkulasi",
+        "definition": "Penurunan curah jantung adalah ketidakmampuan jantung memompa darah untuk memenuhi kebutuhan metabolisme tubuh.",
+        "major_signs": {
+            "subjective": [
+                "Palpitasi (dada terasa berdebar kencang)",
+                "Lelah",
+                "Dispnea (sesak napas)",
+                "Paroxysmal nocturnal dyspnea (PND)",
+                "Ortopnea",
+                "Batuk"
+            ],
+            "objective": [
+                "Bradikardia/takikardia",
+                "Gambaran EKG Aritmia atau gangguan konduksi",
+                "Edema",
+                "Distensi vena jugularis",
+                "Central venous pressure (CVP) meningkat/menurun",
+                "Hepatomegali",
+                "Tekanan darah meningkat/menurun",
+                "Nadi perifer teraba lemah",
+                "Capillary refill time (CRT) > 3 detik",
+                "Oliguria",
+                "Warna kulit pucat dan/atau sianosis",
+                "Terdengar suara jantung S3 dan/atau S4",
+                "Ejection fraction (EF) menurun"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Perubahan irama jantung",
+            "Perubahan preload",
+            "Perubahan afterload",
+            "Perubahan kontraktilitas"
+        ],
+        "source_url": "https://perawat.org/penurunan-curah-jantung/"
+    },
+    {
+        "code": "D.0009",
+        "title": "Perfusi Perifer Tidak Efektif",
+        "category": "Fisiologis",
+        "sub_category": "Sirkulasi",
+        "definition": "Perfusi perifer tidak efektif adalah penurunan sirkulasi darah pada level kapiler yang dapat mengganggu metabolisme tubuh.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Pengisian kapiler (cappilary refill) >3 detik",
+                "Nadi perifer menurun atau tidak teraba",
+                "Akral teraba dingin",
+                "Warna kulit pucat",
+                "Turgor kulit menurun"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Hiperglikemia",
+            "Penurunan konsentrasi hemoglobin",
+            "Peningkatan tekanan darah",
+            "Kekurangan volume cairan",
+            "Penurunan aliran arteri dan/atau vena",
+            "Kurang terpapar informasi tentang faktor pemberat (mis. merokok, gaya hidup monoton, trauma, obesitas, asupan garam, imobilitas)",
+            "Kurang terpapar informasi tentang proses penyakit (mis. diabetes melitus, hiperlipidemia)",
+            "Kurang aktivitas fisik"
+        ],
+        "source_url": "https://perawat.org/perfusi-perifer-tidak-efektif/"
+    },
+    {
+        "code": "D.0010",
+        "title": "Risiko Gangguan Sirkulasi Spontan",
+        "category": "Fisiologis",
+        "sub_category": "Sirkulasi",
+        "definition": "Risiko gangguan sirkulasi spontan didefinisikan sebagai risiko mengalami ketidakmampuan untuk mempertahankan sirkulasi yang adekuat untuk menunjang kehidupan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Kekurangan volume cairan",
+            "Hipoksia",
+            "Hipotermia",
+            "Hipokalemia/Hiperkalemia",
+            "Hipoglikemia / Hiperglikemia",
+            "Asidosis",
+            "Toksin (mis. keracunan, overdosis obat)",
+            "Tamponade Jantung",
+            "Tension Pneumothorax",
+            "Trombosis Jantung",
+            "Trombosis Paru (Emboli Paru)"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-gangguan-sirkulasi-spontan/"
+    },
+    {
+        "code": "D.0011",
+        "title": "Risiko Penurunan Curah Jantung",
+        "category": "Fisiologis",
+        "sub_category": "Sirkulasi",
+        "definition": "Risiko penurunan curah jantung adalah diagnosis keperawatan yang didefinisikan sebagai risiko mengalami pemompaan jantung yang tidak adekuat untuk memenuhi kebutuhan metabolisme tubuh.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Perubahan afterload",
+            "Perubahan frekuensi jantung",
+            "Perubahan irama jantung",
+            "Perubahan kontraktilitas",
+            "Perubahan preload"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-penurunan-curah-jantung/"
+    },
+    {
+        "code": "D.0012",
+        "title": "Risiko Perdarahan",
+        "category": "Fisiologis",
+        "sub_category": "Sirkulasi",
+        "definition": "Risiko perdarahan adalah diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kehilangan darah baik internal (terjadi di dalam tubuh) maupun eksternal (terjadi hingga keluar tubuh).",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Aneurisma",
+            "Gangguan gastrointestinal (misalnya ulkus lambung, polip, varises)",
+            "Gangguan fungsi hati (misalnya sirosis hepatis)",
+            "Komplikasi kehamilan (misalnya ketuban pecah sebelum waktunya)",
+            "Komplikasi pasca partum (misalnya atoni uterus, retensi plasenta)",
+            "Gangguan koagulasi (misalnya trombositopenia)",
+            "Efek agen farmakologis",
+            "Tindakan pembedahan",
+            "Trauma",
+            "Kurang terpapar informasi tentang pencegahan perdarahan",
+            "Proses keganasan"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-perdarahan/"
+    },
+    {
+        "code": "D.0013",
+        "title": "Risiko Perfusi Gastrointestinal Tidak Efektif",
+        "category": "Fisiologis",
+        "sub_category": "Sirkulasi",
+        "definition": "Risiko perfusi gastrointestinal tidak efektif adalah diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan sirkulasi gastrointestinal.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Varises gastroesofagus",
+            "Aneurisma aorta abdomen",
+            "Diabetes melitus",
+            "Sirosis hepatis",
+            "Perdarahan gastrointestinal akut",
+            "Gagal jantung kongestif",
+            "Koagulasi intravaskuler diseminata",
+            "Ulkus duodenum atau ulkus lambung",
+            "Kolitis iskemik",
+            "Pankreatitis iskemik",
+            "Ginjal polikistik",
+            "Stenosis arteri ginjal",
+            "Gagal ginjal",
+            "Sindroma kompartemen abdomen",
+            "Trauma abdomen",
+            "Anemia"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-perfusi-gastrointestinal-tidak-efektif/"
+    },
+    {
+        "code": "D.0014",
+        "title": "Risiko Perfusi Miokard Tidak Efektif",
+        "category": "Fisiologis",
+        "sub_category": "Sirkulasi",
+        "definition": "Risiko perfusi miokard tidak efektif adalah diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan sirkulasi arteri koroner yang dapat mengganggu metabolisme miokard.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Hipertensi",
+            "Hiperlipidemia",
+            "Hiperglikemia",
+            "Hipoksemia",
+            "Hipoksia",
+            "Kekurangan volume cairan",
+            "Pembedahan jantung",
+            "Penyalahgunaan zat",
+            "Spasme arteri koroner",
+            "Peningkatan protein C-reaktif",
+            "Tamponade jantung",
+            "Efek agen farmakologis",
+            "Riwayat penyakit kardiovaskuler pada keluarga",
+            "Kurang terpapar informasi tentang faktor risiko yang dapat diubah (misalnya merokok, gaya hidup kurang gerak, obesitas)"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-perfusi-miokard-tidak-efektif/"
+    },
+    {
+        "code": "D.0015",
+        "title": "Risiko Perfusi Perifer Tidak Efektif",
+        "category": "Fisiologis",
+        "sub_category": "Sirkulasi",
+        "definition": "Risiko perfusi perifer tidak efektif adalah diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan sirkulasi darah pada level kapiler yang dapat mengganggu metabolisme tubuh.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Hiperglikemia",
+            "Gaya hidup kurang gerak",
+            "Hipertensi",
+            "Merokok",
+            "Prosedur endovaskuler",
+            "Trauma",
+            "Kurang terpapat informasi tentang faktor pemberat (misalnya merokok, gaya hidup kurang gerak, obesitas, imobilitas)"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-perfusi-perifer-tidak-efektif/"
+    },
+    {
+        "code": "D.0016",
+        "title": "Risiko Perfusi Renal Tidak Efektif",
+        "category": "Fisiologis",
+        "sub_category": "Sirkulasi",
+        "definition": "Risiko perfusi renal tidak efektif adalah diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan sirkulasi darah ke ginjal.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Kekurangan volume cairan",
+            "Embolisme vaskuler",
+            "Vaskulitis",
+            "Hipertensi",
+            "Disfungsi ginjal",
+            "Hiperglikemia",
+            "Keganasan",
+            "Pembedahan jantung",
+            "Bypass kardiopulmonal",
+            "Hipoksemia",
+            "Hipoksia",
+            "Asidosis metabolik",
+            "Trauma",
+            "Sindrom kompartemen abdomen",
+            "Luka bakar",
+            "Sepsis",
+            "Sindrom respon inflamasi sistemik",
+            "Lanjut usia",
+            "Merokok",
+            "Penyalahgunaan zat"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-perfusi-renal-tidak-efektif/"
+    },
+    {
+        "code": "D.0017",
+        "title": "Risiko Perfusi Serebral Tidak Efektif",
+        "category": "Fisiologis",
+        "sub_category": "Sirkulasi",
+        "definition": "Risiko perfusi serebral tidak efektif adalah diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan sirkulasi darah ke otak.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Keabnormalan masa protrombin dan/atau masa protrombin parsial",
+            "Penurunan kinerja ventrikel kiri",
+            "Aterosklerosis aorta",
+            "Diseksi arteri",
+            "Fibrilasi atrium",
+            "Tumor otak",
+            "Stenosis karotis",
+            "Miksoma atrium",
+            "Aneurisma serebri",
+            "Koagulopati (misalnya anemia sel sabit)",
+            "Dilatasi kardiomiopati",
+            "Koagulasi intravaskuler diseminata",
+            "Embolisme",
+            "Cidera kepala",
+            "Hiperkolesteronemia",
+            "Hipertensi",
+            "Endokarditis infektif",
+            "Katup prostetik mekanis",
+            "Stenosis mitral",
+            "Neoplasma otak",
+            "Infark miokard akut",
+            "Sindrom sick sinus",
+            "Penyalahgunaan zat",
+            "Terapi trombolitik"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-perfusi-serebral-tidak-efektif/"
+    },
+    {
+        "code": "D.0018",
+        "title": "Berat Badan Lebih",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Berat badan lebih adalah diagnosis keperawatan yang didefinisikan sebagai akumulasi lemak berlebih atau abnormal yang tidak sesuai dengan usia dan jenis kelamin.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "IMT > 25 kg/m² (pada dewasa)",
+                "Berat dan panjang badan lebih dari presentil 95 (pada anak < 2 tahun)",
+                "IMT pada presentil ke 85 – 95 (pada anak 2 – 18 tahun)"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kurang aktivitas fisik harian",
+            "Kelebihan konsumsi gula",
+            "Gangguan kebiasaan makan",
+            "Gangguan persepsi makan",
+            "Kelebihan konsumsi alkohol",
+            "Penggunaan energi kurang dari asupan",
+            "Sering mengemil",
+            "Sering memakan makanan berminyak/berlemak",
+            "Faktor keturunan (mis. distribusi jaringan adiposa, pengeluaran energi, aktivitas lipase lipoprotein, sintesis lipid, lipolisis)",
+            "Penggunaan makanan formula atau makanan campuran (pada bayi)",
+            "Asupan kalsium rendah (pada anak-anak)",
+            "Berat badan bertambah cepat (selama masa anak-anak, selama masa bayi, termasuk minggu pertama, 4 bulan pertama, dan tahun pertama)",
+            "Makanan padat sebagai sumber makanan utama pada usia < 5 bulan"
+        ],
+        "source_url": "https://perawat.org/berat-badan-lebih"
+    },
+    {
+        "code": "D.0019",
+        "title": "Defisit Nutrisi",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Defisit nutrisi merupakan diagnosis keperawatan yang didefinisikan sebagai asupan nutrisi tidak cukup untuk memenuhi kebutuhan metabolisme",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Berat badan menurun minimal 10% dibawah rentang ideal"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Ketidakmampuan menelan makanan",
+            "Ketidakmampuan mencerna makanan",
+            "Ketidakmampuan mengabsorbsi nutrien",
+            "Peningkatan kebutuhan metabolisme",
+            "Faktor ekonomi (mis: finansial tidak mencukupi)",
+            "Faktor psikologis (mis: stres, keengganan untuk makan)"
+        ],
+        "source_url": "https://perawat.org/defisit-nutrisi"
+    },
+    {
+        "code": "D.0020",
+        "title": "Diare",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Diare adalah diagnosis keperawatan yang didefinisikan sebagai pengeluaran feses yang sering, lunak, dan tidak berbentuk.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Defekasi lebih dari tiga kali dalam 24 jam",
+                "Feses lembek atau cair"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Inflamasi gastrointestinal",
+            "Iritasi gastrointestinal",
+            "Proses infeksi",
+            "Malabsorpsi"
+        ],
+        "source_url": "https://perawat.org/diare"
+    },
+    {
+        "code": "D.0021",
+        "title": "Disfungsi Motilitas Gastrointestinal",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Disfungsi motilitas gastrointestinal merupakan diagnosis keperawatan yang didefinisikan sebagai peningkatan, penurunan, tidak efektif atau kurangnya aktivitas peristaltik gastrointestinal.",
+        "major_signs": {
+            "subjective": [
+                "Mengungkapkan flatus tidak ada",
+                "Nyeri/kram abdomen"
+            ],
+            "objective": [
+                "Suara peristaltik berubah (tidak ada, hipoaktif, atau hiperaktif)"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Asupan enteral",
+            "Intoleransi makanan",
+            "Imobilisasi",
+            "Makanan kontaminan",
+            "Malnutrisi",
+            "Pembedahan",
+            "Efek agen farmakologis (mis. narkotik/opiat, antibiotik, laksatif, anestesia)",
+            "Proses penuaan",
+            "Kecemasan"
+        ],
+        "source_url": "https://perawat.org/disfungsi-motilitas-gastrointestinal"
+    },
+    {
+        "code": "D.0022",
+        "title": "Hipervolemia",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Hipervolemia merupakan diagnosis keperawatan yang didefinisikan sebagai peningkatan volume cairan intravaskular, interstitial, dan/atau intraselular.",
+        "major_signs": {
+            "subjective": [
+                "Ortopnea",
+                "Dispnea",
+                "Paroxysmal nocturnal dyspnea (PND)"
+            ],
+            "objective": [
+                "Edema anasarca dan/atau edema perifer",
+                "Berat badan meningkat dalam waktu singkat",
+                "Jugular venous pressure (JVP) dan/atau central venous pressure (CVP) meningkat",
+                "Refleks hepatojugular positif"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Gangguan mekanisme regulasi",
+            "Kelebihan asupan cairan",
+            "Kelebihan asupan natrium",
+            "Gangguan aliran balik vena",
+            "Efek agen farmakologis (mis: kortikosteroid, chlorpropamide, tolbutamide, vincristine, tryptilinescarbamazepine)"
+        ],
+        "source_url": "https://perawat.org/hipervolemia"
+    },
+    {
+        "code": "D.0023",
+        "title": "Hipovolemia",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Hipovolemia merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan volume cairan intravaskular, interstitial, dan/atau intraselular.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Frekuensi nadi meningkat",
+                "Nadi teraba lemah",
+                "Tekanan darah menurun",
+                "Tekanan nadi menyempit",
+                "Turgor kulit menurun",
+                "Membran mukosa kering",
+                "Volume urin menurun",
+                "Hematokrit meningkat"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kehilangan cairan aktif",
+            "Kegagalan mekanisme regulasi",
+            "Peningkatan permeabilitas kapiler",
+            "Kekurangan intake cairan",
+            "Evaporasi"
+        ],
+        "source_url": "https://perawat.org/hipovolemia"
+    },
+    {
+        "code": "D.0024",
+        "title": "Ikterik Neonatus",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Ikterik neonatus merupakan diagnosis keperawatan yang didefinisikan sebagai kulit dan membran mukosa neonatus menguning setelah 24 jam kelahiran akibat bilirubin tidak terkonjugasi masuk ke dalam sirkulasi.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Profil darah abnormal (hemolisis, bilirubin serum total > 2 mg/dL, bilirubin serum total pada rentang risiko tinggi menurut usia pada normogram spesifik waktu)",
+                "Membran mukosa kuning",
+                "Kulit kuning",
+                "Sklera kuning"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Penurunan berat badan abnormal ( > 7 – 8% pada bayi baru lahir yang menyusu ASI, > 15% pada bayi cukup bulan)",
+            "Pola makan tidak ditetapkan dengan baik",
+            "Kesulitan transisi ke kehidupan ekstra uterin",
+            "Usia kurang dari 7 hari",
+            "Keterlambatan pengeluaran feses (mekonium)"
+        ],
+        "source_url": "https://perawat.org/ikterik-neonatus"
+    },
+    {
+        "code": "D.0025",
+        "title": "Kesiapan Peningkatan Keseimbangan Cairan",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Kesiapan peningkatan keseimbangan cairan merupakan diagnosis keperawatan yang didefinisikan sebagai pola ekuilibrium antara volume cairan dan komposisi kimia cairan tubuh yang cukup untuk memenuhi kebutuhan fisik dan dapat ditingkatkan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Membran mukosa lembab",
+                "Asupan makanan dan cairan adekuat untuk kebutuhan harian",
+                "Turgor jaringan baik",
+                "Tidak ada tanda edema atau dehidrasi"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-peningkatan-keseimbangan-cairan"
+    },
+    {
+        "code": "D.0026",
+        "title": "Kesiapan Peningkatan Nutrisi",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Kesiapan peningkatan nutrisi merupakan diagnosis keperawatan yang didefinisikan sebagai pola asupan nutrisi yang cukup untuk memenuhi kebutuhan metabolisme dan dapat ditingkatkan.",
+        "major_signs": {
+            "subjective": [
+                "Mengekspresikan keinginan untuk meningkatkan nutrisi"
+            ],
+            "objective": [
+                "Makan teratur dan adekuat"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-peningkatan-nutrisi"
+    },
+    {
+        "code": "D.0027",
+        "title": "Ketidakstabilan Kadar Glukosa Darah",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Ketidakstabilan kadar glukosa darah merupakan diagnosis keperawatan yang didefinisikan sebagai variasi kadar glukosa darah naik atau turun dari rentang normal.",
+        "major_signs": {
+            "subjective": [
+                "Lelah atau lesu",
+                "Mengantuk",
+                "Pusing"
+            ],
+            "objective": [
+                "Kadar glukosa dalam darah/urin tinggi",
+                "Gangguan koordinasi",
+                "Kadar glukosa dalam darah/urin rendah"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/ketidakstabilan-kadar-glukosa-darah"
+    },
+    {
+        "code": "D.0028",
+        "title": "Menyusui Efektif",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Menyusui efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pemberian ASI secara langsung dari payudara kepada bayi dan anak yang dapat memenuhi kebutuhan nutrisi.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Bayi melekat pada payudara ibu dengan benar",
+                "Ibu mampu memposisikan bayi dengan benar",
+                "Miksi bayi lebih dari 8 kali dalam 24 jam",
+                "Berat badan bayi meningkat",
+                "ASI menetes/memancar",
+                "Suplai ASI adekuat",
+                "Puting tidak lecet setelah minggu kedua"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/menyusui-efektif"
+    },
+    {
+        "code": "D.0029",
+        "title": "Menyusui Tidak Efektif",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Menyusui tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai kondisi dimana ibu dan bayi mengalami ketidakpuasan atau kesukaran pada proses menyusui.",
+        "major_signs": {
+            "subjective": [
+                "Kelelahan maternal",
+                "Kecemasan maternal"
+            ],
+            "objective": [
+                "Bayi tidak mampu melekat pada payudara ibu dengan benar",
+                "ASI tidak menetes/memancar",
+                "BAK bayi kurang dari 8 kali dalam 24 jam",
+                "Nyeri dan/atau lecet terus menerus setelah minggu kedua"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Ketidakadekuatan suplai ASI",
+            "Hambatan pada neonatus (mis: prematuritas, sumbing)",
+            "Anomali payudara ibu (misL puting yang masuk ke dalam)",
+            "Ketidakadekuatan refleks oksitosin",
+            "Ketidakadekuatan refleks menghisap bayi",
+            "Payudara bengkak",
+            "Riwayat operasi payudara",
+            "Kelahiran kembar"
+        ],
+        "source_url": "https://perawat.org/menyusui-tidak-efektif"
+    },
+    {
+        "code": "D.0030",
+        "title": "Obesitas",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Obesitas merupakan diagnosis keperawatan yang didefinisikan sebagai akumulasi lemak berlebih yang tidak sesuai dengan usia dan jenis kelamin, serta melampaui kondisi berat badan lebih (overweight)",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "IMT > 27 kg/m² (pada dewasa)",
+                "IMT lebih dari presentil 95 untuk usia dan jenis kelamin (pada anak)"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kurang aktivitas fisik harian",
+            "Kelebihan konsumsi gula",
+            "Gangguan kebiasaan makan",
+            "Gangguan persepsi makan",
+            "Kelebihan konsumsi alkohol",
+            "Penggunaan energi kurang dari asupan",
+            "Sering mengemil",
+            "Sering memakan makanan berminyak/berlemak",
+            "Faktor keturunan (mis. distribusi jaringan adiposa, pengeluaran energi, aktivitas lipase lipoprotein, sintesis lipid, lipolisis)",
+            "Penggunaan makanan formula atau makanan campuran (pada bayi)",
+            "Asupan kalsium rendah (pada anak-anak)",
+            "Berat badan bertambah cepat (selama masa anak-anak, selama masa bayi, termasuk minggu pertama, 4 bulan pertama, dan tahun pertama)",
+            "Makanan padat sebagai sumber makanan utama pada usia < 5 bulan"
+        ],
+        "source_url": "https://perawat.org/obesitas"
+    },
+    {
+        "code": "D.0031",
+        "title": "Risiko Berat Badan Lebih",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Risiko Berat badan lebih adalah diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami akumulasi lemak berlebih atau abnormal yang tidak sesuai dengan usia dan jenis kelamin.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Kurang aktivitas fisik harian",
+            "Kelebihan konsumsi gula",
+            "Gangguan kebiasaan makan",
+            "Gangguan persepsi makan",
+            "Kelebihan konsumsi alkohol",
+            "Penggunaan energi kurang dari asupan",
+            "Sering mengemil",
+            "Sering memakan makanan berminyak/berlemak",
+            "Faktor keturunan (mis. distribusi jaringan adiposa, pengeluaran energi, aktivitas lipase lipoprotein, sintesis lipid, lipolisis)",
+            "Penggunaan makanan formula atau makanan campuran (pada bayi)",
+            "Asupan kalsium rendah (pada anak-anak)",
+            "Berat badan bertambah cepat (selama masa anak-anak, selama masa bayi, termasuk minggu pertama, 4 bulan pertama, dan tahun pertama)",
+            "Makanan padat sebagai sumber makanan utama pada usia < 5 bulan"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-berat-badan-lebih"
+    },
+    {
+        "code": "D.0032",
+        "title": "Risiko Defisit Nutrisi",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Risiko defisit nutrisi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami asupan nutrisi tidak cukup untuk memenuhi kebutuhan metabolisme.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Ketidakmampuan menelan makanan",
+            "Ketidakmampuan mencerna makanan",
+            "Ketidakmampuan mengabsorbsi nutrien",
+            "Peningkatan kebutuhan metabolisme",
+            "Faktor ekonomi (mis: finansial tidak mencukupi)",
+            "Faktor psikologis (mis: stres, keengganan untuk makan)"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-defisit-nutrisi"
+    },
+    {
+        "code": "D.0033",
+        "title": "Risiko Disfungsi Motilitas Gastrointestinal",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Risiko disfungsi motilitas gastrointestinal merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami peningkatan, penurunan, tidak efektifnya aktivitas peristaltik gastrointestinal.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Pembedahan abdomen",
+            "Penurunan sirkulasi gastrointestinal",
+            "Intoleransi makanan",
+            "Refluks gastrointestinal",
+            "Hiperglikemia",
+            "Imobilitas",
+            "Proses penuaan",
+            "Infeksi gastrointestinal",
+            "Efek agen farmakologis (mis: antibiotik, laksatif, narkotika/opiat)",
+            "Prematuritas",
+            "Kecemasan",
+            "Stress",
+            "Kurangnya sanitasi pada persiapan makanan"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-disfungsi-motilitas-gastrointestinal"
+    },
+    {
+        "code": "D.0034",
+        "title": "Risiko Hipovolemia",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Risiko hipovolemia merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan volume cairan intravaskular, interstitial, dan/atau intraselular.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Kehilangan cairan secara aktif",
+            "Gangguan absorpsi cairan",
+            "Usia lanjut",
+            "Kelebihan berat badan",
+            "Status hipermetabolik",
+            "Kegagalan mekanisme regulasi",
+            "Evaporasi",
+            "Kekurangan intake cairan",
+            "Efek agen farmakologis"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-hipovolemia"
+    },
+    {
+        "code": "D.0035",
+        "title": "Risiko Ikterik Neonatus",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Risiko ikterik neonatus merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kulit dan membran mukosa neonatus menguning setelah 24 jam kelahiran akibat bilirubin tidak terkonjugasi masuk ke dalam sirkulasi.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Penurunan berat badan abnormal ( > 7 – 8% pada bayi baru lahir yang menyusu ASI, > 15% pada bayi cukup bulan)",
+            "Pola makan tidak ditetapkan dengan baik",
+            "Kesulitan transisi ke kehidupan ekstra uterin",
+            "Usia kurang dari 7 hari",
+            "Keterlambatan pengeluaran feses (mekonium)",
+            "Prematuritas (< 37 minggu)"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-ikterik-neonatus"
+    },
+    {
+        "code": "D.0036",
+        "title": "Risiko Ketidakseimbangan Cairan",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Risiko ketidakseimbangan cairan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan, peningkatan, atau percepatan perpindahan cairan dari intravaskuler, interstitial, atau intraseluler.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Prosedur pembedahan mayor",
+            "Trauma/perdarahan",
+            "Luka bakar",
+            "Aferesis",
+            "Asites",
+            "Obstruksi intestinal",
+            "Peradangan pancreas",
+            "Penyakit ginjal dan kelenjar",
+            "Disfungsi intestinal"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-ketidakseimbangan-cairan"
+    },
+    {
+        "code": "D.0037",
+        "title": "Risiko Ketidakseimbangan Elektrolit",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Risiko ketidakseimbangan elektrolit merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami perubahan kadar serum elektrolit.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Ketidakseimbangan cairan (mis: dehidrasi dan intoksikasi air)",
+            "Kelebihan volume cairan",
+            "Gangguan mekanisme regulasi (mis: diabetes)",
+            "Efek samping prosedur (mis: pembedahan)",
+            "Diare",
+            "Muntah",
+            "Disfungsi ginjal",
+            "Disfungsi regulasi endokrin"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-ketidakseimbangan-elektrolit"
+    },
+    {
+        "code": "D.0038",
+        "title": "Risiko Ketidakstabilan Kadar Glukosa Darah",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Risiko ketidakstabilan kadar glukosa darah merupakan diagnosis keperawatan yang didefinisikan sebagai risiko terhadap variasi kadar glukosa darah naik atau turun dari rentang normal.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Kurang terpapar informasi tentang manajemen diabetes",
+            "Ketidaktepatan pemantauan glukosa darah",
+            "Kurang patuh pada rencana manajemen diabetes",
+            "Manajemen medikasi tidak terkontrol",
+            "Kehamilan",
+            "Periode pertumbuhan cepat",
+            "Stress berlebihan",
+            "Penambahan berat badan",
+            "Kurang dapat menerima diagnosis"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-ketidakstabilan-kadar-glukosa-darah"
+    },
+    {
+        "code": "D.0039",
+        "title": "Risiko Syok",
+        "category": "Fisiologis",
+        "sub_category": "Nutrisi dan Cairan",
+        "definition": "Risiko syok merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami ketidakcukupan aliran darah ke jaringan tubuh, yang dapat mengakibatkan disfungsi seluler yang mengancam jiwa.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Hipoksemia",
+            "Hipoksia",
+            "Hipotensi",
+            "Kekurangan volume cairan",
+            "Sepsis",
+            "Sindrom respons inflamasi sistemik (systemic inflammatory response syndrome/SIRS)"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-syok"
+    },
+    {
+        "code": "D.0040",
+        "title": "Gangguan Eliminasi Urin",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Gangguan eliminasi urin merupakan diagnosis keperawatan yang didefinisikan sebagai disfungsi eliminasi urin.",
+        "major_signs": {
+            "subjective": [
+                "Desakan berkemih (urgensi)",
+                "Urin menetes (dribbling)",
+                "Sering buang air kecil",
+                "Nocturia (buang air kecil pada malam hari)",
+                "Mengompol",
+                "Enuresis (tidak dapat menahan kencing)"
+            ],
+            "objective": [
+                "Distensi kandung kemih",
+                "Berkemih tidak tuntas (hesistancy)",
+                "Volume residu urin meningkat"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Penurunan kapasitas kandung kemih",
+            "Iritasi kandung kemih",
+            "Penurunan kemampuan menyadari tanda-tanda gangguan kandung kemih",
+            "Efek tindakan medis dan diagnostik (mis. operasi ginjal, operasi saluran kemih, anestesi, dan obat-obatan)",
+            "Kelemahan otot pelvis",
+            "Ketidakmampuan mengakses toilet (mis. imobilisasi)",
+            "Hambatan lingkungan",
+            "Ketidakmampuan mengkomunikasikan kebutuhan eliminasi",
+            "Outlet kandung kemih tidak lengkap (mis. anomali saluran kemih kongenital)",
+            "Imaturitas (pada anak usia < 3 tahun)"
+        ],
+        "source_url": "https://perawat.org/gangguan-eliminasi-urin/"
+    },
+    {
+        "code": "D.0041",
+        "title": "Inkontinensia Fekal",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Inkontinensia fekal merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan kebiasaan buang air besar dari pola normal yang ditandai dengan pengeluaran feses secara involunter (tidak disadari).",
+        "major_signs": {
+            "subjective": [
+                "Tidak mampu mengontrol pengeluaran feses",
+                "Tidak mampu menunda defekasi"
+            ],
+            "objective": [
+                "Feses keluar sedikit-sedikit dan sering"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kerusakan susunan saraf motorik bawah",
+            "Penurunan tonus otot",
+            "Gangguan kognitif",
+            "Penyalahgunaan laksatif",
+            "Kehilangan fungsi pengendalian sfingter rectum",
+            "Pascaoperasi pullthrough dan penutupan kolostomi",
+            "Ketidakmampuan mencapai kamar kecil",
+            "Diare kronis",
+            "Stres berlebihan"
+        ],
+        "source_url": "https://perawat.org/inkontinensia-fekal/"
+    },
+    {
+        "code": "D.0042",
+        "title": "Inkontinensia Urin Berlanjut",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Inkontinensia urin berlanjut merupakan diagnosis keperawatan yang didefinisikan sebagai pengeluaran urin tidak terkendali dan terus menerus tanpa distensi atau perasaan penuh pada kandung kemih.",
+        "major_signs": {
+            "subjective": [
+                "Keluarnya urin konstan tanpa distensi",
+                "Nokturia (kencing malam hari) lebih dari 2 kali sepanjang tidur"
+            ],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Neuropati arkus refleks",
+            "Disfungsi neurologis",
+            "Kerusakan refleks kontraksi detrusor",
+            "Trauma",
+            "Kerusakan medulla spinalis",
+            "Kelainan anatomis (mis: fistula)"
+        ],
+        "source_url": "https://perawat.org/inkontinensia-urin-berlanjut/"
+    },
+    {
+        "code": "D.0043",
+        "title": "Inkontinensia Urin Berlebih",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Inkontinensia urin berlebih merupakan diagnosis keperawatan yang didefinisikan sebagai kehilangan urin yang tidak terkendali akibat overdistensi kandung kemih.",
+        "major_signs": {
+            "subjective": [
+                "Residu volume urin setelah berkemih atau keluhan kebocoran sedikit urin",
+                "Nokturia"
+            ],
+            "objective": [
+                "Kandung kemih distensi (bukan berhubungan dengan penyebab reversible akut) atau kandung kemih distensi dengan sering, sedikit berkemih, atau dribbling"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Blok sfingter",
+            "Kerusakan atau ketidakadekuatan jalur aferen",
+            "Obstruksi jalan keluar urin (mis: impaksi fekal, efek agen farmakologis)",
+            "Ketidakadekuatan detrusor (mis: pada konsisi stress atau tidak nyaman, deconditioned voiding)"
+        ],
+        "source_url": "https://perawat.org/inkontinensia-urin-berlebih/"
+    },
+    {
+        "code": "D.0044",
+        "title": "Inkontinensia Urin Fungsional",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Inkontinensia urin fungsional merupakan diagnosis keperawatan yang didefinisikan sebagai pengeluaran urin tidak terkendali karena kesulitan dan tidak mampu mencapai toilet pada waktu yang tepat.",
+        "major_signs": {
+            "subjective": [
+                "Mengompol sebelum mencapai atau selama usaha mencapai toilet"
+            ],
+            "objective": [
+                "Tidak tersedia"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Ketidakmampuan atau penurunan mengenali tanda-tanda berkemih",
+            "Penurunan tonus kandung kemih",
+            "Hambatan mobilisasi",
+            "Faktor psikologis, mis: penurunan perhatian pada tanda-tanda keinginan berkemih (depresi, bingung, delirium)",
+            "Hambatan lingkungan (toilet jauh, tempat tidur terlalu tinggi, lingkungan baru)",
+            "Kehilangan sensorik dan motorik (pada geriatri)",
+            "Gangguan penglihatan"
+        ],
+        "source_url": "https://perawat.org/inkontinensia-urin-fungsional/"
+    },
+    {
+        "code": "D.0045",
+        "title": "Inkontinensia Urin Refleks",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Inkontinensia urin refleks merupakan diagnosis keperawatan yang didefinisikan sebagai pengeluaran urin yang tidak terkendali pada saat volume kandung kemih tertentu tercapai.",
+        "major_signs": {
+            "subjective": [
+                "Tidak mengalami sensasi berkemih",
+                "Dribbling",
+                "Sering buang air kecil",
+                "Hesitancy",
+                "Nokturia",
+                "Enuresis"
+            ],
+            "objective": [
+                "Volume residu urin meningkat"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kerusakan konduksi impuls di atas arkus refleks",
+            "Kerusakan jaringan (mis: terapi radiasi)"
+        ],
+        "source_url": "https://perawat.org/inkontinensia-urin-refleks/"
+    },
+    {
+        "code": "D.0046",
+        "title": "Inkontinensia Urin Stres",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Inkontinensia urin stres merupakan diagnosis keperawatan yang didefinisikan sebagai kebocoran urin mendadak dan tidak dapat dikendalikan karena aktivitas yang meningkatkan tekanan intraabdominal.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh keluar urin < 50 ml saat tekanan abdominal meningkat (mis: saat berdiri, bersin, tertawa, berlari, atau mengangkat benda berat)"
+            ],
+            "objective": [
+                "Tidak tersedia"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kelemahan intrinsik sfingter uretra",
+            "Perubahan degenerasi/non degenerasi otot pelvis",
+            "Kekurangan estrogen",
+            "Peningkatan tekanan intraabdomen",
+            "Kelemahan otot pelvis"
+        ],
+        "source_url": "https://perawat.org/inkontinensia-urin-stres/"
+    },
+    {
+        "code": "D.0047",
+        "title": "Inkontinensia Urin Urgensi",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Inkontinensia urin urgensi merupakan diagnosis keperawatan yang didefinisikan sebagai keluarnya urin tidak terkendali sesaat setelah keinginan yang kuat untuk berkemih (kebelet).",
+        "major_signs": {
+            "subjective": [
+                "Keinginan berkemih yang kuat disertai dengan inkontinensia"
+            ],
+            "objective": [
+                "Tidak tersedia"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Iritasi reseptor kontraksi kandung kemih",
+            "Penurunan kapasitas kandung kemih",
+            "Hiperaktivitas detrusor dengan kerusakan kontraktilitas kandung kemih",
+            "Efek agen farmakologis (mis: diuretik)"
+        ],
+        "source_url": "https://perawat.org/inkontinensia-urin-urgensi/"
+    },
+    {
+        "code": "D.0048",
+        "title": "Kesiapan Peningkatan Eliminasi Urin",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Kesiapan peningkatan eliminasi urin merupakan diagnosis keperawatan yang didefinisikan sebagai pola fungsi sistem perkemihan yang cukup untuk memenuhi kebutuhan eliminasi yang dapat ditingkatkan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": [
+                "Jumlah urin normal",
+                "Karakteristik urin normal"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-peningkatan-eliminasi-urin/"
+    },
+    {
+        "code": "D.0049",
+        "title": "Konstipasi",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Konstipasi merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan defekasi normal yang disertai pengeluaran feses sulit dan tidak tuntas serta feses kering dan banyak.",
+        "major_signs": {
+            "subjective": [
+                "Defekasi kurang dari 2 kali seminggu",
+                "Pengeluaran feses lama dan sulit"
+            ],
+            "objective": [
+                "Feses keras",
+                "Peristaltik usus menurun"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Penurunan motilitas gastrointestinal",
+            "Ketidakadekuatan pertumbuhan gigi",
+            "Ketidakcukupan diet",
+            "Ketidakcukupan asupan serat",
+            "Ketidakcukupan asupan cairan",
+            "Aganglionik (mis: penyakit hircsprung)",
+            "Kelemahan otot abdomen"
+        ],
+        "source_url": "https://perawat.org/konstipasi/"
+    },
+    {
+        "code": "D.0050",
+        "title": "Retensi Urin",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Retensi urin merupakan diagnosis keperawatan yang didefinisikan sebagai pengosongan kandung kemih yang tidak lengkap.",
+        "major_signs": {
+            "subjective": [
+                "Sensasi penuh pada kandung kemih"
+            ],
+            "objective": [
+                "Disuria/anuria",
+                "Distensi kandung kemih"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Peningkatan tekanan uretra",
+            "Kerusakan arkus refleks",
+            "Blok sfingter",
+            "Disfungsi neurologis (mis: trauma, penyakit saraf)",
+            "Efek agen farmakologis (mis: atropine, belladonna, psikotropik, antihistamin, opiate)"
+        ],
+        "source_url": "https://perawat.org/retensi-urin/"
+    },
+    {
+        "code": "D.0051",
+        "title": "Risiko Inkontinensia Urin Urgensi",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Risiko inkontinensia urin urgensi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami pengeluaran urin yang tidak terkendali.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Efek samping obat, kopi, dan alkohol",
+            "Hiperrefleks destrussor",
+            "Gangguan sistem saraf pusat",
+            "Kerusakan kontraksi kandung kemih: relaksasi sfingter tidak terkendali",
+            "Ketidakefektifan kebiasaan berkemih",
+            "Kapasitas kandung kemih kecil"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-inkontinensia-urin-urgensi/"
+    },
+    {
+        "code": "D.0052",
+        "title": "Risiko Konstipasi",
+        "category": "Fisiologis",
+        "sub_category": "Eliminasi",
+        "definition": "Risiko konstipasi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan frekuensi normal defekasi disertai kesulitan dan pengeluaran feses tidak lengkap.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Penurunan motilitas gastrointestinal",
+            "Ketidakadekuatan pertumbuhan gigi",
+            "Ketidakcukupan diet",
+            "Ketidakcukupan asupan serat",
+            "Ketidakcukupan asupan cairan",
+            "Aganglionik (mis: penyakit hircsprung)",
+            "Kelemahan otot abdomen"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-konstipasi"
+    },
+    {
+        "code": "D.0053",
+        "title": "Disorganisasi Perilaku Bayi",
+        "category": "Fisiologis",
+        "sub_category": "Aktivitas dan Istirahat",
+        "definition": "Disorganisasi perilaku bayi merupakan diagnosis keperawatan yang didefinisikan sebagai disintegrasi respon fisiologis dan neurobehaviour bayi terhadap lingkungan.",
+        "major_signs": {
+            "subjective": [
+                "Tidak tersedia"
+            ],
+            "objective": [
+                "Hiperekstensi ekstremitas",
+                "Jari-jari meregang atau tangan menggenggam",
+                "Respon abnormal terhadap stimulus sensorik",
+                "Gerakan tidak terkoordinasi"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Keterbatasan lingkungan fisik",
+            "Ketidaktepatan sensori",
+            "Kelebihan stimulasi sensorik",
+            "Imaturitas sistem sensoris",
+            "Prematuritas",
+            "Prosedur invasif",
+            "Malnutrisi",
+            "Gangguan motorik",
+            "Kelainan kongenital",
+            "Kelainan genetik",
+            "Terpatar teratogenik"
+        ],
+        "source_url": "https://perawat.org/disorganisasi-perilaku-bayi/"
+    },
+    {
+        "code": "D.0054",
+        "title": "Gangguan Mobilitas Fisik",
+        "category": "Fisiologis",
+        "sub_category": "Aktivitas dan Istirahat",
+        "definition": "Gangguan mobilitas fisik merupakan diagnosis keperawatan yang didefinisikan sebagai keterbatasan dalam gerakan fisik dari satu atau lebih ekstremitas secara mandiri.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh sulit menggerakkan ekstremitas"
+            ],
+            "objective": [
+                "Kekuatan otot menurun",
+                "Rentang gerak (ROM) menurun"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kerusakan integritas struktur tulang",
+            "Perubahan metabolisme",
+            "Ketidakbugaran fisik",
+            "Penurunan kendali otot",
+            "Penurunan massa otot",
+            "Penurunan kekuatan otot",
+            "Keterlambatan perkembangan",
+            "Kekakuan sendi",
+            "Kontraktur",
+            "Malnutrisi",
+            "Gangguan musculoskeletal",
+            "Gangguan neuromuscular",
+            "Indeks masa tubuh diatas persentil ke-75 sesuai usia",
+            "Efek agen farmakologis",
+            "Program pembatasan gerak",
+            "Nyeri",
+            "Kurang terpapar informasi tentang aktivitas fisik",
+            "Kecemasan",
+            "Gangguan kognitif",
+            "Keengganan melakukan pergerakan",
+            "Gangguan sensori-persepsi"
+        ],
+        "source_url": "https://perawat.org/gangguan-mobilitas-fisik/"
+    },
+    {
+        "code": "D.0055",
+        "title": "Gangguan Pola Tidur",
+        "category": "Fisiologis",
+        "sub_category": "Aktivitas dan Istirahat",
+        "definition": "Gangguan pola tidur merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan kualitas dan kuantitas waktu tidur akibat faktor eksternal.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh sulit tidur",
+                "Mengeluh sering terjaga",
+                "Mengeluh tidak puas tidur",
+                "Mengeluh pola tidur berubah",
+                "Mengeluh istirahat tidak cukup"
+            ],
+            "objective": [
+                "Tidak tersedia"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Hambatan lingkungan (mis: kelembaban lingkungan sekitar, suhu lingkungan, pencahayaan, kebisingan, bau tidak sedap, jadwal pemantauan/pemeriksaan/Tindakan)",
+            "Kurang control tidur",
+            "Kurang privasi",
+            "Restraint fisik",
+            "Ketiadaan teman tidur",
+            "Tidak familiar dengan peralatan tidur"
+        ],
+        "source_url": "https://perawat.org/gangguan-pola-tidur/"
+    },
+    {
+        "code": "D.0056",
+        "title": "Intoleransi Aktivitas",
+        "category": "Fisiologis",
+        "sub_category": "Aktivitas dan Istirahat",
+        "definition": "Intoleransi aktivitas merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakcukupan energi untuk melakukan aktivitas sehari-hari.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh lelah"
+            ],
+            "objective": [
+                "Frekuensi jantung meningkat > 20% dari kondisi istirahat"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Ketidakseimbangan antara suplai dan kebutuhan oksigen",
+            "Tirah baring",
+            "Kelemahan",
+            "Imobilitas",
+            "Gaya hidup monoton"
+        ],
+        "source_url": "https://perawat.org/intoleransi-aktivitas/"
+    },
+    {
+        "code": "D.0057",
+        "title": "Keletihan",
+        "category": "Fisiologis",
+        "sub_category": "Aktivitas dan Istirahat",
+        "definition": "Keletihan merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan kapasitas kerja fisik dan mental yang tidak pulih dengan istirahat.",
+        "major_signs": {
+            "subjective": [
+                "Merasa energi tidak pulih walaupun telah tidur",
+                "Merasa kurang tenaga",
+                "Mengeluh lelah"
+            ],
+            "objective": [
+                "Tidak mampu mempertahankan aktivitas rutin",
+                "Tampak lesu"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Gangguan tidur",
+            "Gaya hidup monoton",
+            "Kondisi fisiologis (mis: penyakit kronis, penyakit terminal, anemia, malnutrisi, kehamilan)",
+            "Program perawatan/pengobatan jangka Panjang",
+            "Peristiwa hidup negatif",
+            "Stres berlebihan",
+            "Depresi"
+        ],
+        "source_url": "https://perawat.org/keletihan/"
+    },
+    {
+        "code": "D.0058",
+        "title": "Kesiapan Peningkatan Tidur",
+        "category": "Fisiologis",
+        "sub_category": "Aktivitas dan Istirahat",
+        "definition": "Kesiapan peningkatan tidur merupakan diagnosis keperawatan yang didefinisikan sebagai pola penurunan kesadaran alamiah dan periodik yang memungkinkan istirahat adekuat, mempertahankan gaya hidup yang diinginkan dan dapat ditingkatkan.",
+        "major_signs": {
+            "subjective": [
+                "Mengekspresikan keinginan untuk meningkatkan tidur",
+                "Mengekspresikan perasaan cukup istirahat setelah tidur"
+            ],
+            "objective": [
+                "Jumlah waktu tidur sesuai dengan pertumbuhan perkembangan"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-peningkatan-tidur/"
+    },
+    {
+        "code": "D.0059",
+        "title": "Risiko Disorganisasi Perilaku Bayi",
+        "category": "Fisiologis",
+        "sub_category": "Aktivitas dan Istirahat",
+        "definition": "Risiko disorganisasi perilaku bayi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami disintegrasi respon fisiologis dan neurobehaviour bayi terhadap lingkungan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Kelebihan stimulasi sensorik",
+            "Prematuritas",
+            "Prosedur invasif",
+            "Gangguan motorik",
+            "Kelainan kongenital",
+            "Kelainan genetik"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-disorganisasi-perilaku-bayi"
+    },
+    {
+        "code": "D.0060",
+        "title": "Risiko Intoleransi Aktivitas",
+        "category": "Fisiologis",
+        "sub_category": "Aktivitas dan Istirahat",
+        "definition": "Risiko intoleransi aktivitas merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami ketidakcukupan energi untuk melakukan aktivitas sehari-hari.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Gangguan sirkulasi",
+            "Ketidakbugaran status fisik",
+            "Riwayat intoleransi aktivitas sebelumnya",
+            "Tidak berpengalaman dengan suatu aktivitas",
+            "Gangguan pernapasan"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-intoleransi-aktivitas/"
+    },
+    {
+        "code": "D.0061",
+        "title": "Disrefleksia Otonom",
+        "category": "Fisiologis",
+        "sub_category": "Neurosensori",
+        "definition": "Disrefleksia otonom merupakan diagnosis keperawatan yang didefinisikan sebagai respon sistem saraf simpatis yang terjadi secara spontan dan mengancam jiwa terhadap stimulus berbahaya akibat cidera medulla spinalis pada T7 atau diatasnya.",
+        "major_signs": {
+            "subjective": [
+                "Sakit kepala"
+            ],
+            "objective": [
+                "Tekanan darah sistolik meningkat > 20%",
+                "Bercak merah pada kulit di atas lokasi cidera",
+                "Diaforesis diatas lokasi cidera",
+                "Pucat di bawah lokasi cidera",
+                "Bradikardia dan/atau takikardia"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Cidera pada medulla spinalis",
+            "Pembedahan medulla spinalis pada T7 keatas",
+            "Proses keganasan pada medulla spinalis"
+        ],
+        "source_url": "https://perawat.org/disrefleksia-otonom/"
+    },
+    {
+        "code": "D.0062",
+        "title": "Gangguan Memori",
+        "category": "Fisiologis",
+        "sub_category": "Neurosensori",
+        "definition": "Gangguan memori merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan mengingat beberapa informasi atau perilaku.",
+        "major_signs": {
+            "subjective": [
+                "Melaporkan pernah mengalami pengalaman lupa",
+                "Tidak mampu mempelajari keterampilan baru",
+                "Tidak mampu mengingat informasi faktual",
+                "Tidak mampu mengingat perilaku tertentu yang pernah dilakukan",
+                "Tidak mampu mengingat peristiwa"
+            ],
+            "objective": [
+                "Tidak mampu melakukan kemampuan yang dipelajari sebelumnya"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Ketidakadekuatan stimulasi intelektual",
+            "Gangguan sirkulasi ke otak",
+            "Gangguan volume cairan dan/atau elektrolit",
+            "Proses penuaan",
+            "Hipoksia",
+            "Gangguan neurologis (mis: EEG positif, cidera kepala, gangguan kejang)",
+            "Efek agen farmakologis",
+            "Penyalahgunaan zat",
+            "Faktor psikologis (mis: kecemasan, depresi, stress berlebihan, berduka, gangguan tidur)",
+            "Distraksi lingkungan"
+        ],
+        "source_url": "https://perawat.org/gangguan-memori/"
+    },
+    {
+        "code": "D.0063",
+        "title": "Gangguan Menelan",
+        "category": "Fisiologis",
+        "sub_category": "Neurosensori",
+        "definition": "Gangguan menelan merupakan diagnosis keperawatan yang didefinisikan sebagai fungsi menelan abnormal akibat defisit struktur atau fungsi oral, faring, atau esofagus.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh sulit menelan"
+            ],
+            "objective": [
+                "Batuk sebelum menelan",
+                "Batuk setelah makan atau minum",
+                "Tersedak",
+                "Makanan tertinggal di rongga mulut"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Gangguan serebrovaskular",
+            "Gangguan saraf kranialis",
+            "Paralisis serebral",
+            "Akalasia",
+            "Abnormalitas laring",
+            "Abnormalitas orofaring",
+            "Anomali jalan napas atas",
+            "Defek anatomik kongenital",
+            "Defek laring",
+            "Defek nasal",
+            "Defek rongga nasofaring",
+            "Defek trakea",
+            "Refluk gastroesofagus",
+            "Obstruksi mekanis",
+            "Prematuritas"
+        ],
+        "source_url": "https://perawat.org/gangguan-menelan/"
+    },
+    {
+        "code": "D.0064",
+        "title": "Konfusi Akut",
+        "category": "Fisiologis",
+        "sub_category": "Neurosensori",
+        "definition": "Konfusi akut merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan kesadaran, perhatian, kognitif, dan persepsi yang reversible, berlangsung tiba-tiba, dan singkat.",
+        "major_signs": {
+            "subjective": [
+                "Kurang motivasi untuk memulai/menyelesaikan perilaku berorientasi tujuan",
+                "Kurang motivasi untuk memulai/menyelesaikan perilaku terarah"
+            ],
+            "objective": [
+                "Fluktuasi fungsi kognitif",
+                "Fluktuasi tingkat kesadaran",
+                "Fluktuasi aktivitas psikomotorik"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Delirium",
+            "Demensia",
+            "Fluktuasi siklus tidur-bangun",
+            "Usia lebih dari 60 tahun",
+            "Penyalahgunaan zat"
+        ],
+        "source_url": "https://perawat.org/konfusi-akut/"
+    },
+    {
+        "code": "D.0065",
+        "title": "Konfusi Kronis",
+        "category": "Fisiologis",
+        "sub_category": "Neurosensori",
+        "definition": "Konfusi kronis merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan kesadaran, perhatian, kognitif, dan persepsi yang ireversible, berlangsung lama, dan/atau progresif.",
+        "major_signs": {
+            "subjective": [
+                "Kurang motivasi untuk memulai/menyelesaikan perilaku berorientasi tujuan",
+                "Kurang motivasi untuk memulai/menyelesaikan perilaku terarah"
+            ],
+            "objective": [
+                "Fungsi kognitif berubah progresif",
+                "Memori jangka pendek dan/atau Panjang berubah",
+                "Interpretasi berubah",
+                "Fungsi sosial terganggu",
+                "Respon terhadap stimulus berubah"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Cidera otak (mis: kerusakan kardiovaskular, penyakit neurologis, trauma, tumor)",
+            "Psikosis Korsakoff",
+            "Demensia multi infark"
+        ],
+        "source_url": "https://perawat.org/konfusi-kronis/"
+    },
+    {
+        "code": "D.0066",
+        "title": "Penurunan Kapasitas Adaptif Intrakranial",
+        "category": "Fisiologis",
+        "sub_category": "Neurosensori",
+        "definition": "Penurunan kapasitas adaptif intrakranial merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan mekanisme dinamika intrakranial dalam melakukan kompensasi terhadap stimulus yang dapat menurunkan kapasitas intrakranial.",
+        "major_signs": {
+            "subjective": [
+                "Sakit kepala"
+            ],
+            "objective": [
+                "Tekanan darah meningkat dengan tekanan nadi (pulse pressure) melebar",
+                "Bradikardia",
+                "Pola napas ireguler",
+                "Tingkat kesadaran menurun",
+                "Respon pupil melambat atau tidak sama",
+                "Refleks neurologis terganggu"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Lesi menempati ruang (mis: space-occupaying lesion – akibat tumor, abses)",
+            "Gangguan metabolisme (mis: akibat hiponatremia, ensefalofati uremikum, ensefalopati hepatikum, ketoasidosis diabetic, septikemia)",
+            "Peningkatan tekanan vena (mis: akibat thrombosis sinus vena serebral, gagal jantung, thrombosis/obstruksi vena jugularis atau vena kava superior)",
+            "Obstruksi aliran cairan serebrospinalis",
+            "Hipertensi intrakranial idiopatik"
+        ],
+        "source_url": "https://perawat.org/penurunan-kapasitas-adaptif-intrakranial/"
+    },
+    {
+        "code": "D.0067",
+        "title": "Risiko Disfungsi Neurovaskuler Perifer",
+        "category": "Fisiologis",
+        "sub_category": "Neurosensori",
+        "definition": "Risiko disfungsi neurovaskuler perifer merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan sirkulasi, sensasi, dan pergerakan pada ekstremitas.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Hiperglikemia",
+            "Obstruksi vaskuler",
+            "Fraktur",
+            "Imobilisasi",
+            "Penekanan mekanis (mis: torniket, gips, balutan, restraint)",
+            "Pembedahan ortopedi",
+            "Trauma",
+            "Luka bakar"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-disfungsi-neurovaskuler-perifer/"
+    },
+    {
+        "code": "D.0068",
+        "title": "Risiko Konfusi Akut",
+        "category": "Fisiologis",
+        "sub_category": "Neurosensori",
+        "definition": "Risiko konfusi akut merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan kesadaran, perhatian, kognisi, dan persepsi yang reversible dan terjadi dalam periode waktu singkat.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Usia di atas 60 tahun",
+            "Perubahan fungsi kognitif",
+            "Perubahan siklus tidur – bangun",
+            "Dehidrasi",
+            "Demensia",
+            "Riwayat stroke",
+            "Gangguan fungsi metabolik (mis: azotemia, penurunan hemoglobin, ketidakseimbangan elektrolit, peningkatan nitrogen urea darah [BUN]/kreatinin)",
+            "Gangguan mobilitas",
+            "Penggunaan restraint yang tidak tepat",
+            "Infeksi",
+            "Malnutrisi",
+            "Nyeri",
+            "Efek agen farmakologis",
+            "Deprivasi sensori",
+            "Penyalahgunaan zat"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-konfusi-akut/"
+    },
+    {
+        "code": "D.0069",
+        "title": "Disfungsi Seksual",
+        "category": "Fisiologis",
+        "sub_category": "Reproduksi dan Seksualitas",
+        "definition": "Disfungsi seksual merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan fungsi seksual selama fase respon seksual berupa hasrat, terangsang, orgasme, dan/atau relaksasi yang dirasa tidak memuaskan, tidak bermakna, atau tidak adekuat.",
+        "major_signs": {
+            "subjective": [
+                "Mengungkapkan aktivitas seksual berubah",
+                "Mengungkapkan eksitasi seksual berubah",
+                "Merasa hubungan seksual tidak memuaskan",
+                "Mengungkapkan peran seksual berubah",
+                "Mengeluhkan hasrat seksual menurun",
+                "Mengungkapkan fungsi seksual berubah",
+                "Mengeluh nyeri saat berhubungan seksual (dispareunia)"
+            ],
+            "objective": [
+                "Tidak tersedia"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Perubahan fungsi/struktur tubuh (mis: kehamilan, baru melahirkan, obat-obatan, pembedahan, anomali, proses penyakit, trauma, radiasi)",
+            "Perubahan biopsikososial seksualitas",
+            "Ketiadaan model peran",
+            "Model peran tidak dapat mempengaruhi",
+            "Kurang privasi",
+            "Ketiadaan pasangan",
+            "Kesalahan informasi",
+            "Kelainan seksual (mis: hubungan penuh kekerasan)",
+            "Konflik nilai",
+            "Penganiayaan fisik (mis: kekerasan dalam rumah tangga)",
+            "Kurang terpapar informasi"
+        ],
+        "source_url": "https://perawat.org/disfungsi-seksual/"
+    },
+    {
+        "code": "D.0070",
+        "title": "Kesiapan Persalinan",
+        "category": "Fisiologis",
+        "sub_category": "Reproduksi dan Seksualitas",
+        "definition": "Kesiapan persalinan merupakan diagnosis keperawatan yang didefinisikan sebagai pola mempersiapkan, mempertahankan, dan memperkuat proses kehamilan dan persalinan serta perawatan bayi baru lahir.",
+        "major_signs": {
+            "subjective": [
+                "Menyatakan keinginan untuk menerapkan gaya hidup yang tepat untuk persalinan",
+                "Menyatakan keinginan untuk menerapkan penatalaksanaan gejala ketidaknyamanan selama persalinan",
+                "Menyatakan rasa percaya diri menjalani persalinan"
+            ],
+            "objective": [
+                "Tidak tersedia"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-persalinan/"
+    },
+    {
+        "code": "D.0071",
+        "title": "Pola Seksual Tidak Efektif",
+        "category": "Fisiologis",
+        "sub_category": "Reproduksi dan Seksualitas",
+        "definition": "Pola seksual tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai kekhawatiran individu melakukan hubungan seksual yang berisiko menyebabkan perubahan Kesehatan.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh sulit melakukan aktivitas seksual",
+                "Mengungkapkan aktivitas seksual berubah",
+                "Mengungkapkan perilaku seksual berubah",
+                "Orientasi seksual berubah"
+            ],
+            "objective": [
+                "Tidak tersedia"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kurang privasi",
+            "Ketiadaan pasangan",
+            "Konflik orientasi seksual",
+            "Takut hamil",
+            "Ketakutan terindeksi penyakit menular seksual",
+            "Hambatan hubungan dengan pasangan",
+            "Kurang terpapar informasi tentang seksualitas"
+        ],
+        "source_url": "https://perawat.org/pola-seksual-tidak-efektif/"
+    },
+    {
+        "code": "D.0072",
+        "title": "Risiko Disfungsi Seksual",
+        "category": "Fisiologis",
+        "sub_category": "Reproduksi dan Seksualitas",
+        "definition": "Risiko disfungsi seksual merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami perubahan fungsi seksual selama fase respon seksual berupa hasrat, terangsang, orgasme dan relaksasi yang dipandang tidak memuaskan, tidak bermakna/tidak adekuat.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Gangguan neurologi",
+            "Gangguan urologi",
+            "Gangguan endokrin",
+            "Keganasan",
+            "Faktor ginekologi (mis: kehamilan, pasca persalinan)",
+            "Efek agen farmakologis"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-disfungsi-seksual/"
+    },
+    {
+        "code": "D.0073",
+        "title": "Risiko Kehamilan Tidak Dikehendaki",
+        "category": "Fisiologis",
+        "sub_category": "Reproduksi dan Seksualitas",
+        "definition": "Risiko kehamilan tidak dikehendaki merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kehamilan yang tidak diharapkan baik karena alasan waktu yang tidak tepat atau karena kehamilan yang tidak diinginkan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Pemerkosaan",
+            "Hubungan seksual sedarah (incest)",
+            "Gangguan jiwa",
+            "Kegagalan penggunaan alat kontrasepsi",
+            "Kekerasan dalam rumah tangga (KDRT)",
+            "Tidak menggunakan alat kontrasepsi",
+            "Faktor sosial-ekonomi"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-kehamilan-tidak-dikehendaki/"
+    },
+    {
+        "code": "D.0074",
+        "title": "Gangguan Rasa Nyaman",
+        "category": "Psikologis",
+        "sub_category": "Nyeri dan Kenyamanan",
+        "definition": "Gangguan rasa nyaman merupakan diagnosis keperawatan yang didefinisikan sebagai perasaan kurang senang, lega, dan sempurna dalam dimensi fisik, psikospiritual, lingkungan, dan sosial.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh tidak nyaman"
+            ],
+            "objective": [
+                "Gelisah"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Gejala penyakit",
+            "Kurang pengendalian situasional/lingkungan",
+            "Ketidakadekuatan sumber daya (mis: dukungan finansial, sosial, dan pengetahuan)",
+            "Kurangnya privasi",
+            "Gangguan stimulus lingkungan",
+            "Efek samping terapi (mis: medikasi, radiasi, kemoterapi)",
+            "Gangguan adaptasi kehamilan"
+        ],
+        "source_url": "https://perawat.org/gangguan-rasa-nyaman/"
+    },
+    {
+        "code": "D.0075",
+        "title": "Ketidaknyamanan Pasca Partum",
+        "category": "Psikologis",
+        "sub_category": "Nyeri dan Kenyamanan",
+        "definition": "Ketidaknyamanan pasca partum merupakan diagnosis keperawatan yang didefinisikan sebagai perasaan tidak nyaman yang berhubungan dengan kondisi setelah melahirkan.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh tidak nyaman"
+            ],
+            "objective": [
+                "Tampak meringis",
+                "Terdapat kontraksi uterus",
+                "Luka episiotomi",
+                "Payudara bengkak"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Trauma perineum selama persalinan dan kelahiran",
+            "Involusi uterus, proses pengembalian ukuran Rahim ke ukuran semula",
+            "Pembengkakan payudara dimana alveoli mulai terisi ASI",
+            "Kekurangan dukungan dari keluarga dan tenaga Kesehatan",
+            "Ketidaktepatan posisi duduk",
+            "Faktor budaya"
+        ],
+        "source_url": "https://perawat.org/ketidaknyamanan-pasca-partum/"
+    },
+    {
+        "code": "D.0076",
+        "title": "Nausea",
+        "category": "Psikologis",
+        "sub_category": "Nyeri dan Kenyamanan",
+        "definition": "Nausea merupakan diagnosis keperawatan yang didefinisikan sebagai perasaan tidak nyaman pada bagian belakang tenggorok atau lambung yang dapat mengakibatkan muntah.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh mual",
+                "Merasa ingin muntah",
+                "Tidak berminat makan"
+            ],
+            "objective": [
+                "Tidak tersedia"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Gangguan biokimiawi (mis: uremia, ketoasidosis diabetic)",
+            "Gangguan pada esofagus",
+            "Distensi lambung",
+            "Iritasi lambung",
+            "Gangguan pankreas",
+            "Peregangan kapsul limpa",
+            "Tumor terlokalisasi (mis: neuroma akustik, tumor otak primer atau sekunder, metastasis tulang di dasar tengkorak)",
+            "Peningkatan tekanan intraabdominal (mis: keganasan intraabdomen)",
+            "Peningkatan tekanan intrakranial",
+            "Peningkatan tekanan intraorbital (mis: glaukoma)",
+            "Mabuk perjalanan",
+            "Kehamilan",
+            "Aroma tidak sedap",
+            "Rasa makanan/minuman yang tidak enak",
+            "Stimulus penglihatan tidak menyenangkan",
+            "Faktor psikologis (mis: kecemasan, ketakutan, stres)",
+            "Efek agen farmakologis",
+            "Efek toksin"
+        ],
+        "source_url": "https://perawat.org/nausea/"
+    },
+    {
+        "code": "D.0077",
+        "title": "Nyeri Akut",
+        "category": "Psikologis",
+        "sub_category": "Nyeri dan Kenyamanan",
+        "definition": "Nyeri akut merupakan diagnosis keperawatan yang didefinisikan sebagai pengalaman sensorik atau emosional yang berkaitan dengan kerusakan jaringan aktual atau fungsional, dengan onset mendadak atau lambat dan berintensitas ringan hingga berat yang berlangsung kurang dari 3 bulan.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh nyeri"
+            ],
+            "objective": [
+                "Tampak meringis",
+                "Bersikap protektif (mis: waspada, posisi menghindari nyeri)",
+                "Gelisah",
+                "Frekuensi nadi meningkat",
+                "Sulit tidur"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Agen pencedera fisiologis (mis: inflamasi, iskemia, neoplasma)",
+            "Agen pencedera kimiawi (mis: terbakar, bahan kimia iritan)",
+            "Agen pencedera fisik (mis: abses, amputasi, terbakar, terpotong, mengangkat berat, prosedur operasi, trauma, Latihan fisik berlebihan)"
+        ],
+        "source_url": "https://perawat.org/nyeri-akut/"
+    },
+    {
+        "code": "D.0078",
+        "title": "Nyeri Kronis",
+        "category": "Psikologis",
+        "sub_category": "Nyeri dan Kenyamanan",
+        "definition": "Nyeri kronis merupakan diagnosis keperawatan yang didefinisikan sebagai pengalaman sensorik atau emosional yang berkaitan dengan kerusakan jaringan aktual atau fungsional, dengan onset mendadak atau lambat dan berintensitas ringan hingga berat dan konstan, yang berlangsung lebih dari 3 bulan.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh nyeri",
+                "Merasa depresi (tertekan)"
+            ],
+            "objective": [
+                "Tampak meringis",
+                "Gelisah",
+                "Tidak mampu menuntaskan aktivitas"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kondisi muskuloskeletal kronis",
+            "Kerusakan sistem saraf",
+            "Penekanan saraf",
+            "Infiltrasi tumor",
+            "Ketidakseimbangan neurotransmiter, neuromodulator, dan reseptor",
+            "Gangguan imunitas (mis: neuropati terkait HIV, virus varicella-zoster)",
+            "Gangguan fungsi metabolik",
+            "Riwayat posisi kerja statis",
+            "Peningkatan indeks massa tubuh",
+            "Kondisi pasca trauma",
+            "Tekanan emosional",
+            "Riwayat penganiayaan (mis: fisik, psikologis, seksual)",
+            "Riwayat penyalahgunaan obat/zat"
+        ],
+        "source_url": "https://perawat.org/nyeri-kronis/"
+    },
+    {
+        "code": "D.0079",
+        "title": "Nyeri Melahirkan",
+        "category": "Psikologis",
+        "sub_category": "Nyeri dan Kenyamanan",
+        "definition": "Nyeri melahirkan merupakan diagnosis keperawatan yang didefinisikan sebagai pengalaman sensorik atau emosional yang bervariasi dari menyenangkan sampai tidak menyenangkan yang berhubungan dengan persalinan.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh nyeri",
+                "Perineum terasa tertekan"
+            ],
+            "objective": [
+                "Ekspresi wajah meringis",
+                "Berposisi meringankan nyeri",
+                "Uterus teraba membulat"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Dilatasi serviks",
+            "Pengeluaran janin"
+        ],
+        "source_url": "https://perawat.org/nyeri-melahirkan/"
+    },
+    {
+        "code": "D.0080",
+        "title": "Ansietas",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Ansietas merupakan diagnosis keperawatan yang didefinisikan sebagai kondisi emosi dan pengalaman subyektif individu terhadap objek yang tidak jelas dan spesifik akibat antisipasi bahaya yang memungkinkan individu melakukan Tindakan untuk menghadapi ancaman.",
+        "major_signs": {
+            "subjective": [
+                "Merasa bingung",
+                "Merasa khawatir dengan akibat dari kondisi yang dihadapi",
+                "Sulit berkonsentasi"
+            ],
+            "objective": [
+                "Tampak gelisah",
+                "Tampak tegang",
+                "Sulit tidur"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Krisis situasional",
+            "Kebutuhan tidak terpenuhi",
+            "Krisis maturasional",
+            "Ancaman terhadap konsep diri",
+            "Ancaman terhadap kematian",
+            "Kekhawatiran mengalami kegagalan",
+            "Disfungsi sistem keluarga",
+            "Hubungan orang tua-anak tidak memuaskan",
+            "Faktor keturunan (temperamen mudah teragitasi sejak lahir)",
+            "Penyalahgunaan zat",
+            "Terpapar bahaya lingkungan (mis: toksin, polutan, dan lain-lain)",
+            "Kurang terpapar informasi"
+        ],
+        "source_url": "https://perawat.org/ansietas"
+    },
+    {
+        "code": "D.0081",
+        "title": "Berduka",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Berduka merupakan diagnosis keperawatan yang didefinisikan sebagai respon psikososial yang ditunjukkan oleh klien akibat kehilangan (orang, objek, fungsi, status, bagian tubuh, atau hubungan).",
+        "major_signs": {
+            "subjective": [
+                "Merasa sedih",
+                "Merasa bersalah atau menyalahkan orang lain",
+                "Tidak menerima kehilangan",
+                "Merasa tidak ada harapan"
+            ],
+            "objective": [
+                "Menangis",
+                "Pola tidur berubah",
+                "Tidak mampu berkonsentrasi"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kematian keluarga atau orang yang berarti",
+            "Antisipasi kematian keluarga atau orang yang berarti",
+            "Kehilangan (objek, pekerjaan, fungsi, status, bagian tubuh, hubungan sosial)",
+            "Antisipasi kehilangan (objek, pekerjaan, fungsi, status, bagian tubuh, hubungan sosial)"
+        ],
+        "source_url": "https://perawat.org/berduka"
+    },
+    {
+        "code": "D.0082",
+        "title": "Distres Spiritual",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Distres spiritual merupakan diagnosis keperawatan yang didefinisikan sebagai gangguan pada keyakinan atau sistem nilai berupa kesulitan merasakan makna dan tujuan hidup melalui hubungan dengan diri, orang lain, lingkungan, atau Tuhan.",
+        "major_signs": {
+            "subjective": [
+                "Mempertanyakan makna/tujuan hidupnya",
+                "Menyatakan hidupnya terasa tidak/kurang bermakna",
+                "Merasa menderita/tidak berdaya"
+            ],
+            "objective": [
+                "Tidak mampu beribadah",
+                "Marah pada Tuhan"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Menjelang ajal",
+            "Kondisi penyakit kronis",
+            "Kematian orang terdekat",
+            "Perubahan pola hidup",
+            "Kesepian",
+            "Pengasingan diri",
+            "Pengasingan sosial",
+            "Gangguan sosio-kultural",
+            "Peningkatan ketergantungan dengan orang lain",
+            "Kejadian hidup yang tidak diharapkan"
+        ],
+        "source_url": "https://perawat.org/distres-spiritual"
+    },
+    {
+        "code": "D.0083",
+        "title": "Gangguan Citra Tubuh",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Gangguan citra tubuh merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan persepsi tentang penampilan, struktur, dan fungsi fisik individu.",
+        "major_signs": {
+            "subjective": [
+                "Mengungkapkan kecacatan/kehilangan bagian tubuh"
+            ],
+            "objective": [
+                "Kehilangan bagian tubuh",
+                "Fungsi/struktur tubuh berubah/hilang"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Perubahan struktur/bentuk tubuh (mis: amputasi, trauma, luka bakar, obesitas, jerawat)",
+            "Perubahan fungsi tubuh (mis: proses penyakit, kehamilan, kelumpuhan)",
+            "Perubahan fungsi kognitif",
+            "Ketidaksesuaian budaya, keyakinan, atau sistem nilai",
+            "Transisi perkembangan",
+            "Gangguan psikososial",
+            "Efek Tindakan/pengobatan (mis: pembedahan, kemoterapi, terapi radiasi)"
+        ],
+        "source_url": "https://perawat.org/gangguan-citra-tubuh"
+    },
+    {
+        "code": "D.0084",
+        "title": "Gangguan Identitas Diri",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Gangguan identitas diri merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan mempertahankan keutuhan persepsi terhadap identitas diri.",
+        "major_signs": {
+            "subjective": [
+                "Persepsi terhadap diri berubah",
+                "Bingung dengan nilai-nilai budaya, tujuan hidup, jenis kelamin, dan/atau nilai-nilai ideal",
+                "Perasaan yang fluktuatif terhadap diri"
+            ],
+            "objective": [
+                "Perilaku tidak konsisten",
+                "Hubungan yang tidak efektif",
+                "Strategi koping tidak efektif",
+                "Penampilan peran tidak efektif"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Gangguan peran sosial",
+            "Tidak terpenuhinya tugas perkembangan",
+            "Gangguan neurologis",
+            "Ketidakadekuatan stimulasi sensori"
+        ],
+        "source_url": "https://perawat.org/gangguan-identitas-diri"
+    },
+    {
+        "code": "D.0085",
+        "title": "Gangguan Persepsi Sensori",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Gangguan persepsi sensori merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan persepsi terhadap stimulus baik internal maupun eksternal yang disertai dengan respon yang berkurang, berlebihan, atau terdistorsi.",
+        "major_signs": {
+            "subjective": [
+                "Mendengar suara bisikan atau melihat bayangan",
+                "Merasakan sesuatu melalui indera penciuman, perabaan, atau pengecapan"
+            ],
+            "objective": [
+                "Distorsi sensori",
+                "Respons tidak sesuai",
+                "Bersikap seolah melihat, mendengar, mengecap, meraba, atau mencium sesuatu"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Gangguan penglihatan",
+            "Gangguan pendengaran",
+            "Gangguan penghiduan",
+            "Gangguan perabaan",
+            "Hipoksia serebral",
+            "Penyalahgunaan zat",
+            "Usia lanjut",
+            "Pemajanan toksin lingkungan"
+        ],
+        "source_url": "https://perawat.org/gangguan-persepsi-sensori"
+    },
+    {
+        "code": "D.0086",
+        "title": "Harga Diri Rendah Kronis",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Harga diri rendah kronis merupakan diagnosis keperawatan yang didefinisikan sebagai evaluasi atau perasaan negatif terhadap diri sendiri atau ketidakmampuan klien seperti tidak berarti, tidak berharga, tidak berdaya, yang berlangsung dalam waktu lama dan terus menerus.",
+        "major_signs": {
+            "subjective": [
+                "Menilai diri negatif (mis: tidak berguna, tidak tertolong)",
+                "Merasa malu/bersalah",
+                "Merasa tidak mampu melakukan apapun",
+                "Meremehkan kemampuan mengatasi masalah kehilangan",
+                "Merasa tidak memiliki kelebihan atau kemampuan positif",
+                "Melebih-lebihkan penilaian negatif tentang diri sendiri",
+                "Menolak menilaian positif tentang diri sendiri"
+            ],
+            "objective": [
+                "Enggan mencoba hal baru",
+                "Berjalan menunduk",
+                "Postur tubuh menunduk"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Terpapar situasi traumatis",
+            "Kegagalan berulang",
+            "Kurangnya pengakuan dari orang lain",
+            "Ketidakefektifan mengatasi masalah kehilangan",
+            "Gangguan psikiatri",
+            "Penguatan negatif berulang",
+            "Ketidaksesuaian budaya"
+        ],
+        "source_url": "https://perawat.org/harga-diri-rendah-kronis"
+    },
+    {
+        "code": "D.0087",
+        "title": "Harga Diri Rendah Situasional",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Harga diri rendah situasional merupakan diagnosis keperawatan yang didefinisikan sebagai evaluasi atau perasaan negatif terhadap diri sendiri atau ketidakmampuan klien sebagai respon terhadap situasi saat ini.",
+        "major_signs": {
+            "subjective": [
+                "Menilai diri negatif (mis: tidak berguna, tidak tertolong)",
+                "Merasa malu/bersalah",
+                "Melebih-lebihkan penilaian negatif tentang diri sendiri",
+                "Menolak menilaian positif tentang diri sendiri"
+            ],
+            "objective": [
+                "Berbicara pelan dan lirih",
+                "Menolak berinteraksi dengan orang lain",
+                "Berjalan menunduk",
+                "Postur tubuh menunduk"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Perubahan pada citra tubuh",
+            "Perubahan peran sosial",
+            "Ketidakadekuatan pemahaman",
+            "Perilaku tidak konsisten dengan nilai",
+            "Kegagalan hidup berulang",
+            "Riwayat kehilangan",
+            "Riwayat penolakan",
+            "Transisi perkembangan"
+        ],
+        "source_url": "https://perawat.org/harga-diri-rendah-situasional"
+    },
+    {
+        "code": "D.0088",
+        "title": "Keputusasaan",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Keputusasaan merupakan diagnosis keperawatan yang didefinisikan sebagai kondisi individu yang memandang adanya keterbatasan atau tidak tersedianya alternatif pemecahan pada masalah yang dihadapi.",
+        "major_signs": {
+            "subjective": [
+                "Mengungkapkan keputusasaan"
+            ],
+            "objective": [
+                "Berperilaku pasif"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Stres jangka Panjang",
+            "Penurunan kondisi fisiologis",
+            "Kehilangan kepercayaan pada kekuatan spiritual",
+            "Kehilangan kepercayaan pada nilai-nilai penting",
+            "Pembatasan aktivitas jangka Panjang",
+            "Pengasingan"
+        ],
+        "source_url": "https://perawat.org/keputusasaan"
+    },
+    {
+        "code": "D.0089",
+        "title": "Kesiapan Peningkatan Konsep Diri",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Kesiapan peningkatan konsep diri merupakan diagnosis keperawatan yang didefinisikan sebagai pola persepsi diri yang cukup untuk merasa sejahtera dan dapat ditingkatkan.",
+        "major_signs": {
+            "subjective": [
+                "Mengekspresikan keinginan untuk meningkatkan konsep diri",
+                "Mengekspresikan kepuasan dengan diri, harga diri, penampulan peran, citra tubuh, dan identitas pribadi"
+            ],
+            "objective": [
+                "Tidak tersedia"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-peningkatan-konsep-diri"
+    },
+    {
+        "code": "D.0090",
+        "title": "Kesiapan Peningkatan Koping Keluarga",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Kesiapan peningkatan koping keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai pola adaptasi anggota keluarga dalam mengatasi situasi yang dialami klien secara efektif dan menunjukkan keinginan serta kesiapan untuk meningkatkan Kesehatan keluarga dan klien.",
+        "major_signs": {
+            "subjective": [
+                "Anggota keluarga menetapkan tujuan untuk meningkatkan gaya hidup sehat",
+                "Anggota keluarga menetapkan sasaran untuk meningkatkan kesehatan"
+            ],
+            "objective": [
+                "Tidak tersedia"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-peningkatan-koping-keluarga"
+    },
+    {
+        "code": "D.0091",
+        "title": "Kesiapan Peningkatan Koping Komunitas",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Kesiapan peningkatan koping komunitas merupakan diagnosis keperawatan yang didefinisikan sebagai pola adaptasi dan penyelesaian masalah komunitas yang memuaskan untuk memenuhi tuntutan atau kebutuhan masyarakat, serta dapat ditingkatkan untuk penatalaksanaan masalah saat ini dan mendatang.",
+        "major_signs": {
+            "subjective": [
+                "Perencanaan aktif oleh komunitas mengenai prediksi stresor",
+                "Pemecahan masalah aktif oleh komunitas saat menghadapi masalah"
+            ],
+            "objective": [
+                "Terdapat sumber-sumber daya yang adekuat untuk mengatasi stresor"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-peningkatan-koping-komunitas"
+    },
+    {
+        "code": "D.0092",
+        "title": "Ketidakberdayaan",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Ketidakberdayaan merupakan diagnosis keperawatan yang didefinisikan sebagai persepsi bahwa tindakan seseorang tidak akan mempengaruhi hasil secara signifikan; persepsi kurang kontrol pada situasi saat ini atau yang akan datang.",
+        "major_signs": {
+            "subjective": [
+                "Menyatakan frustasi atau tidak mampu melaksanakan aktivitas sebelumnya"
+            ],
+            "objective": [
+                "Bergantung pada orang lain"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Program perawatan/pengobatan yang kompleks atau jangka Panjang",
+            "Lingkungan tidak mendukung perawatan/pengobatan",
+            "Interaksi interpersonal tidak memuaskan"
+        ],
+        "source_url": "https://perawat.org/ketidakberdayaan"
+    },
+    {
+        "code": "D.0093",
+        "title": "Ketidakmampuan Koping Keluarga",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Ketidakmampuan koping keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai perilaku orang terdekat (anggota keluarga atau orang berarti) yang membatasi kemampuan dirinya dan klien untuk beradaptasi dengan masalah Kesehatan yang dihadapi klien.",
+        "major_signs": {
+            "subjective": [
+                "Merasa diabaikan"
+            ],
+            "objective": [
+                "Tidak memenuhi kebutuhan anggota keluarga",
+                "Tidak toleran",
+                "Mengabaikan anggota keluarga"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Hubungan keluarga ambivalen",
+            "Pola koping yang berbeda diantara klien dan orang terdekat",
+            "Resistensi keluarga terhadap perawatan/pengobatan yang kompleks",
+            "Ketidakmampuan orang terdekat mengungkapkan perasaan"
+        ],
+        "source_url": "https://perawat.org/ketidakmampuan-koping-keluarga"
+    },
+    {
+        "code": "D.0094",
+        "title": "Koping Defensif",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Koping defensif merupakan diagnosis keperawatan yang didefinisikan sebagai proyeksi evaluasi diri untuk melindungi diri dari ancaman terhadap harga diri.",
+        "major_signs": {
+            "subjective": [
+                "Menyalahkan orang lain",
+                "Menyangkal adanya masalah",
+                "Menyangkal kelemahan diri",
+                "Merasionalisasi kegagalan"
+            ],
+            "objective": [
+                "Hipersensitif terhadap kritik"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Konflik antara persepsi diri dan sistem nilai",
+            "Takut mengalami kegagalan",
+            "Takut mengalami penghinaan",
+            "Takut terhadap dampak situasi yang dihadapi",
+            "Kurangnya rasa percaya kepada orang lain",
+            "Kurangnya kepercayaan diri",
+            "Kurangnya dukungan sistem pendukung (support system)",
+            "Harapan yang tidak realistis"
+        ],
+        "source_url": "https://perawat.org/koping-defensif"
+    },
+    {
+        "code": "D.0095",
+        "title": "Koping Komunitas Tidak Efektif",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Koping komunitas tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pola adaptasi komunitas dan penyelesaian masalah yang tidak memuaskan untuk memenuhi tuntutan atau kebutuhan masyarakat.",
+        "major_signs": {
+            "subjective": [
+                "Mengungkapkan ketidakberdayaan komunitas"
+            ],
+            "objective": [
+                "Komunitas tidak memenuhi harapan anggotanya",
+                "Konflik masyarakat meningkat",
+                "Insiden masalah masyarakat tinggi (mis: pembunuhan, pengrusakan, terorisme, perampokan, pelecehan, pengangguran, kemiskinan, penyakit mental)"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Paparan bencana (alam atau buatan manusia)",
+            "Riwayat bencana (alam atau buatan manusia)",
+            "Ketidakadekuatan sumber daya untuk memecahkan masalah",
+            "Ketidakcukupan sumber daya masyarakat (mis: istirahat, rekreasi, dukungan sosial)",
+            "Tidak adanya sistem masyarakat"
+        ],
+        "source_url": "https://perawat.org/koping-komunitas-tidak-efektif"
+    },
+    {
+        "code": "D.0096",
+        "title": "Koping Tidak Efektif",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Koping tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan menilai dan merespons stresor dan/atau ketidakmampuan menggunakan sumber-sumber yang ada untuk mengatasi masalah.",
+        "major_signs": {
+            "subjective": [
+                "Mengungkapkan tidak mampu mengatasi masalah"
+            ],
+            "objective": [
+                "Tidak mampu memenuhi peran yang diharapkan (sesuai usia)",
+                "Menggunakan mekanisme koping yang tidak sesuai"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Ketidakpercayaan terhadap kemampuan diri mengatasi masalah",
+            "Ketidakadekuatan sistem pendukung",
+            "Ketidakadekuatan strategi koping",
+            "Ketidakteraturan atau kekacauan lingkungan",
+            "Ketidakcukupan persiapan untuk menghadapi stresor",
+            "Disfungsi sistem keluarga",
+            "Krisis situasional",
+            "Krisis maturasional",
+            "Kerentanan personalitas",
+            "Ketidakpastian"
+        ],
+        "source_url": "https://perawat.org/koping-tidak-efektif"
+    },
+    {
+        "code": "D.0097",
+        "title": "Penurunan Koping Keluarga",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Penurunan koping keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakadekuatan atau ketidakefektifan dukungan, rasa nyaman, bantuan dan motivasi orang terdekat (anggota keluarga atau orang yang berarti) yang dibutuhkan klien untuk mengelola atau mengatasi masalah kesehatannya.",
+        "major_signs": {
+            "subjective": [
+                "Klien mengeluh/khawatir tentang respon orang terdekat pada masalah kesehatan"
+            ],
+            "objective": [
+                "Orang terdekat menarik diri dari klien",
+                "Terbatasnya komunikasi orang terdekat dengan klien"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Situasi penyerta yang mempengaruhi orang terdekat",
+            "Krisis perkembangan yang dihadapi orang terdekat",
+            "Kelelahan orang terdekat dalam memberikan dukungan",
+            "Disorganisasi keluarga",
+            "Perubahan peran keluarga",
+            "Tidak tersedianya informasi bagi orang terdekat",
+            "Kurangnya saling mendukung",
+            "Tidak cukupnya dukungan yang diberikan klien pada orang terdekat",
+            "Orang terdekat kurang terpapar informasi",
+            "Salahnya/tidak pahamnya informasi yang didapatkan orang terdekat",
+            "Orang terdekat terlalu focus pada kondisi di luar keluarga",
+            "Penyakit kronis yang menghabiskan kemampuan dukungan orang terdekat",
+            "Krisis situasional yang dialami orang terdekat"
+        ],
+        "source_url": "https://perawat.org/penurunan-koping-keluarga"
+    },
+    {
+        "code": "D.0098",
+        "title": "Penyangkalan Tidak Efektif",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Penyangkalan tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai upaya mengingkari pemahaman atau makna suatu peristiwa secara sadar atau tidak sadar untuk menurunkan kecemasan/ketakutan yang dapat menyebabkan gangguan Kesehatan.",
+        "major_signs": {
+            "subjective": [
+                "Tidak mengakui dirinya mengalami gejala atau bahaya (walaupun kenyataan sebaliknya)"
+            ],
+            "objective": [
+                "Menunda mencari pertolongan pelayanan kesehatan"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kecemasan",
+            "Ketakutan terhadap kematian",
+            "Ketakutan mengalami kehilangan kemandirian",
+            "Ketakutan terhadap perpisahan",
+            "Ketidakefektifan strategi koping",
+            "Ketidakpercayaan terhadap kemampuan mengatasi masalah",
+            "Ancaman terhadap realitas yang tidak menyenangkan"
+        ],
+        "source_url": "https://perawat.org/penyangkalan-tidak-efektif"
+    },
+    {
+        "code": "D.0099",
+        "title": "Perilaku Kesehatan Cenderung Berisiko",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Perilaku Kesehatan cenderung berisiko merupakan diagnosis keperawatan yang didefinisikan sebagai hambatan kemampuan dalam mengubah gaya hidup/perilaku untuk memperbaiki status Kesehatan.",
+        "major_signs": {
+            "subjective": [
+                "Tidak tersedia"
+            ],
+            "objective": [
+                "Menunjukkan penolakan terhadap perubahan status Kesehatan",
+                "Gagal melakukan Tindakan pencegahan masalah Kesehatan",
+                "Menunjukkan upaya peningkatan status Kesehatan yang minimal"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kurang terpapar informasi",
+            "Ketidakadekuatan dukungan sosial",
+            "Self efficacy yang rendah",
+            "Status sosio ekonomi rendah",
+            "Stresor berlebihan",
+            "Sikap negatif terhadap pelayanan Kesehatan",
+            "Pemilihan gaya hidup yang tidak sehat (mis: merokok, konsumsi alkohol berlebihan)"
+        ],
+        "source_url": "https://perawat.org/perilaku-kesehatan-cenderung-berisiko"
+    },
+    {
+        "code": "D.0100",
+        "title": "Risiko Distres Spiritual",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Risiko distres spiritual merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan keyakinan atau sistem nilai pada individu atau kelompok berupa kekuatan, harapan, dan makna hidup.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Perubahan hidup",
+            "Perubahan lingkungan",
+            "Bencana alam",
+            "Sakit kronis",
+            "Sakit fisik",
+            "Penyalahgunaan zat",
+            "Kecemasan",
+            "Perubahan dalam ritual agama",
+            "Perubahan dalam praktik spiritual",
+            "Konflik spiritual",
+            "Depresi",
+            "Ketidakmampuan memaafkan",
+            "Kehilangan",
+            "Harga diri rendah",
+            "Hubungan buruk",
+            "Konflik rasial",
+            "Berpisah dengan sistem pendukung",
+            "Stres"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-distres-spiritual"
+    },
+    {
+        "code": "D.0101",
+        "title": "Risiko Harga Diri Rendah Kronis",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Risiko harga diri rendah kronis merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami evaluasi atau perasaan negatif terhadap diri sendiri atau kemampuan klien yang berlangsung dalam waktu lama dan terus menerus.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Gangguan psikiatrik",
+            "Kegagalan berulang",
+            "Ketidaksesuaian budaya",
+            "Ketidaksesuaian spiritual",
+            "Ketidakefektifan koping terhadap kehilangan",
+            "Kurang mendapat kasih saying",
+            "Kurang keterlibatan dalam kelompok/masyarakat",
+            "Kurang penghargaan dari orang lain",
+            "Ketidakmampuan menunjukkan perasaan",
+            "Perasaan kurang didukung orang lain",
+            "Pengalaman traumatik"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-harga-diri-rendah-kronis"
+    },
+    {
+        "code": "D.0102",
+        "title": "Risiko Harga Diri Rendah Situasional",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Risiko harga diri rendah situasional merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami evaluasi atau perasaan negatif terhadap diri sendiri atau kemampuan klien sebagai respon terhadap situasi saat ini.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Gangguan gambaran diri",
+            "Gangguan fungsi",
+            "Gangguan peran sosial",
+            "Harapan tidak realistis",
+            "Kurang pemahaman terhadap situasi",
+            "Penurunan control terhadap lingkungan",
+            "Penyakit fisik",
+            "Perilaku tidak sesuai dengan nilai setempat",
+            "Kegagalan",
+            "Perasaan tidak berdaya",
+            "Riwayat kehilangan",
+            "Riwayat pengabaian",
+            "Riwayat penolakan",
+            "Riwayat penganiayaan (mis: fisik, psikologis, seksual)",
+            "Transisi perkembangan"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-harga-diri-rendah-situasional"
+    },
+    {
+        "code": "D.0103",
+        "title": "Risiko Ketidakberdayaan",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Risiko ketidakberdayaan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami persepsi bahwa tindakan seseorang tidak akan mempengaruhi hasil secara signifikan; persepsi kurang kontrol pada situasi saat ini atau yang akan datang.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Perjalanan penyakit yang berlangsung lama atau tidak dapat diprediksi",
+            "Harga diri rendah yang berlangsung lama",
+            "Status ekonomi rendah",
+            "Ketidakmampuan mengatasi masalah",
+            "Kurang dukungan sosial",
+            "Penyakit yang melemahkan secara progresif",
+            "Marginalisasi sosial",
+            "Kondisi terstigma",
+            "Penyakit terstigma",
+            "Kurang terpapar informasi",
+            "Kecemasan"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-ketidakberdayaan"
+    },
+    {
+        "code": "D.0104",
+        "title": "Sindrom Pasca Trauma",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Sindrom pasca trauma merupakan diagnosis keperawatan yang didefinisikan sebagai respon maladaptif yang berkelanjutan terhadap kejadian trauma.",
+        "major_signs": {
+            "subjective": [
+                "Mengungkapkan secara berlebihan atau menghindari pembicaraan kejadian trauma",
+                "Merasa cemas",
+                "Teringat Kembali kejadian traumatis"
+            ],
+            "objective": [
+                "Memori masa lalu terganggu",
+                "Mimpi buruk berulang",
+                "Ketakutan berulang",
+                "Menghindari aktivitas, tempat, atau orang yang membangkitkan kejadian trauma"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Bencana",
+            "Peperangan",
+            "Riwayat korban perilaku kekerasan",
+            "Kecelakaan",
+            "Saksi pembunuhan"
+        ],
+        "source_url": "https://perawat.org/sindrom-pasca-trauma"
+    },
+    {
+        "code": "D.0105",
+        "title": "Waham",
+        "category": "Psikologis",
+        "sub_category": "Integritas Ego",
+        "definition": "Waham merupakan diagnosis keperawatan yang didefinisikan sebagai keyakinan yang keliru tentang isi pikiran yang dipertahankan secara kuat atau terus menerus namun tidak sesuai dengan kenyataan.",
+        "major_signs": {
+            "subjective": [
+                "Mengungkapkan isi waham"
+            ],
+            "objective": [
+                "Menunjukkan perilaku sesuai isi waham",
+                "Isi pikir tidak sesuai realitas",
+                "Isi pembicaraan sulit dimengerti"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Faktor biologis: kelainan genetik/keturunan, kelainan neurologis (mis: gangguan sistem limbik, gangguan ganglia basalis, tumor otak)",
+            "Faktor psikodinamik (mis: isolasi sosial, hipersensitif)",
+            "Maladaptasi",
+            "Stres berlebihan"
+        ],
+        "source_url": "https://perawat.org/waham"
+    },
+    {
+        "code": "D.0106",
+        "title": "Gangguan Tumbuh Kembang",
+        "category": "Psikologis",
+        "sub_category": "Pertumbuhan dan Perkembangan",
+        "definition": "Gangguan tumbuh kembang merupakan diagnosis keperawatan yang didefinisikan sebagai kondisi individu mengalami gangguan kemampuan bertumbuh dan berkembang sesuai dengan kelompok usia.",
+        "major_signs": {
+            "subjective": [
+                "Tidak tersedia"
+            ],
+            "objective": [
+                "Tidak mampu melakukan keterampilan atau perilaku khas sesuai usia (fisik, bahasa, motorik, psikososial)",
+                "Pertumbuhan fisik terganggu"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Efek ketidakmampuan fisik",
+            "Keterbatasan lingkungan",
+            "Inkonsistensi respon",
+            "Pengabaian",
+            "Terpisah dari orang tua dan/atau orang terdekat",
+            "Defisiensi stimulus"
+        ],
+        "source_url": "https://perawat.org/gangguan-tumbuh-kembang"
+    },
+    {
+        "code": "D.0107",
+        "title": "Risiko Gangguan Perkembangan",
+        "category": "Psikologis",
+        "sub_category": "Pertumbuhan dan Perkembangan",
+        "definition": "Risiko gangguan perkembangan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan untuk berkembang sesuai dengan kelompok usianya.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Ketidakadekuatan nutrisi",
+            "Ketidakadekuatan perawatan prenatal",
+            "Keterlambatan perawatan prenatal",
+            "Usia hamil di bawah 15 tahun",
+            "Usia hamil di atas 35 tahun",
+            "Kehamilan tidak terencana",
+            "Kehamilan tidak diinginkan",
+            "Gangguan endokrin",
+            "Prematuritas",
+            "Kelainan genetik/kongenital",
+            "Kerusakan otak (mis: perdarahan selama periode pascanatal, penganiayaan, kecelakaan)",
+            "Penyakit kronis",
+            "Infeksi",
+            "Efek samping terapi (mis: kemoterapi, terapi radiasi, agen farmakologis)",
+            "Penganiayaan (mis: fisik, psikologis, seksual)",
+            "Gangguan pendengaran",
+            "Gangguan penglihatan",
+            "Penyalahgunaan zat",
+            "Ketidakmampuan belajar",
+            "Anak adopsi",
+            "Kejadian bencana",
+            "Ekonomi lemah"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-gangguan-perkembangan"
+    },
+    {
+        "code": "D.0108",
+        "title": "Risiko Gangguan Pertumbuhan",
+        "category": "Psikologis",
+        "sub_category": "Pertumbuhan dan Perkembangan",
+        "definition": "Risiko gangguan pertumbuhan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan untuk bertumbuh sesuai dengan kelompok usianya.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Ketidakadekuatan nutrisi",
+            "Penyakit kronis",
+            "Nafsu makan tidak terkontrol",
+            "Prematuritas",
+            "Terpapar teratogen",
+            "Ketidakadekuatan nutrisi maternal",
+            "Proses infeksi",
+            "Proses infeksi maternal",
+            "Perilaku maladaptif",
+            "Penyalahgunaan zat",
+            "Kelainan genetik/kongenital",
+            "Penganiayaan (mis: fisik, psikologis, seksual)",
+            "Ekonomi lemah"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-gangguan-pertumbuhan"
+    },
+    {
+        "code": "D.0109",
+        "title": "Defisit Perawatan Diri",
+        "category": "Perilaku",
+        "sub_category": "Kebersihan Diri",
+        "definition": "Defisit perawatan diri merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan melakukan atau menyelesaikan aktivitas perawatan diri.",
+        "major_signs": {
+            "subjective": [
+                "Menolak melakukan perawatan diri"
+            ],
+            "objective": [
+                "Tidak mampu mandi/mengenakan pakaian/makan/ke toilet/berhias secara mandiri",
+                "Minat melakukan perawatan diri kurang"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Gangguan musculoskeletal",
+            "Gangguan neuromuskuler",
+            "Kelemahan",
+            "Gangguan psikologis dan/atau psikotik",
+            "Penurunan motivasi/minat"
+        ],
+        "source_url": "https://perawat.org/defisit-perawatan-diri"
+    },
+    {
+        "code": "D.0110",
+        "title": "Defisit Kesehatan Komunitas",
+        "category": "Perilaku",
+        "sub_category": "Penyuluhan dan Pembelajaran",
+        "definition": "Defisit kesehatan komunitas merupakan diagnosis keperawatan yang didefinisikan sebagai terdapatnya masalah Kesehatan atau faktor risiko yang dapat mengganggu kesejahteraan pada suatu kelompok.",
+        "major_signs": {
+            "subjective": [
+                "Tidak tersedia"
+            ],
+            "objective": [
+                "Terjadi masalah Kesehatan yang dialami komunitas",
+                "Terdapat faktor risiko fisiologis dan/atau psikologis yang menyebabkan anggota komunitas menjalani perawatan"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Hambatan akses ke pemberi pelayanan Kesehatan",
+            "Keterbatasan sumber daya",
+            "Program tidak memiliki anggaran yang cukup",
+            "Proram tidak atau kurang didukung komunitas",
+            "Komunitas kurang puas dengan program yang dijalankan",
+            "Program tidak memiliki rencana evaluasi yang optimal",
+            "Program tidak memiliki data hasil yang memadai",
+            "Program tidak mengatasi seluruh masalah kesehatan komunitas"
+        ],
+        "source_url": "https://perawat.org/defisit-kesehatan-komunitas"
+    },
+    {
+        "code": "D.0111",
+        "title": "Defisit Pengetahuan",
+        "category": "Perilaku",
+        "sub_category": "Penyuluhan dan Pembelajaran",
+        "definition": "Defisit pengetahuan merupakan diagnosis keperawatan yang didefinisikan sebagai ketiadaan atau kurangnya informasi kognitif yang berkaitan dengan topik tertentu.",
+        "major_signs": {
+            "subjective": [
+                "Menanyakan masalah yang dihadapi"
+            ],
+            "objective": [
+                "Menunjukkan perilaku tidak sesuai anjuran",
+                "Menunjukkan persepsi yang keliru terhadap masalah"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Keterbatasan kognitif",
+            "Gangguan fungsi kognitif",
+            "Kekeliruan mengikuti anjuran",
+            "Kurang terpapar informasi",
+            "Kurang minat dalam belajar",
+            "Kurang mampu mengingat",
+            "Ketidaktahuan menemukan sumber informasi"
+        ],
+        "source_url": "https://perawat.org/defisit-pengetahuan"
+    },
+    {
+        "code": "D.0112",
+        "title": "Kesiapan Peningkatan Manajemen Kesehatan",
+        "category": "Perilaku",
+        "sub_category": "Penyuluhan dan Pembelajaran",
+        "definition": "Kesiapan peningkatan manajemen kesehatan merupakan diagnosis keperawatan yang didefinisikan sebagai pola pengaturan dan pengintegrasian program Kesehatan ke dalam kehidupan sehari-hari yang cukup untuk memenuhi tujuan Kesehatan dan dapat ditingkatkan",
+        "major_signs": {
+            "subjective": [
+                "Mengekspresikan keinginan untuk mengelola masalah Kesehatan dan pencegahannya"
+            ],
+            "objective": [
+                "Pilihan hidup sehari-hari tepat untuk memenuhi tujuan program kesehatan"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-peningkatan-manajemen-kesehatan"
+    },
+    {
+        "code": "D.0113",
+        "title": "Kesiapan Peningkatan Pengetahuan",
+        "category": "Perilaku",
+        "sub_category": "Penyuluhan dan Pembelajaran",
+        "definition": "Kesiapan peningkatan pengetahuan merupakan diagnosis keperawatan yang didefinisikan sebagai perkembangan informasi kognitif yang berhubungan dengan topik spesifik cukup untuk memenuhi tujuan Kesehatan dan dapat ditingkatkan.",
+        "major_signs": {
+            "subjective": [
+                "Mengungkapkan minat dalam belajar",
+                "Menjelaskan pengetahuan tentang suatu topik",
+                "Menggambarkan pengalaman sebelumnya yang sesuai dengan topik"
+            ],
+            "objective": [
+                "Perilaku sesuai dengan pengetahuan"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-peningkatan-pengetahuan"
+    },
+    {
+        "code": "D.0114",
+        "title": "Ketidakpatuhan",
+        "category": "Perilaku",
+        "sub_category": "Penyuluhan dan Pembelajaran",
+        "definition": "Ketidakpatuhan merupakan diagnosis keperawatan yang didefinisikan sebagai perilaku individu dan/atau pemberi asuhan tidak mengikuti rencana perawatan/pengobatan yang disepakati dengan tenaga Kesehatan, sehingga menyebabkan hasil perawatan/pengobatan tidak efektif.",
+        "major_signs": {
+            "subjective": [
+                "Menolak menjalani perawatan/pengobatan",
+                "Menolak mengikuti anjuran"
+            ],
+            "objective": [
+                "Perilaku tidak mengikuti program perawatan/pengobatan",
+                "Perilaku tidak menjalankan anjuran"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Disabilitas (mis: penurunan daya ingat, defisit sensorik/motorik)",
+            "Efek samping program perawatan/pengobatan",
+            "Beban pembiayaan program perawatan/pengobatan",
+            "Lingkungan tidak terapeutik",
+            "Program terapi kompleks dan/atau lama",
+            "Hambatan mengakses pelayanan Kesehatan (mis: gangguan mobilisasi, masalah transportasi, ketiadaan orang merawat anak di rumah, cuaca tidak menentu)",
+            "Program terapi tidak ditanggung asuransi",
+            "Ketidakadekuatan pemahaman (sekunder akibat defisit kognitif, kecemasan, gangguan penglihatan/pendengaran, kelelahan, kurang motivasi)"
+        ],
+        "source_url": "https://perawat.org/ketidakpatuhan"
+    },
+    {
+        "code": "D.0115",
+        "title": "Manajemen Kesehatan Keluarga Tidak Efektif",
+        "category": "Perilaku",
+        "sub_category": "Penyuluhan dan Pembelajaran",
+        "definition": "Manajemen kesehatan keluarga tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pola penanganan masalah Kesehatan dalam keluarga tidak memuaskan untuk memulihkan kondisi Kesehatan anggota keluarga.",
+        "major_signs": {
+            "subjective": [
+                "Mengungkapkan tidak memahami masalah Kesehatan yang diderita",
+                "Mengungkapkan kesulitan menjalankan perawatan yang ditetapkan"
+            ],
+            "objective": [
+                "Gejala penyakit anggota keluarga semakin memberat",
+                "Aktivitas keluarga untuk mengatasi masalah Kesehatan tidak tepat"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kompleksitas sistem pelayanan Kesehatan",
+            "Kompleksitas program perawatan/pengobatan",
+            "Konflik pengambilan keputusan",
+            "Kesulitan ekonomi",
+            "Banyak tuntutan",
+            "Konflik keluarga"
+        ],
+        "source_url": "https://perawat.org/manajemen-kesehatan-keluarga-tidak-efektif"
+    },
+    {
+        "code": "D.0116",
+        "title": "Manajemen Kesehatan Tidak Efektif",
+        "category": "Perilaku",
+        "sub_category": "Penyuluhan dan Pembelajaran",
+        "definition": "Manajemen kesehatan tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pola pengaturan dan pengintegrasian penanganan masalah kesehatan ke dalam kebiasaan hidup sehari-hari tidak memuaskan untuk mencapai status kesehatan yang diharapkan.",
+        "major_signs": {
+            "subjective": [
+                "Mengungkapkan kesulitan dalam menjalani program perawatan"
+            ],
+            "objective": [
+                "Gagal melakukan tindakan untuk mengurangi faktor risiko",
+                "Gagal menerapkan program perawatan/pengobatan dalam kehidupan sehari-hari",
+                "Aktivitas hidup sehari-hari tidak efektif untuk memenuhi tujuan kesehatan"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kompleksitas sistem pelayanan Kesehatan",
+            "Kompleksitas program perawatan/pengobatan",
+            "Konflik pengambilan keputusan",
+            "Kurang terpapar informasi",
+            "Kesulitan ekonomi",
+            "Tuntutan berlebih",
+            "Konflik keluarga",
+            "Ketidakefektifan pola perawatan Kesehatan keluarga",
+            "Ketidakcukupan petunjuk untuk bertindak",
+            "Kekurangan dukungan sosial"
+        ],
+        "source_url": "https://perawat.org/manajemen-kesehatan-tidak-efektif"
+    },
+    {
+        "code": "D.0117",
+        "title": "Pemeliharaan Kesehatan Tidak Efektif",
+        "category": "Perilaku",
+        "sub_category": "Penyuluhan dan Pembelajaran",
+        "definition": "Pemeliharaan kesehatan tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan mengidentifikasi, mengelola, dan/atau menemukan bantuan untuk mempertahankan kesehatan.",
+        "major_signs": {
+            "subjective": [
+                "Tidak tersedia"
+            ],
+            "objective": [
+                "Kurang menunjukkan perilaku adaptif terhadap perubahan lingkungan",
+                "Kurang menunjukkan pemahaman tentang perilaku sehat",
+                "Tidak mampu menjalankan perilaku sehat"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Hambatan kognitif",
+            "Ketidaktuntasan proses berduka",
+            "Ketidakadekuatan keterampilan berkomunikasi",
+            "Kurangnya keterampilan motoric halus/kasar",
+            "Ketidakmampuan membuat penilaian yang tepat",
+            "Ketidakmampuan mengatasi masalah (individu atau keluarga)",
+            "Ketidakcukupan sumber daya (mis: keuangan, fasilitas)",
+            "Gangguan persepsi",
+            "Tidak terpenuhinya tugas perkembangan"
+        ],
+        "source_url": "https://perawat.org/pemeliharaan-kesehatan-tidak-efektif"
+    },
+    {
+        "code": "D.0118",
+        "title": "Gangguan Interaksi Sosial",
+        "category": "Relasional",
+        "sub_category": "Interaksi Sosial",
+        "definition": "Gangguan interaksi sosial merupakan diagnosis keperawatan yang didefinisikan sebagai kuantitas dan/atau kualitas sosial yang kurang atau berlebih.",
+        "major_signs": {
+            "subjective": [
+                "Merasa tidak nyaman dengan situasi sosial",
+                "Merasa sulit menerima atau mengkomunikasikan perasaan"
+            ],
+            "objective": [
+                "Kurang responsive atau tertarik pada orang lain",
+                "Tidak berminat melakukan kontak emosi dan fisik"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Defisiensi bicara",
+            "Hambatan perkembangan/maturase",
+            "Ketiadaan orang terdekat",
+            "Perubahan neurologis (mis: kelahiran prematur, distres fetal, persalinan cepat, atau persalinan lama)",
+            "Disfungsi sistem keluarga",
+            "Ketidakteraturan atau kekacauan lingkungan",
+            "Penganiayaan atau pengabaian anak",
+            "Hubungan orang tua-anak tidak memuaskan",
+            "Model peran negatif",
+            "Impulsif",
+            "Perilaku menentang",
+            "Perilaku agresif",
+            "Keengganan berpisah dengan orang terdekat"
+        ],
+        "source_url": "https://perawat.org/gangguan-interaksi-sosial"
+    },
+    {
+        "code": "D.0119",
+        "title": "Gangguan Komunikasi Verbal",
+        "category": "Relasional",
+        "sub_category": "Interaksi Sosial",
+        "definition": "Gangguan komunikasi verbal merupakan diagnosis keperawatan yang didefinisikan sebagai penurunan, perlambatan, atau ketiadaan kemampuan untuk menerima, memproses, mengirim, dan/atau menggunakan sistem simbol.",
+        "major_signs": {
+            "subjective": [
+                "Tidak ada"
+            ],
+            "objective": [
+                "Tidak mampu berbicara atau mendengar",
+                "Menunjukkan respon tidak sesuai"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Penurunan sirkulasi serebral",
+            "Gangguan neuromuskuler",
+            "Gangguan pendengaran",
+            "Gangguan muskuloskeletal",
+            "Kelainan palatum",
+            "Hambatan fisik (misal: terpasang trakeostomi, intubasi, krikotiroidektomi)",
+            "Hambatan individu (misal: ketakutan, kecemasan, merasa malu, emosional, kurang privasi)",
+            "Hambatan psikologis (misal: gangguan psikotik, gangguan konsep diri, harga diri rendah, gangguan emosi)",
+            "Hambatan lingkungan (misal: ketidakcukupan informasi,ketiadaan orang terdekat, ketidaksesuaian budaya, Bahasa asing)"
+        ],
+        "source_url": "https://perawat.org/gangguan-komunikasi-verbal"
+    },
+    {
+        "code": "D.0120",
+        "title": "Gangguan Proses Keluarga",
+        "category": "Relasional",
+        "sub_category": "Interaksi Sosial",
+        "definition": "Gangguan proses keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai perubahan dalam hubungan atau fungsi keluarga.",
+        "major_signs": {
+            "subjective": [
+                "Tidak ada"
+            ],
+            "objective": [
+                "Keluarga tidak mampu beradaptasi terhadap situasi",
+                "Tidak mampu berkomunikasi secara terbuka diantara anggota keluarga"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Perubahan status Kesehatan anggota keluarga",
+            "Perubahan finansial keluarga",
+            "Perubahan status sosial keluarga",
+            "Perubahan interaksi dengan masyarakat",
+            "Krisis perkembangan",
+            "Transisi perkembangan",
+            "Peralihan pengambil keputusan dalam keluarga",
+            "Perubahan peran keluarga",
+            "Krisis situasional",
+            "Transisi situasional"
+        ],
+        "source_url": "https://perawat.org/gangguan-proses-keluarga"
+    },
+    {
+        "code": "D.0121",
+        "title": "Isolasi Sosial",
+        "category": "Relasional",
+        "sub_category": "Interaksi Sosial",
+        "definition": "Isolasi sosial merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan untuk membina hubungan yang erat, hangat, terbuka, dan interdependen dengan orang lain.",
+        "major_signs": {
+            "subjective": [
+                "Merasa ingin sendirian",
+                "Merasa tidak aman di tempat umum"
+            ],
+            "objective": [
+                "Menarik diri",
+                "Tidak berminat/menolak berinteraksi dengan orang lain atau lingkungan"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Keterlambatan perkembangan",
+            "Ketidakmampuan menjalin hubungan yang memuaskan",
+            "Ketidaksesuaian minat dengan tahap perkembangan",
+            "Ketidaksesuaian nilai-nilai dengan norma",
+            "Ketidaksesuaian perilaku sosial dengan norma",
+            "Perubahan penampilan fisik",
+            "Perubahan status mental",
+            "Ketidakadekuatan sumber daya personal (mis: disfungsi berduka, pengendalian diri buruk)"
+        ],
+        "source_url": "https://perawat.org/isolasi-sosial"
+    },
+    {
+        "code": "D.0122",
+        "title": "Kesiapan Peningkatan Menjadi Orang Tua",
+        "category": "Relasional",
+        "sub_category": "Interaksi Sosial",
+        "definition": "Kesiapan peningkatan menjadi orang tua merupakan diagnosis keperawatan yang didefinisikan sebagai pola pemberian lingkungan bagi anak atau anggota keluarga yang cukup untuk memfasilitasi pertumbuhan dan perkembangan serta dapat ditingkatkan.",
+        "major_signs": {
+            "subjective": [
+                "Mengekspresikan keinginan untuk meningkatkan peran menjadi orang tua"
+            ],
+            "objective": [
+                "Tampak adanya dukungan emosi dan pengertian pada anak atau anggota keluarga"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-peningkatan-menjadi-orang-tua"
+    },
+    {
+        "code": "D.0123",
+        "title": "Kesiapan Peningkatan Proses Keluarga",
+        "category": "Relasional",
+        "sub_category": "Interaksi Sosial",
+        "definition": "Kesiapan peningkatan proses keluarga merupakan diagnosis keperawatan yang didefinisikan sebagai pola fungsi keluarga yang cukup untuk mendukung kesejahteraan anggota keluarga dan dapat ditingkatkan.",
+        "major_signs": {
+            "subjective": [
+                "Mengekspresikan keinginan untuk meningkatkan dinamika keluarga"
+            ],
+            "objective": [
+                "Menunjukkan fungsi keluarga dalam memenuhi kebutuhan fisik, sosial, dan psikologis anggota keluarga",
+                "Menunjukkan aktivitas untuk mendukung keselamatan dan pertumbuhan anggota keluarga",
+                "Peran keluarga fleksibel dan tepat dengan tahap perkembangan",
+                "Terlihat adanya respek dengan anggota keluarga"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/kesiapan-peningkatan-proses-keluarga"
+    },
+    {
+        "code": "D.0124",
+        "title": "Ketegangan Peran Pemberi Asuhan",
+        "category": "Relasional",
+        "sub_category": "Interaksi Sosial",
+        "definition": "Ketegangan peran pemberi asuhan merupakan diagnosis keperawatan yang didefinisikan sebagai ketidakmampuan untuk membina hubungan yang erat, hangat, terbuka, dan interdependen dengan orang lain.",
+        "major_signs": {
+            "subjective": [
+                "Khawatir klien akan Kembali dirawat di rumah sakit",
+                "Khawatir tentang kelanjutan perawatan klien",
+                "Khawatir tentang ketidakmampuan pemberi asuhan"
+            ],
+            "objective": [
+                "Tidak ada"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Beratnya penyakit penerima asuhan",
+            "Kronisnya penyakit penerima asuhan",
+            "Pemberi asuhan kurang mendapatkan waktu istirahat dan rekreasi",
+            "Persaingan komitmen peran pemberi asuhan",
+            "Ketidakadekuatan lingkungan fisik dalam pemberian asuhan",
+            "Keluarga atau pemberi asuhan jauh dari kerabat lain",
+            "Kompleksitas dan jumlah aktivitas pemberi asuhan"
+        ],
+        "source_url": "https://perawat.org/ketegangan-peran-pemberi-asuhan"
+    },
+    {
+        "code": "D.0125",
+        "title": "Penampilan Peran Tidak Efektif",
+        "category": "Relasional",
+        "sub_category": "Interaksi Sosial",
+        "definition": "Penampilan peran tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai pola perilaku yang berubah atau tidak sesuai dengan harapan, norma, dan lingkungan.",
+        "major_signs": {
+            "subjective": [
+                "Merasa bingung menjalankan peran",
+                "Merasa harapan tidak terpenuhi",
+                "Merasa tidak puas dalam menjalankan peran"
+            ],
+            "objective": [
+                "Konflik peran",
+                "Adaptasi tidak adekuat",
+                "Strategi koping tidak efektif"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Harapan peran tidak realistis",
+            "Hambatan fisik",
+            "Harga diri rendah",
+            "Perubahan citra tubuh",
+            "Ketidakadekuatan sistem pendukung (support system)",
+            "Stres",
+            "Perubahan peran",
+            "Faktor ekonomi"
+        ],
+        "source_url": "https://perawat.org/penampilan-peran-tidak-efektif"
+    },
+    {
+        "code": "D.0126",
+        "title": "Pencapaian Peran Menjadi Orang Tua",
+        "category": "Relasional",
+        "sub_category": "Interaksi Sosial",
+        "definition": "Pencapaian peran menjadi orang tua merupakan diagnosis keperawatan yang didefinisikan sebagai terjadinya proses interaktif antar anggota keluarga (suami-isteri, anggota keluarga dan bayi) yang ditunjukkan dengan perkembangan bayi yang optimal.",
+        "major_signs": {
+            "subjective": [
+                "Tidak tersedia"
+            ],
+            "objective": [
+                "Bounding attachment optimal",
+                "Perilaku positif menjadi orang tua",
+                "Saling berinteraksi dalam merawat bayi"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [],
+        "source_url": "https://perawat.org/pencapaian-peran-menjadi-orang-tua"
+    },
+    {
+        "code": "D.0127",
+        "title": "Risiko Gangguan Perlekatan",
+        "category": "Relasional",
+        "sub_category": "Interaksi Sosial",
+        "definition": "Risiko gangguan perlekatan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami gangguan interaksi antara orang tua atau orang terdekat dengan bayi/anak yang dapat mempengaruhi proses asah, asih, dan asuh.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Kekhawatiran menjalankan peran sebagai orang tua",
+            "Perpisahan antara ibu dan bayi/anak akibat hospitalisasi",
+            "Penghalang fisik (mis: incubator, baby warmer)",
+            "Ketidakmampuan orang tua memenuhi kebutuhan bayi/anak",
+            "Perawatan dalam ruang isolasi",
+            "Prematuritas",
+            "Penyalahgunaan zat",
+            "Konflik hubungan antara orang tua dan anak",
+            "Perilaku bayi tidak terkoordinasi"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-gangguan-perlekatan"
+    },
+    {
+        "code": "D.0128",
+        "title": "Risiko Proses Pengasuhan Tidak Efektif",
+        "category": "Relasional",
+        "sub_category": "Interaksi Sosial",
+        "definition": "Risiko proses pengasuhan tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami proses kehamilan, persalinan, dan setelah melahirkan termasuk perawatan bayi baru lahir yang tidak sesuai dengan konteks norma dan harapan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Kekerasan dalam rumah tangga",
+            "Kehamilan tidak diinginkan/direncanakan",
+            "Kurang terpapar informasi tentang proses persalinan/pengasuhan",
+            "Ketidakberdayaan maternal",
+            "Distres psikologis",
+            "Penyalahgunaan obat",
+            "Ketidakadekuatan manajemen ketidaknyamanan selama persalinan",
+            "Akses pelayanan Kesehatan sulit dijangkau",
+            "Kurangnya minat/proaktif dalam proses persalinan",
+            "Ketidaksesuaian kondisi bayi dengan harapan",
+            "Ketidakamanan lingkungan untuk bayi"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-proses-pengasuhan-tidak-efektif"
+    },
+    {
+        "code": "D.0129",
+        "title": "Gangguan Integritas Kulit/Jaringan",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Gangguan integritas kulit/jaringan merupakan diagnosis keperawatan yang didefinisikan sebagai kerusakan kulit (dermis dan/atau epidermis) atau jaringan (membran mukosa, kornea, fasia, otot, tendon, tulang, kartilago, kapsul sendi, dan/atau ligamen).",
+        "major_signs": {
+            "subjective": [
+                "Tidak tersedia"
+            ],
+            "objective": [
+                "Kerusakan jaringan dan/atau lapisan kulit"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Perubahan sirkulasi",
+            "Perubahan status nutrisi (kelebihan atau kekurangan)",
+            "Kekurangan/kelebihan volume cairan",
+            "Penurunan mobilitas",
+            "Bahan kimia iritatif",
+            "Suhu lingkungan yang ekstrim",
+            "Faktor mekanis (mis: penekanan pada tonjolan tulang, gesekan) atau faktor elektris (elektrodiatermi, energi listrik bertegangan tinggi)",
+            "Efek samping terapi radiasi",
+            "Kelembaban",
+            "Proses penuaan",
+            "Neuropati perifer",
+            "Perubahan pigmentasi",
+            "Perubahan hormonal",
+            "Kurang terpapar informasi tentang upaya mempertahankan/melindungi integritas jaringan"
+        ],
+        "source_url": "https://perawat.org/gangguan-integritas-kulit-jaringan"
+    },
+    {
+        "code": "D.0130",
+        "title": "Hipertermia",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Hipertermia merupakan diagnosis keperawatan yang didefinisikan sebagai suhu tubuh meningkat diatas rentang normal tubuh.",
+        "major_signs": {
+            "subjective": [
+                "Tidak tersedia"
+            ],
+            "objective": [
+                "Suhu tubuh diatas nilai normal"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Dehidrasi",
+            "Terpapar lingkungan panas",
+            "Proses penyakit (mis: infeksi, kanker)",
+            "Ketidaksesuaian pakaian dengan suhu lingkungan",
+            "Peningkatan laju metabolisme",
+            "Respon trauma",
+            "Aktivitas berlebihan",
+            "Penggunaan inkubator"
+        ],
+        "source_url": "https://perawat.org/hipertermia"
+    },
+    {
+        "code": "D.0131",
+        "title": "Hipotermia",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Hipotermia merupakan diagnosis keperawatan yang didefinisikan sebagai suhu tubuh berada dibawah rentang normal tubuh.",
+        "major_signs": {
+            "subjective": [
+                "Tidak tersedia"
+            ],
+            "objective": [
+                "Kulit teraba dingin",
+                "Menggigil",
+                "Suhu tubuh dibawah nilai normal"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Kerusakan hipotalamus",
+            "Konsumsi alkohol",
+            "Berat badan ekstrim",
+            "Kekurangan lemak subkutan",
+            "Terpapar suhu lingkungan rendah",
+            "Malnutrisi",
+            "Pemakaian pakaian tipis",
+            "Penurunan laju metabolisme",
+            "Tidak beraktivitas",
+            "Transfer panas (mis: konduksi, konveksi, evaporasi, radiasi)",
+            "Trauma",
+            "Proses penuaan",
+            "Efek agen farmakologis",
+            "Kurang terpapar informasi tentang pencegahan hipotermia"
+        ],
+        "source_url": "https://perawat.org/hipotermia"
+    },
+    {
+        "code": "D.0132",
+        "title": "Perilaku Kekerasan",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Perilaku kekerasan merupakan diagnosis keperawatan yang didefinisikan sebagai kemarahan yang diekspresikan secara berlebihan dan tidak terkendali secara verbal sampai dengan mencederai orang lain dan/atau merusak lingkungan.",
+        "major_signs": {
+            "subjective": [
+                "Mengancam",
+                "Mengumpat dengan kata-kata kasar",
+                "Suara keras",
+                "Bicara"
+            ],
+            "objective": [
+                "Menyerang orang lain",
+                "Melukai diri sendiri/orang lain",
+                "Merusak lingkungan",
+                "Perilaku agresif/amuk"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Ketidakmampuan mengendalikan dorongan marah",
+            "Stimulus lingkungan",
+            "Konflik interpersonal",
+            "Perubahan status mental",
+            "Putus obat",
+            "Penyalahgunaan zat/alkohol"
+        ],
+        "source_url": "https://perawat.org/perilaku-kekerasan"
+    },
+    {
+        "code": "D.0133",
+        "title": "Perlambatan Pemulihan Pascabedah",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Perlambatan pemulihan pascabedah merupakan diagnosis keperawatan yang didefinisikan sebagai pemanjangan jumlah hari pascabedah untuk memulai dan melakukan aktivitas sehari-hari.",
+        "major_signs": {
+            "subjective": [
+                "Mengeluh tidak nyaman"
+            ],
+            "objective": [
+                "Area luka operasi terbuka",
+                "Waktu penyembuhan yang memanjang"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Skor klasifikasi status fisik American Society of Anesthesiologists (ASA) ≥ 3",
+            "Hiperglikemia",
+            "Edema pada lokasi pembedahan",
+            "Prosedur pembedahan ekstensif (luas)",
+            "Usia ekstrem",
+            "Riwayat perlambatan penyembuhan luka",
+            "Gangguan mobilitas",
+            "Malnutrisi",
+            "Obesitas",
+            "Infeksi luka perioperatif",
+            "Mual/muntah persisten",
+            "Respon emosional pascaoperasi",
+            "Pemanjangan proses operasi",
+            "Gangguan psikologis pascaoperasi",
+            "Kontaminasi bedah",
+            "Trauma pada luka operasi",
+            "Efek agen farmakologis"
+        ],
+        "source_url": "https://perawat.org/perlambatan-pemulihan-pascabedah"
+    },
+    {
+        "code": "D.0134",
+        "title": "Risiko Alergi",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko alergi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami stimulasi respon imunitas yang berlebihan akibat terpapar alergen.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Makanan (mis: alpukat, pisang, kiwi, kacang, makanan olahan laut, buah tropis, jamur)",
+            "Terpapar zat alergen (mis: zat kimia, agen farmakologis)",
+            "Terpapar alergen lingkungan (mis: debu, serbuk sari)",
+            "Sengatan serangga"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-alergi"
+    },
+    {
+        "code": "D.0135",
+        "title": "Risiko Bunuh Diri",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko bunuh diri merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko melakukan upaya menyakiti diri sendiri untuk mengakhiri kehidupan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Gangguan perilaku (mis: euphoria mendadak setelah depresi, perilaku mencari senjata berbahaya, membeli obat dalam jumlah banyak, membuat surat warisan)",
+            "Demografi (mis: lansia, status perceraian, janda/duda, ekonomi rendah, pengangguran)",
+            "Gangguan fisik (mis: nyeri kronis, penyakit terminal)",
+            "Masalah sosial (mis: berduka, tidak berdaya, putus asa, kesepian, kehilangan hubungan yang penting, isolasi sosial)",
+            "Gangguan psikologis (mis: penganiayaan masa kanak-kanak, riwayat bunuh diri sebelumnya, remaja homoseksual, gangguan psikiatrik, penyakit psikiatrik, penyalahgunaan zat)"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-bunuh-diri"
+    },
+    {
+        "code": "D.0136",
+        "title": "Risiko Cedera",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko cedera merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami bahaya atau kerusakan fisik yang menyebabkan seseorang tidak lagi sepenuhnya sehat atau dalam kondisi baik.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Terpapar patogen",
+            "Terpapar zat kimia toksik",
+            "Terpapar agen nosokomial",
+            "Ketidakamanan transportasi"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-cedera"
+    },
+    {
+        "code": "D.0137",
+        "title": "Risiko Cedera Pada Ibu",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko cedera pada ibu merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami bahaya atau kerusakan fisik pada ibu selama masa kehamilan sampai dengan proses persalinan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Besarnya ukuran janin",
+            "Malposisi janin (posisi posterior)",
+            "Induksi persalinan",
+            "Persalinan lama kala I, II, dan III",
+            "Disfungsi uterus",
+            "Efek metode/intervensi bedah selama persalinan",
+            "Kurangnya dukungan keluarga dan orang tua",
+            "Kurang adekuatnya observasi dan antisipasi",
+            "Keterlambatan pengambilan keputusan dan manajemen",
+            "Skrining dan perawatan prenatal yang tidak adekuat",
+            "Kecemasan berlebihan pada proses persalinan",
+            "Riwayat cedera pada persalinan sebelumnya",
+            "Usia ibu (< 15 tahun atau > 35 tahun)",
+            "Paritas banyak",
+            "Perubahan hormonal",
+            "Perubahan postur tubuh",
+            "Ketuban pecah",
+            "Proses infeksi",
+            "Penyakit penyerta",
+            "Masalah kontraksi"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-cedera-pada-ibu"
+    },
+    {
+        "code": "D.0138",
+        "title": "Risiko Cedera Pada Janin",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko cedera pada janin merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami bahaya atau kerusakan fisik pada janin selama proses kehamilan dan persalinan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Besarnya ukuran janin",
+            "Malposisi janin (posisi posterior)",
+            "Induksi persalinan",
+            "Persalinan lama kala I, II, dan III",
+            "Disfungsi uterus",
+            "Kecemasan yang berlebihan tentang proses persalinan",
+            "Riwayat persalinan sebelumnya",
+            "Usia ibu (< 15 tahun atau > 35 tahun)",
+            "Paritas banyak",
+            "Efek metode/intervensi bedah selama persalinan",
+            "Nyeri pada abdomen",
+            "Nyeri pada jalan lahir",
+            "Penggunaan alat bantu persalinan",
+            "Kelelahan",
+            "Merokok",
+            "Efek agen farmakologis",
+            "Pengaruh budaya",
+            "Pola makan yang tidak sehat",
+            "Faktor ekonomi",
+            "Konsumsi alkohol",
+            "Terpapar zat teratogen"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-cedera-pada-janin"
+    },
+    {
+        "code": "D.0139",
+        "title": "Risiko Gangguan Integritas Kulit/Jaringan",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko gangguan integritas kulit/jaringan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kerusakan kulit (dermis dan/atau epidermis) atau jaringan (membran mukosa, kornea, fasia, otot, tendon, tulang, kartilago, kapsul sendi dan/atau ligamen).",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Perubahan sirkulasi",
+            "Perubahan status nutrisi (kelebihan atau kekurangan)",
+            "Kekurangan/kelebihan volume cairan",
+            "Penurunan mobilitas",
+            "Bahan kimia iritatif",
+            "Suhu lingkungan yang ekstrem",
+            "Faktor mekanis (mis: penekanan, gesekan) atau faktor elektris (elektrodiatermi, energi listrik bertegangan tinggi)",
+            "Terapi radiasi",
+            "Kelembaban",
+            "Proses penuaan",
+            "Neuropati perifer",
+            "Perubahan pigmentasi",
+            "Perubahan hormonal",
+            "Penekanan pada tonjolan tulang",
+            "Kurang terpapar informasi tentang upaya mempertahankan/melindungi integritas jaringan"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-gangguan-integritas-kulit-jaringan"
+    },
+    {
+        "code": "D.0140",
+        "title": "Risiko Hipotermia",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko hipotermia merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kegagalan termoregulasi yang dapat mengakibatkan suhu tubuh berada di bawah rentang normal.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Berat badan ekstrem",
+            "Kerusakan hipotalamus",
+            "Konsumsi alkohol",
+            "Kurangnya lapisan lemak subkutan",
+            "Suhu lingkungan rendah",
+            "Malnutrisi",
+            "Pemakaian pakaian yang tipis",
+            "Penurunan laju metabolisme",
+            "Terapi radiasi",
+            "Tidak beraktivitas",
+            "Transfer panas (mis: konduksi, konveksi, evaporasi, radiasi)",
+            "Trauma",
+            "Prematuritas",
+            "Penuaan",
+            "Bayi baru lahir",
+            "Berat badan lahir rendah",
+            "Kurang terpapar informasi tentang pencegahan hipotermia",
+            "Efek agen farmakologis"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-hipotermia"
+    },
+    {
+        "code": "D.0141",
+        "title": "Risiko Hipotermia Perioperatif",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko hipotermia perioperatif merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami penurunan suhu tubuh di bawah 36°C secara tiba-tiba yang terjadi satu jam sebelum pembedahan hingga 24 jam setelah pembedahan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Prosedur pembedahan",
+            "Kombinasi anestesi regional dan umum",
+            "Skor American Society of Anestesiologist (ASA) > 1",
+            "Suhu pra-operasi rendah (< 36°C)",
+            "Berat badan naik",
+            "Neuropati diabetik",
+            "Komplikasi kardiovaskuler",
+            "Suhu lingkungan rendah",
+            "Transfer panas (mis: volume tinggi infus yang tidak dihangatkan, irigasi > 2 liter yang tidak dihangatkan)"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-hipotermia-perioperatif"
+    },
+    {
+        "code": "D.0142",
+        "title": "Risiko Infeksi",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko infeksi merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami peningkatan terserang organisme patogenik.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Penyakit kronis (mis: diabetes melitus)",
+            "Efek prosedur invasif",
+            "Malnutrisi",
+            "Peningkatan paparan organisme patogen lingkungan",
+            "Ketidakadekuatan pertahanan tubuh sekunder (penurunan hemoglobin; imunosupresi; leukopenia; supresi respon inflamasi; vaksinasi tidak adekuat)"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-infeksi"
+    },
+    {
+        "code": "D.0143",
+        "title": "Risiko Jatuh",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko jatuh merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kerusakan fisik dan gangguan kesehatan akibat terjatuh.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Usia ≥ 65 tahun (pada dewasa) atau ≤ 2 tahun (pada anak)",
+            "Riwayat jatuh",
+            "Anggota gerak bawah prosthesis (buatan)",
+            "Penggunaan alat bantu berjalan",
+            "Penurunan tingkat kesadaran",
+            "Perubahan fungsi kognitif",
+            "Lingkungan tidak aman (mis: licin, gelap, lingkungan asing)",
+            "Kondisi pasca operasi",
+            "Hipotensi ortostatik",
+            "Perubahan kadar glukosa darah",
+            "Anemia",
+            "Kekuatan otot menurun",
+            "Gangguan pendengaran",
+            "Gangguan keseimbangan",
+            "Gangguan penglihatan (mis: glaucoma, katarak, ablasio retina, neuritis optikus)",
+            "Neuropati",
+            "Efek agen farmakologis (mis: sedasi, alkohol, anestesi umum)"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-jatuh"
+    },
+    {
+        "code": "D.0144",
+        "title": "Risiko Luka Tekan",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko luka tekan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami cedera lokal pada kulit dan/atau jaringan, biasanya pada tonjolan tulang akibat tekanan dan/atau gesekan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Skor skala Braden Q ≤ 16 (anak) atau skor skala Braden < 18 (dewasa)",
+            "Perubahan fungsi kognitif",
+            "Perubahan sensasi",
+            "Skor ASA (American in Sensation Anesthesiologist) ≥ 2",
+            "Anemia",
+            "Penurunan mobilisasi",
+            "Penurunan kadar albumin",
+            "Penurunan oksigenasi jaringan",
+            "Penurunan perfusi jaringan",
+            "Dehidrasi",
+            "Kulit kering",
+            "Edema",
+            "Peningkatan suhu kulit 1 – 2°C",
+            "Periode imobilisasi yang lama diatas permukaan yang keras (mis: prosedur operasi ≥ 2 jam)",
+            "Usia ≥ 65 tahun",
+            "Beran badan lebih",
+            "Fraktur tungkai",
+            "Riwayat stroke",
+            "Riwayat luka tekan",
+            "Riwayat trauma",
+            "Hipertermi",
+            "Inkontinensia",
+            "Ketidakadekuatan nutrisi",
+            "Skor RAPS (Risk Assesment Pressure Score) rendah",
+            "Klasifikasi fungsional NYHA (New York Heart Association) ≥ 2",
+            "Efek agen farmakologis (mis: anestesi umum, vasopressor, antidepressant, norepinefrin)",
+            "Imobilisasi fisik",
+            "Penekanan di atas tonjolan tulang",
+            "Penurunan tebal lipatan kulit trisep",
+            "Kulit bersisik",
+            "Gesekan permukaan kulit"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-luka-tekan"
+    },
+    {
+        "code": "D.0145",
+        "title": "Risiko Mutilasi Diri",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko mutilasi diri merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko sengaja mencederai diri yang menyebabkan kerusakan fisik untuk memperoleh pemulihan ketegangan.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Perkembangan remaja",
+            "Individu autistik",
+            "Gangguan kepribadian",
+            "Penyakit keturunan",
+            "Penganiayaan (mis: fisik, psikologis, seksual)",
+            "Gangguan hubungan interpersonal",
+            "Perceraian keluarga",
+            "Keterlambatan perkembangan",
+            "Riwayat perilaku mencederai diri",
+            "Ancaman kehilangan hubungan yang bermakna",
+            "Ketidakmampuan mengungkapkan ketegangan secara verbal",
+            "Ketidakmampuan mengatasi masalah",
+            "Harga diri rendah",
+            "Peningkatan ketegangan yang tidak dapat ditoleransi"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-mutilasi-diri"
+    },
+    {
+        "code": "D.0146",
+        "title": "Risiko Perilaku Kekerasan",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko perilaku kekerasan merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko membahayakan secara fisik, emosi, dan/atau seksual pada diri sendiri atau orang lain.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Pemikiran waham/delusi",
+            "Curiga pada orang lain",
+            "Halusinasi",
+            "Berencana bunuh diri",
+            "Disfungsi sistem keluarga",
+            "Kerusakan kognitif",
+            "Disorientasi atau konfusi",
+            "Kerusakan kontrol impuls",
+            "Persepsi pada lingkungan tidak akurat",
+            "Alam perasaan depresi",
+            "Riwayat kekerasan pada hewan",
+            "Kelainan neurologis",
+            "Lingkungan tidak teratur",
+            "Penganiayaan atau pengabaian anak",
+            "Riwayat atau ancaman kekerasan terhadap diri sendiri atau orang lain atau destruksi properti orang lain",
+            "Impulsif",
+            "Ilusi"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-perilaku-kekerasan"
+    },
+    {
+        "code": "D.0147",
+        "title": "Risiko Perlambatan Pemulihan Pascabedah",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko perlambatan pemulihan pascabedah merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami pemanjangan jumlah hari pascabedah untuk memulai dan melakukan aktivitas sehari-hari.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Skor klasifikasi status fisik American Society of Anesthesiologists (ASA) ≥ 3",
+            "Hiperglikemia",
+            "Edema pada lokasi pembedahan",
+            "Prosedur pembedahan ekstensif (luas)",
+            "Usia ekstrem",
+            "Riwayat perlambatan penyembuhan luka",
+            "Gangguan mobilitas",
+            "Malnutrisi",
+            "Obesitas",
+            "Infeksi luka perioperatif",
+            "Mual/muntah persisten",
+            "Respon emosional pascaoperasi",
+            "Pemanjangan proses operasi",
+            "Gangguan psikologis pascaoperasi",
+            "Kontaminasi bedah",
+            "Trauma pada luka operasi",
+            "Efek agen farmakologis"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-perlambatan-pemulihan-pascabedah"
+    },
+    {
+        "code": "D.0148",
+        "title": "Risiko Termoregulasi Tidak Efektif",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Risiko termoregulasi tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai berisiko mengalami kegagalan mempertahankan suhu tubuh dalam rentang normal.",
+        "major_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [
+            "Cedera otak akut",
+            "Dehidrasi",
+            "Pakaian yang tidak sesuai untuk suhu lingkungan",
+            "Peningkatan area permukaan tubuh terhadap rasio berat badan",
+            "Kebutuhan oksigen meningkat",
+            "Perubahan laju metabolisme",
+            "Proses penyakit (mis: infeksi)",
+            "Suhu lingkungan ekstrem",
+            "Suplai lemak subkutan tidak memadai",
+            "Proses penuaan",
+            "Berat badan ekstrem",
+            "Efek agen farmakologis (mis: sedasi)"
+        ],
+        "causes": [],
+        "source_url": "https://perawat.org/risiko-termoregulasi-tidak-efektif"
+    },
+    {
+        "code": "D.0149",
+        "title": "Termoregulasi Tidak Efektif",
+        "category": "Lingkungan",
+        "sub_category": "Keamanan dan Proteksi",
+        "definition": "Termoregulasi tidak efektif merupakan diagnosis keperawatan yang didefinisikan sebagai kegagalan mempertahankan suhu tubuh dalam rentang normal.",
+        "major_signs": {
+            "subjective": [
+                "Tidak tersedia"
+            ],
+            "objective": [
+                "Kulit dingin/hangat",
+                "Mengigil",
+                "Suhu tubuh fluktuatif"
+            ]
+        },
+        "minor_signs": {
+            "subjective": [],
+            "objective": []
+        },
+        "risk_factors": [],
+        "causes": [
+            "Stimulasi pusat termoregulasi hipotalamus",
+            "Fluktuasi suhu lingkungan",
+            "Proses penyakit (mis: infeksi)",
+            "Proses penuaan",
+            "Dehidrasi",
+            "Ketidaksesuaian pakaian untuk suhu lingkungan",
+            "Peningkatan kebutuhan oksigen",
+            "Perubahan laju metabolisme",
+            "Suhu lingkungan ekstrem",
+            "Ketidakadekuatan suplai lemak subkutan",
+            "Berat badan ekstrem",
+            "Efek agen farmakologis (mis: sedasi)"
+        ],
+        "source_url": "https://perawat.org/termoregulasi-tidak-efektif"
+    }
+]

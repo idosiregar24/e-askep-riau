@@ -35,75 +35,75 @@ export default function MahasiswaShow({ session, masterSdki = [], masterSlki = [
             keluhan_utama: initialPayload.keluhan_utama || '',
             riwayat_penyakit: initialPayload.riwayat_penyakit || '',
             // KGD fields
-            cara_datang: initialPayload.cara_datang || 'Ambulans',
+            cara_datang: initialPayload.cara_datang || '',
             waktu_kejadian: initialPayload.waktu_kejadian || '',
-            airway_status: initialPayload.airway_status || 'Paten',
-            airway_obstruksi: initialPayload.airway_obstruksi || 'Tidak Ada',
-            airway_suara: initialPayload.airway_suara || 'Bersih',
-            cervical_collar: initialPayload.cervical_collar || 'Tidak',
-            breathing_rr: initialPayload.breathing_rr || '20',
-            breathing_pola: initialPayload.breathing_pola || 'Reguler / Normal',
-            breathing_retraksi: initialPayload.breathing_retraksi || 'Tidak Ada',
-            breathing_suara: initialPayload.breathing_suara || 'Vesikuler',
-            breathing_spo2: initialPayload.breathing_spo2 || '98',
-            breathing_o2: initialPayload.breathing_o2 || 'Nasal Canul 3 Lpm',
-            circulation_nadi: initialPayload.circulation_nadi || '84',
-            circulation_kualitas: initialPayload.circulation_kualitas || 'Kuat & Reguler',
-            circulation_td: initialPayload.circulation_td || '120/80',
-            circulation_akral: initialPayload.circulation_akral || 'Hangat, Kering, Merah',
-            circulation_crt: initialPayload.circulation_crt || '< 2 detik',
-            circulation_sianosis: initialPayload.circulation_sianosis || 'Tidak Ada',
-            circulation_perdarahan: initialPayload.circulation_perdarahan || 'Tidak Ada',
-            circulation_iv: initialPayload.circulation_iv || 'IV Line 18G Vena Fossa Kubiti Ka RL 20 tpm',
-            disability_gcs_e: initialPayload.disability_gcs_e || '4',
-            disability_gcs_m: initialPayload.disability_gcs_m || '6',
-            disability_gcs_v: initialPayload.disability_gcs_v || '5',
-            disability_kesadaran: initialPayload.disability_kesadaran || 'Compos Mentis',
-            disability_pupil: initialPayload.disability_pupil || 'Isokor, 3mm / 3mm, RC (+/+)',
-            exposure_suhu: initialPayload.exposure_suhu || '36.7',
-            exposure_jejas: initialPayload.exposure_jejas || 'Tidak ditemukan jejas mayor / fraktur terbuka',
-            exposure_hipotermia: initialPayload.exposure_hipotermia || 'Pemberian selimut hangat',
-            ample_a: initialPayload.ample_a || 'Tidak ada riwayat alergi obat/makanan',
-            ample_m: initialPayload.ample_m || 'Tidak sedang mengonsumsi obat rutin',
-            ample_p: initialPayload.ample_p || 'Hipertensi terkontrol 2 tahun',
-            ample_l: initialPayload.ample_l || 'Makan nasi 3 jam sebelum kejadian',
-            ample_e: initialPayload.ample_e || 'Onset keluhan mendadak saat beraktivitas',
-            head_to_toe: initialPayload.head_to_toe || 'Kepala: Mesosefal, konjungtiva ananemis. Leher: JVP 5-2 cmH2O. Thorax: Simetris, cor S1-S2 murni. Abdomen: Supel, BU normal. Ekstremitas: Akral hangat, edema (-/-).',
+            airway_status: initialPayload.airway_status || '',
+            airway_obstruksi: initialPayload.airway_obstruksi || '',
+            airway_suara: initialPayload.airway_suara || '',
+            cervical_collar: initialPayload.cervical_collar || '',
+            breathing_rr: initialPayload.breathing_rr || '',
+            breathing_pola: initialPayload.breathing_pola || '',
+            breathing_retraksi: initialPayload.breathing_retraksi || '',
+            breathing_suara: initialPayload.breathing_suara || '',
+            breathing_spo2: initialPayload.breathing_spo2 || '',
+            breathing_o2: initialPayload.breathing_o2 || '',
+            circulation_nadi: initialPayload.circulation_nadi || '',
+            circulation_kualitas: initialPayload.circulation_kualitas || '',
+            circulation_td: initialPayload.circulation_td || '',
+            circulation_akral: initialPayload.circulation_akral || '',
+            circulation_crt: initialPayload.circulation_crt || '',
+            circulation_sianosis: initialPayload.circulation_sianosis || '',
+            circulation_perdarahan: initialPayload.circulation_perdarahan || '',
+            circulation_iv: initialPayload.circulation_iv || '',
+            disability_gcs_e: initialPayload.disability_gcs_e || '',
+            disability_gcs_m: initialPayload.disability_gcs_m || '',
+            disability_gcs_v: initialPayload.disability_gcs_v || '',
+            disability_kesadaran: initialPayload.disability_kesadaran || '',
+            disability_pupil: initialPayload.disability_pupil || '',
+            exposure_suhu: initialPayload.exposure_suhu || '',
+            exposure_jejas: initialPayload.exposure_jejas || '',
+            exposure_hipotermia: initialPayload.exposure_hipotermia || '',
+            ample_a: initialPayload.ample_a || '',
+            ample_m: initialPayload.ample_m || '',
+            ample_p: initialPayload.ample_p || '',
+            ample_l: initialPayload.ample_l || '',
+            ample_e: initialPayload.ample_e || '',
+            head_to_toe: initialPayload.head_to_toe || '',
 
             // KDM 9 Henderson Domains
-            kdm_oksigenasi: initialPayload.kdm_oksigenasi || 'Pernapasan spontan adekuat, tidak sesak, tidak ada batuk atau sekret.',
-            kdm_nutrisi_bb: initialPayload.kdm_nutrisi_bb || '60',
-            kdm_nutrisi_tb: initialPayload.kdm_nutrisi_tb || '165',
-            kdm_nutrisi_diet: initialPayload.kdm_nutrisi_diet || 'Diet makanan lunak / MB TKTP 2100 kkal',
-            kdm_nutrisi_keluhan: initialPayload.kdm_nutrisi_keluhan || 'Nafsu makan baik, tidak ada mual atau muntah, bising usus 12x/m.',
-            kdm_cairan_intake: initialPayload.kdm_cairan_intake || '2200 cc/24j (minum + infus)',
-            kdm_cairan_output: initialPayload.kdm_cairan_output || '1800 cc/24j (urin + IWL)',
-            kdm_cairan_balance: initialPayload.kdm_cairan_balance || '+400 cc/24j, turgor kulit elastis, mukosa lembap',
-            kdm_eliminasi_bak: initialPayload.kdm_eliminasi_bak || 'Urin jernih kuning 1500 cc/24j, spontan tanpa kateter',
-            kdm_eliminasi_bab: initialPayload.kdm_eliminasi_bab || '1x sehari, konsistensi lunak, warna kecoklatan, konstipasi (-)',
-            kdm_aktivitas_barthel: initialPayload.kdm_aktivitas_barthel || 'Skor Barthel 85 (Ketergantungan Ringan), ambulasi mandiri',
-            kdm_tidur: initialPayload.kdm_tidur || 'Tidur 6-7 jam/malam, rasa segar saat bangun',
-            kdm_hygiene: initialPayload.kdm_hygiene || 'Mandi 2x/hari, gigi bersih, Skala Braden 19 (Risiko Rendah Dekubitus)',
-            kdm_termoregulasi: initialPayload.kdm_termoregulasi || 'Suhu aksila 36.8°C, tidak menggigil, akral hangat',
-            kdm_nyeri_skala: initialPayload.kdm_nyeri_skala || '3',
-            kdm_nyeri_pqrst: initialPayload.kdm_nyeri_pqrst || 'P: saat bergerak aktif, Q: tumpul / linu, R: regio abdomen bawah, S: skala 3 (ringan), T: hilang timbul',
-            kdm_psikososial: initialPayload.kdm_psikososial || 'Kecemasan ringan terhadap prosedur, kooperatif, rutin beribadah di tempat tidur, dukungan keluarga baik.',
-            kdm_enam_benar_obat: initialPayload.kdm_enam_benar_obat || 'Telah diterapkan 6 Benar: Benar Pasien, Obat, Dosis, Rute, Waktu, dan Dokumentasi.',
+            kdm_oksigenasi: initialPayload.kdm_oksigenasi || '',
+            kdm_nutrisi_bb: initialPayload.kdm_nutrisi_bb || '',
+            kdm_nutrisi_tb: initialPayload.kdm_nutrisi_tb || '',
+            kdm_nutrisi_diet: initialPayload.kdm_nutrisi_diet || '',
+            kdm_nutrisi_keluhan: initialPayload.kdm_nutrisi_keluhan || '',
+            kdm_cairan_intake: initialPayload.kdm_cairan_intake || '',
+            kdm_cairan_output: initialPayload.kdm_cairan_output || '',
+            kdm_cairan_balance: initialPayload.kdm_cairan_balance || '',
+            kdm_eliminasi_bak: initialPayload.kdm_eliminasi_bak || '',
+            kdm_eliminasi_bab: initialPayload.kdm_eliminasi_bab || '',
+            kdm_aktivitas_barthel: initialPayload.kdm_aktivitas_barthel || '',
+            kdm_tidur: initialPayload.kdm_tidur || '',
+            kdm_hygiene: initialPayload.kdm_hygiene || '',
+            kdm_termoregulasi: initialPayload.kdm_termoregulasi || '',
+            kdm_nyeri_skala: initialPayload.kdm_nyeri_skala || '',
+            kdm_nyeri_pqrst: initialPayload.kdm_nyeri_pqrst || '',
+            kdm_psikososial: initialPayload.kdm_psikososial || '',
+            kdm_enam_benar_obat: initialPayload.kdm_enam_benar_obat || '',
 
             // KMB 9 Systems & Perioperatif
-            kmb_b1_breathing: initialPayload.kmb_b1_breathing || 'Inspeksi dada simetris, palpasi fremitus seimbang, perkusi sonor, auskultasi vesikuler tanpa ronkhi/wheezing.',
-            kmb_b2_blood: initialPayload.kmb_b2_blood || 'TD 125/80 mmHg, HR 82 bpm, BJ I-II reguler murni, murmur (-), gallop (-), akral hangat, CRT < 2 detik.',
-            kmb_b3_brain: initialPayload.kmb_b3_brain || 'GCS 15 (E4M6V5), reflek fisiologis patella (+/+), kaku kuduk (-), fungsi sensorik & motorik baik.',
-            kmb_b4_bladder: initialPayload.kmb_b4_bladder || 'Urin spontan 1400 cc/24j, kuning terang, nyeri berkemih (-), distensi vesika urinaria (-).',
-            kmb_b5_bowel: initialPayload.kmb_b5_bowel || 'Abdomen simetris, bising usus 10x/m normoaktif, nyeri tekan (-), hepar/lien tidak teraba membesar.',
-            kmb_b6_bone: initialPayload.kmb_b6_bone || 'Kekuatan otot 5/5 pada keempat ekstremitas, ROM bebas aktif, fraktur (-), lesi kulit (-).',
-            kmb_endokrin: initialPayload.kmb_endokrin || 'Tidak ada pembesaran kelenjar tiroid, tremor (-), GDS sewaktu 118 mg/dL.',
-            kmb_penginderaan: initialPayload.kmb_penginderaan || 'Penglihatan baik sklera anikterik, fungsi pendengaran & penciuman normal.',
-            kmb_imunologi: initialPayload.kmb_imunologi || 'Tanda infeksi sistemik (-), petekie (-), pembesaran KGB colli/aksila (-).',
-            kmb_diagnostik_lab: initialPayload.kmb_diagnostik_lab || 'Hb 13.8 g/dL, Leukosit 7.200 /uL, Trombosit 245.000 /uL, Ureum 24 mg/dL, Kreatinin 0.9 mg/dL.',
-            kmb_diagnostik_penunjang: initialPayload.kmb_diagnostik_penunjang || 'Rontgen Thorax PA: Cor dan pulmo dalam batas normal. EKG: Sinus Rhythm 80 bpm.',
-            kmb_perioperatif: initialPayload.kmb_perioperatif || 'Bila ada jadwal tindakan operatif: Informed consent sah, puasa pre-op tercatat, verifikasi site marking.',
-            riwayat_keluarga_genogram: initialPayload.riwayat_keluarga_genogram || 'Tidak ada riwayat diabetes melitus atau asma dalam silsilah keluarga 3 generasi.',
+            kmb_b1_breathing: initialPayload.kmb_b1_breathing || '',
+            kmb_b2_blood: initialPayload.kmb_b2_blood || '',
+            kmb_b3_brain: initialPayload.kmb_b3_brain || '',
+            kmb_b4_bladder: initialPayload.kmb_b4_bladder || '',
+            kmb_b5_bowel: initialPayload.kmb_b5_bowel || '',
+            kmb_b6_bone: initialPayload.kmb_b6_bone || '',
+            kmb_endokrin: initialPayload.kmb_endokrin || '',
+            kmb_penginderaan: initialPayload.kmb_penginderaan || '',
+            kmb_imunologi: initialPayload.kmb_imunologi || '',
+            kmb_diagnostik_lab: initialPayload.kmb_diagnostik_lab || '',
+            kmb_diagnostik_penunjang: initialPayload.kmb_diagnostik_penunjang || '',
+            kmb_perioperatif: initialPayload.kmb_perioperatif || '',
+            riwayat_keluarga_genogram: initialPayload.riwayat_keluarga_genogram || '',
         }
     });
 
@@ -123,9 +123,9 @@ export default function MahasiswaShow({ session, masterSdki = [], masterSlki = [
 
     // Care Plan Form
     const { data: planData, setData: setPlanData, post: postPlan, processing: planProcessing, reset: resetPlan } = useForm({
-        master_sdki_id: masterSdki[0]?.id || '',
-        master_slki_id: masterSlki[0]?.id || '',
-        master_siki_id: masterSiki[0]?.id || '',
+        master_sdki_id: '',
+        master_slki_id: '',
+        master_siki_id: '',
         subjective_data: '',
         objective_data: '',
         etiology: '',
@@ -154,13 +154,13 @@ export default function MahasiswaShow({ session, masterSdki = [], masterSlki = [
     // Vital Sign Form
     const { data: vitalData, setData: setVitalData, post: postVital, processing: vitalProcessing, reset: resetVital } = useForm({
         recorded_at: new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' }),
-        blood_pressure: '120/80',
-        heart_rate: '80',
-        respiratory_rate: '20',
-        temperature: '36.7',
-        spo2: '98',
-        gcs_score: '15',
-        evaluation_notes: 'Keadaan umum tenang, hemodinamik stabil.',
+        blood_pressure: '',
+        heart_rate: '',
+        respiratory_rate: '',
+        temperature: '',
+        spo2: '',
+        gcs_score: '',
+        evaluation_notes: '',
     });
 
     const handleSaveVital = (e) => {
@@ -236,6 +236,26 @@ export default function MahasiswaShow({ session, masterSdki = [], masterSlki = [
                         <Printer size={15} className="text-slate-500" />
                         Cetak Lembar Resmi A4
                     </a>
+
+                    {/* Instrumen penilaian tersedia setelah berkas disahkan dosen */}
+                    {session.status === 'approved_graded' && (
+                        <div className="flex items-center gap-2">
+                            <a
+                                href={`/mahasiswa/kasus/${session.uuid}/instrumen/pdf`}
+                                className="px-3.5 py-2 rounded-xl bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 text-xs font-bold shadow-xs flex items-center gap-1.5 transition-all"
+                            >
+                                <FileText size={15} className="text-red-600" />
+                                Instrumen PDF
+                            </a>
+                            <a
+                                href={`/mahasiswa/kasus/${session.uuid}/instrumen/word`}
+                                className="px-3.5 py-2 rounded-xl bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 text-xs font-bold shadow-xs flex items-center gap-1.5 transition-all"
+                            >
+                                <FileSpreadsheet size={15} className="text-blue-700" />
+                                Instrumen Word
+                            </a>
+                        </div>
+                    )}
 
                     {!isLocked && (
                         <button
@@ -982,6 +1002,7 @@ export default function MahasiswaShow({ session, masterSdki = [], masterSlki = [
                                         required
                                         className="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white font-medium outline-none focus:border-[#008D88]"
                                     >
+                                        <option value="">-- Pilih Diagnosis SDKI --</option>
                                         {masterSdki.map((s) => (
                                             <option key={s.id} value={s.id}>{s.code} - {s.title}</option>
                                         ))}
@@ -998,6 +1019,7 @@ export default function MahasiswaShow({ session, masterSdki = [], masterSlki = [
                                         required
                                         className="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white font-medium outline-none focus:border-[#008D88]"
                                     >
+                                        <option value="">-- Pilih Luaran SLKI --</option>
                                         {masterSlki.map((s) => (
                                             <option key={s.id} value={s.id}>{s.code} - {s.title}</option>
                                         ))}
@@ -1014,6 +1036,7 @@ export default function MahasiswaShow({ session, masterSdki = [], masterSlki = [
                                         required
                                         className="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white font-medium outline-none focus:border-[#008D88]"
                                     >
+                                        <option value="">-- Pilih Intervensi SIKI --</option>
                                         {masterSiki.map((s) => (
                                             <option key={s.id} value={s.id}>{s.code} - {s.title}</option>
                                         ))}

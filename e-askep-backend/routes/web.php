@@ -4,6 +4,7 @@ use App\Http\Controllers\Web\AdminDashboardController;
 use App\Http\Controllers\Web\AuthController;
 use App\Http\Controllers\Web\DosenDashboardController;
 use App\Http\Controllers\Web\DosenReviewController;
+use App\Http\Controllers\Web\InstrumentExportController;
 use App\Http\Controllers\Web\MahasiswaSessionController;
 use App\Http\Controllers\Web\PrintController;
 use Illuminate\Support\Facades\Auth;
@@ -36,6 +37,10 @@ Route::middleware(['auth'])->group(function () {
         Route::post('/review/{uuid}/verify-spo', [DosenReviewController::class, 'batchVerifySpo'])->name('verify-spo');
         Route::post('/review/{uuid}/request-revision', [DosenReviewController::class, 'requestRevision'])->name('request-revision');
         Route::post('/review/{uuid}/approve-grade', [DosenReviewController::class, 'approveAndGrade'])->name('approve-grade');
+
+        // Ekspor Instrumen Penilaian Klinik (tata letak resmi Poltekkes Riau)
+        Route::get('/review/{uuid}/instrumen/pdf', [InstrumentExportController::class, 'pdf'])->name('instrumen.pdf');
+        Route::get('/review/{uuid}/instrumen/word', [InstrumentExportController::class, 'word'])->name('instrumen.word');
     });
 
     // Mahasiswa Clinical Cases
@@ -51,6 +56,10 @@ Route::middleware(['auth'])->group(function () {
         Route::post('/kasus/{uuid}/vital-sign', [MahasiswaSessionController::class, 'storeVitalSign'])->name('store-vital-sign');
         Route::post('/kasus/{uuid}/handover', [MahasiswaSessionController::class, 'storeHandover'])->name('store-handover');
         Route::post('/kasus/{uuid}/submit', [MahasiswaSessionController::class, 'submit'])->name('submit');
+
+        // Unduh instrumen penilaian miliknya sendiri (hanya setelah berkas disahkan)
+        Route::get('/kasus/{uuid}/instrumen/pdf', [InstrumentExportController::class, 'pdf'])->name('instrumen.pdf');
+        Route::get('/kasus/{uuid}/instrumen/word', [InstrumentExportController::class, 'word'])->name('instrumen.word');
     });
 
     // Administrator

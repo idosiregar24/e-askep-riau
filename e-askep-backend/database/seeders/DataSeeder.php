@@ -3,7 +3,6 @@
 namespace Database\Seeders;
 
 use App\Models\Course;
-use App\Models\MasterSdki;
 use App\Models\MasterSiki;
 use App\Models\MasterSlki;
 use App\Models\MasterSpoProcedure;
@@ -63,57 +62,8 @@ class DataSeeder extends Seeder
             );
         }
 
-        // 3. SEED MASTER SDKI PPNI
-        MasterSdki::firstOrCreate(
-            ['code' => 'D.0001'],
-            [
-                'title'        => 'Bersihan Jalan Napas Tidak Efektif',
-                'category'     => 'Fisiologis',
-                'sub_category' => 'Respirasi',
-                'major_signs'  => [
-                    'subjective' => [],
-                    'objective'  => ['Batuk tidak efektif', 'Tidak mampu batuk', 'Sputum berlebih', 'Mengi / Wheezing', 'Ronkhi basah'],
-                ],
-                'minor_signs'  => [
-                    'subjective' => ['Dispnea', 'Sulit bicara', 'Ortopnea'],
-                    'objective'  => ['Gelisah', 'Sianosis', 'Bunyi napas menurun', 'Frekuensi napas berubah', 'Pola napas berubah'],
-                ],
-            ]
-        );
-
-        MasterSdki::firstOrCreate(
-            ['code' => 'D.0005'],
-            [
-                'title'        => 'Pola Napas Tidak Efektif',
-                'category'     => 'Fisiologis',
-                'sub_category' => 'Respirasi',
-                'major_signs'  => [
-                    'subjective' => ['Dispnea'],
-                    'objective'  => ['Penggunaan otot bantu napas', 'Fase ekspirasi memanjang', 'Pola napas abnormal (takipnea/bradipnea)'],
-                ],
-                'minor_signs'  => [
-                    'subjective' => ['Ortopnea'],
-                    'objective'  => ['Pernapasan cuping hidung', 'Tekanan ekspirasi menurun', 'Ekskursi dada berubah'],
-                ],
-            ]
-        );
-
-        MasterSdki::firstOrCreate(
-            ['code' => 'D.0077'],
-            [
-                'title'        => 'Nyeri Akut',
-                'category'     => 'Psikologis',
-                'sub_category' => 'Nyeri dan Kenyamanan',
-                'major_signs'  => [
-                    'subjective' => ['Mengeluh nyeri'],
-                    'objective'  => ['Tampak meringis', 'Bersikap protektif (waspada, posisi menghindari nyeri)', 'Gelisah', 'Frekuensi nadi meningkat', 'Sulit tidur'],
-                ],
-                'minor_signs'  => [
-                    'subjective' => [],
-                    'objective'  => ['Tekanan darah meningkat', 'Pola napas berubah', 'Nafsu makan berubah', 'Proses berpikir terganggu', 'Menarik diri'],
-                ],
-            ]
-        );
+        // 3. MASTER SDKI PPNI — 149 diagnosis lengkap di-seed oleh MasterSdkiSeeder
+        //    (berkas data: database/data/sdki.json).
 
         // 4. SEED MASTER SLKI PPNI
         MasterSlki::firstOrCreate(
