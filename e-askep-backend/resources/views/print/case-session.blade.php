@@ -171,12 +171,12 @@
                     <tbody>
                         @forelse($session->vitalSigns as $v)
                             <tr class="border-b border-slate-200">
-                                <td class="p-1 border-r border-black">{{ $v->recorded_at?->format('H:i') }}</td>
+                                <td class="p-1 border-r border-black">{{ $v->recorded_at_label }}</td>
                                 <td class="p-1 border-r border-black font-bold">{{ $v->blood_pressure }}</td>
                                 <td class="p-1 border-r border-black">{{ $v->heart_rate }}</td>
                                 <td class="p-1 border-r border-black">{{ $v->respiratory_rate }}</td>
                                 <td class="p-1 border-r border-black">{{ $v->temperature }}</td>
-                                <td class="p-1">{{ $v->oxygen_saturation ?? '-' }}%</td>
+                                <td class="p-1">{{ $v->spo2 !== null && $v->spo2 !== '' ? $v->spo2 . '%' : '-' }}</td>
                             </tr>
                         @empty
                             <tr><td colspan="6" class="p-2 text-center text-slate-400">Tidak ada data TTV.</td></tr>

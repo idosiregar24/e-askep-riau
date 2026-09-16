@@ -236,12 +236,12 @@
                             <tbody class="divide-y divide-slate-100 font-mono">
                                 @forelse($session->vitalSigns as $v)
                                     <tr>
-                                        <td class="px-4 py-3 text-slate-500 font-sans">{{ $v->recorded_at?->format('H:i') }}</td>
+                                        <td class="px-4 py-3 text-slate-500 font-sans">{{ $v->recorded_at_label }}</td>
                                         <td class="px-4 py-3 font-bold text-slate-900">{{ $v->blood_pressure }}</td>
                                         <td class="px-4 py-3 text-slate-700">{{ $v->heart_rate }}</td>
                                         <td class="px-4 py-3 text-slate-700">{{ $v->respiratory_rate }}</td>
                                         <td class="px-4 py-3 text-slate-700">{{ $v->temperature }}</td>
-                                        <td class="px-4 py-3 text-emerald-700 font-bold">{{ $v->oxygen_saturation ?? '-' }}</td>
+                                        <td class="px-4 py-3 text-emerald-700 font-bold">{{ $v->spo2 !== null && $v->spo2 !== '' ? $v->spo2 . '%' : '-' }}</td>
                                         <td class="px-4 py-3 text-slate-700 font-sans">{{ $v->gcs_score ?? '-' }}</td>
                                     </tr>
                                 @empty

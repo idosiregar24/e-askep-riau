@@ -11,6 +11,7 @@ use App\Models\MasterSlki;
 use App\Models\MasterSpoProcedure;
 use App\Models\SessionReview;
 use App\Models\User;
+use App\Models\VitalSignMonitoring;
 use App\Support\PenilaianInstrument;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
@@ -371,6 +372,43 @@ class WebPortalTest extends TestCase
         $response->assertSee('Politeknik Kesehatan Kemenkes Riau');
         $response->assertSee('LEMBAR PENGKAJIAN & ASUHAN KEPERAWATAN KLINIS', false);
         $response->assertSee('Tn. Ahmad Fauzi');
+    }
+
+    public function test_print_page_renders_vital_signs_without_error(): void
+    {
+        // `recorded_at` adalah kolom TIME sehingga bernilai string, bukan Carbon;
+        // lembar cetak harus tetap merender jam dan SpO2 kosong dengan aman.
+        VitalSignMonitoring::create([
+            'care_session_id'  => $this->session->id,
+            'recorded_at'      => '14:30',
+            'blood_pressure'   => '130/85',
+            'heart_rate'       => '88',
+            'respiratory_rate' => '22',
+            'temperature'      => '37.2',
+            'spo2'             => '96',
+            'gcs_score'        => '15',
+        ]);
+
+        VitalSignMonitoring::create([
+            'care_session_id'  => $this->session->id,
+            'recorded_at'      => '15:00',
+            'blood_pressure'   => '125/80',
+            'heart_rate'       => '84',
+            'respiratory_rate' => '20',
+            'temperature'      => '36.9',
+            'spo2'             => '',
+            'gcs_score'        => '15',
+        ]);
+
+        $this->actingAs($this->dosen);
+
+        $response = $this->get(route('print.case', $this->session->uuid));
+
+        $response->assertStatus(200);
+        $response->assertSee('14:30');   // jam-menit, tanpa detik
+        $response->assertSee('130/85');
+        $response->assertSee('96%');     // kolom SpO2 memakai kolom `spo2`
+        $response->assertDontSee('14:30:00');
     }
 
     public function test_admin_can_access_admin_dashboard_and_courses(): void

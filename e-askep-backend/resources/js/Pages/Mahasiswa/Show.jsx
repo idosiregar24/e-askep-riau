@@ -1313,12 +1313,12 @@ export default function MahasiswaShow({ session, masterSdki = [], masterSlki = [
                                     ) : (
                                         session.vital_signs?.map((v) => (
                                             <tr key={v.id} className="hover:bg-slate-50/80 transition-colors">
-                                                <td className="py-3 px-4 font-bold font-mono text-slate-900">{v.recorded_at}</td>
+                                                <td className="py-3 px-4 font-bold font-mono text-slate-900">{v.recorded_at_label || v.recorded_at}</td>
                                                 <td className="py-3 px-4 font-semibold text-slate-800">{v.blood_pressure}</td>
                                                 <td className="py-3 px-4 font-semibold text-slate-800">{v.heart_rate}</td>
                                                 <td className="py-3 px-4 font-semibold text-slate-800">{v.respiratory_rate}</td>
                                                 <td className="py-3 px-4 font-semibold text-slate-800">{v.temperature}°C</td>
-                                                <td className="py-3 px-4 font-semibold text-[#008D88]">{v.spo2 || v.oxygen_saturation || 98}%</td>
+                                                <td className="py-3 px-4 font-semibold text-[#008D88]">{v.spo2 ? `${v.spo2}%` : '-'}</td>
                                                 <td className="py-3 px-4 font-semibold text-slate-700">{v.gcs_score || 15}</td>
                                                 <td className="py-3 px-4 text-slate-600">{v.evaluation_notes || '-'}</td>
                                             </tr>
